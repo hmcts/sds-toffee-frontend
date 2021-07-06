@@ -21,7 +21,7 @@ library "Infrastructure@${params.LIB_VERSION}"
 
 def type = "nodejs"
 
-def product = "crumble"
+def product = "apple"
 
 def app = "frontend"
 
