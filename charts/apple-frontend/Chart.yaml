@@ -1,7 +1,7 @@
 name: apple-frontend
 apiVersion: v2
 home: https://github.com/hmcts/cnp-plum-frontend
-version: 0.1.4
+version: 0.1.5
 description: HMCTS apple frontend application (test application)
 maintainers:
   - name: HMCTS Platform Engineering Team
