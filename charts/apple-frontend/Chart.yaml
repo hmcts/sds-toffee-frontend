@@ -9,3 +9,6 @@ dependencies:
   - name: nodejs
     version: 2.3.5
     repository: "https://hmctspublic.azurecr.io/helm/v1/repo/"
+annotations:
+  kubernetes.io/ingress.class: traefik
+  traefik.ingress.kubernetes.io/router.tls: "true"
