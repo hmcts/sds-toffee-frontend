@@ -2,10 +2,10 @@
 
 @Library("Infrastructure")
 
-def product = "plum"
+def product = "toffee"
 def component = "frontend"
 
-def secrets = [ 'plumsi-${env}':
+def secrets = [ 'toffeesi-${env}':
   [
     secret('AppInsightsInstrumentationKey', 'APPINSIGHTS_INSTRUMENTATIONKEY')
   ]
