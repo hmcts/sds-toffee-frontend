@@ -18,7 +18,7 @@ static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
 
 properties([
   parameters([
-    string(name: 'PRODUCT_NAME', defaultValue: 'plum', description: ''),
+    string(name: 'PRODUCT_NAME', defaultValue: 'toffee', description: ''),
     string(name: 'APP', defaultValue: 'frontend', description: ''),
     string(name: 'TYPE', defaultValue: 'nodejs', description: ''),
   ]),
