@@ -1,11 +1,11 @@
-name: plum-frontend
+name: toffee-frontend
 apiVersion: v2
-home: https://github.com/hmcts/cnp-plum-frontend
+home: https://github.com/hmcts/sds-toffee-frontend
 version: 0.1.5
-description: HMCTS Plum frontend application (test application)
+description: HMCTS Toffee frontend application (test application)
 maintainers:
   - name: HMCTS Platform Engineering Team
 dependencies:
   - name: nodejs
-    version: 2.3.5
+    version: 2.3.7
     repository: "https://hmctspublic.azurecr.io/helm/v1/repo/"
