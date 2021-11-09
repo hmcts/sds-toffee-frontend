@@ -1,9 +1,13 @@
+const config = require('@hmcts/properties-volume').addTo(require('config'), {
+    mountPoint: '/opt/secrets'
+});
 
+const appInsightsKey = config.get('secrets.toffeesi.appInsights-InstrumentationKey');
+console.log(appInsightsKey);
 const appInsights = require('applicationinsights');
 const express = require('express');
 const path = require('path');
 const { Logger } = require('@hmcts/nodejs-logging');
-const { APPINSIGHTS_INSTRUMENTATIONKEY } = process.env;
 
 const index = require('./app/index');
 
@@ -17,9 +21,9 @@ let healthConfig = {
 };
 
 {/* istanbul ignore next */
-    if (APPINSIGHTS_INSTRUMENTATIONKEY !== undefined) {
+    if (appInsightsKey !== 'fake') {
         appInsights
-            .setup(APPINSIGHTS_INSTRUMENTATIONKEY)
+            .setup(appInsightsKey)
             .setAutoDependencyCorrelation(true)
             .setAutoCollectRequests(true)
             .setAutoCollectPerformance(true)
