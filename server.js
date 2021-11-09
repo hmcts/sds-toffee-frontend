@@ -1,6 +1,4 @@
-const config = require('@hmcts/properties-volume').addTo(require('config'), {
-    mountPoint: '/opt/secrets'
-});
+const config = require('@hmcts/properties-volume').addTo(require('config'));
 
 const appInsightsKey = config.get('secrets.toffeesi.appInsights-InstrumentationKey');
 console.log(appInsightsKey);
