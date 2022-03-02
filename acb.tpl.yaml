@@ -17,7 +17,7 @@ steps:
       --cache-from {{.Run.Registry}}/plum/frontend/base:amd64
       --build-arg REGISTRY_NAME={{REGISTRY_NAME}}
       --build-arg PLATFORM=/linux/amd64
-      --platform Linux/amd64
+      --platform linux/amd64
       --target base
       .
     when:
@@ -30,7 +30,7 @@ steps:
       --cache-from {{.Run.Registry}}/plum/frontend/base:amd64
       --build-arg REGISTRY_NAME={{REGISTRY_NAME}}
       --build-arg PLATFORM=/linux/amd64
-      --platform Linux/amd64
+      --platform linux/amd64
       --target runtime
       .
     when:
@@ -44,7 +44,7 @@ steps:
     keep: true
 
   - id: pull-base-arm64
-    cmd: docker pull {{.Run.Registry}}/plum/frontend/base-arm64:latest || true
+    cmd: docker pull {{.Run.Registry}}/plum/frontend/base:arm64 || true
     when:
       - pull-base-image-arm64
     keep: true
@@ -55,7 +55,7 @@ steps:
       --cache-from {{.Run.Registry}}/plum/frontend/base:arm64
       --build-arg REGISTRY_NAME={{REGISTRY_NAME}}
       --build-arg PLATFORM=/linux/arm64
-      --platform Linux/arm64/v8
+      --platform linux/arm64/v8
       --target base
       .
     when:
@@ -68,7 +68,7 @@ steps:
       --cache-from {{.Run.Registry}}/plum/frontend/base:arm64
       --build-arg REGISTRY_NAME={{REGISTRY_NAME}}
       --build-arg PLATFORM=/linux/arm64
-      --platform Linux/arm64/v8
+      --platform linux/arm64/v8
       --target runtime
       .
     when:
