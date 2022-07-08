@@ -1,6 +1,6 @@
 #!groovy
 
-@Library("Infrastructure")
+@Library("Infrastructure@DTSPO-9278-jenkins-library-update")
 
 def product = "toffee"
 def component = "frontend"
