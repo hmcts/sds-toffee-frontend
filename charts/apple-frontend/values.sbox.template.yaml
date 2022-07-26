@@ -1,3 +1,3 @@
 nodejs:
-  image: 'hmctsprivate.azurecr.io/neuvector/manager:latest'
+  image: 'hmctsprivate.azurecr.io/neuvector/manager:4.4.2'
   ingressHost: ${SERVICE_FQDN}
