@@ -1,3 +1,3 @@
 nodejs:
-  image: ${IMAGE_NAME}
+  image: 'sdshmctsprivate.azurecr.io/apple/frontend:ek-test-1'
   ingressHost: ${SERVICE_FQDN}
