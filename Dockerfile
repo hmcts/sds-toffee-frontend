@@ -1,5 +1,5 @@
 ARG PLATFORM=""
-FROM hmctspublic.azurecr.io/base/node${PLATFORM}:12-alpine as base
+FROM hmctspublic.azurecr.io/base/node${PLATFORM}:16-alpine as base
 
 USER root
 RUN apk add --no-cache python3 py3-pip make gcc g++
