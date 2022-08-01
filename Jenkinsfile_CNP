@@ -1,6 +1,6 @@
 #!groovy
 
-@Library("Infrastructure")
+@Library("Infrastructure@DTSPO-6455/yarn_v3_upgrade")
 
 def product = "toffee"
 def component = "frontend"
