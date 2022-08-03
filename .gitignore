@@ -123,11 +123,14 @@ dist
 .vscode-test
 
 # yarn v2
-.yarn/cache
-.yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# yarn v2 zero-install
+!.pnp.cjs
+!.yarn/cache
+!.yarn/unplugged
 
 # IntelliJ files
 .idea
@@ -135,3 +138,7 @@ dist
 
 # Sonar files
 .scannerwork
+
+# yarn audit suppressions script
+yarn-audit-issues
+yarn-audit-result
