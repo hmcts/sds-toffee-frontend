@@ -1,7 +1,13 @@
-version: 1.0-preview-1
+version: v1.1.0
+alias:
+  values:
+    registry: hmctspublic.azurecr.io
+    nodeImageVersion: 16-alpine
 steps:
   - id: pull-base-image-amd64
-    cmd: docker pull --platform linux/amd64 hmctspublic.azurecr.io/base/node:12-alpine && docker tag hmctspublic.azurecr.io/base/node:12-alpine hmctspublic.azurecr.io/base/node/linux/amd64:12-alpine
+    cmd: >
+      docker pull --platform linux/amd64 $registry/base/node:$nodeImageVersion &&
+      docker tag $registry/base/node:$nodeImageVersion $registry/base/node/linux/amd64:$nodeImageVersion
     when: ["-"]
     keep: true
 
@@ -38,7 +44,9 @@ steps:
     keep: true
 
   - id: pull-base-image-arm64
-    cmd: docker pull --platform linux/arm64 hmctspublic.azurecr.io/base/node:12-alpine && docker tag hmctspublic.azurecr.io/base/node:12-alpine hmctspublic.azurecr.io/base/node/linux/arm64:12-alpine
+    cmd: >
+      docker pull --platform linux/arm64 $registry/base/node:$nodeImageVersion &&
+      docker tag $registry/base/node:$nodeImageVersion $registry/base/node/linux/arm64:$nodeImageVersion
     when:
       - pull-base-image-amd64
     keep: true
