@@ -24,7 +24,7 @@
     "@hmcts/nodejs-healthcheck": "^1.7.3",
     "@hmcts/nodejs-logging": "^4.0.4",
     "@hmcts/properties-volume": "^0.0.14",
-    "applicationinsights": "2.3.3",
+    "applicationinsights": "2.3.4",
     "applicationinsights-native-metrics": "^0.0.7",
     "config": "^3.3.7",
     "cross-env": "^7.0.3",
@@ -38,7 +38,7 @@
   "devDependencies": {
     "chai": "^4.3.6",
     "chai-http": "^4.3.0",
-    "eslint": "^8.21.0",
+    "eslint": "^8.23.0",
     "eslint-plugin-mocha": "^10.1.0",
     "mocha": "^10.0.0",
     "nyc": "15.1.0",
