@@ -1244,7 +1244,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chai-http@npm:^4.3.0":
+"chai-http@npm:4.3.0":
   version: 4.3.0
   resolution: "chai-http@npm:4.3.0"
   dependencies:
@@ -1259,7 +1259,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chai@npm:^4.3.6":
+"chai@npm:4.3.6":
   version: 4.3.6
   resolution: "chai@npm:4.3.6"
   dependencies:
@@ -1931,7 +1931,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-mocha@npm:^10.1.0":
+"eslint-plugin-mocha@npm:10.1.0":
   version: 10.1.0
   resolution: "eslint-plugin-mocha@npm:10.1.0"
   dependencies:
@@ -1978,7 +1978,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.23.0":
+"eslint@npm:8.23.0":
   version: 8.23.0
   resolution: "eslint@npm:8.23.0"
   dependencies:
@@ -2754,26 +2754,26 @@ __metadata:
     "@hmcts/properties-volume": ^0.0.14
     applicationinsights: 2.3.4
     applicationinsights-native-metrics: ^0.0.7
-    chai: ^4.3.6
-    chai-http: ^4.3.0
+    chai: 4.3.6
+    chai-http: 4.3.0
     config: ^3.3.7
     cross-env: ^7.0.3
-    eslint: ^8.23.0
-    eslint-plugin-mocha: ^10.1.0
+    eslint: 8.23.0
+    eslint-plugin-mocha: 10.1.0
     express: ^4.18.1
     js-yaml: ^4.1.0
-    mocha: ^10.0.0
+    mocha: 10.0.0
     nanoid: ^4.0.0
     nyc: 15.1.0
-    pa11y: ^6.2.3
+    pa11y: 6.2.3
     pug: ^3.0.2
     request: 2.88.2
     request-promise: 4.2.6
-    should: ^13.2.3
-    should-http: ^0.1.1
-    sinon: ^14.0.0
-    sonar-scanner: ^3.1.0
-    supertest: ^6.2.4
+    should: 13.2.3
+    should-http: 0.1.1
+    sinon: 14.0.0
+    sonar-scanner: 3.1.0
+    supertest: 6.2.4
   languageName: unknown
   linkType: soft
 
@@ -3688,7 +3688,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mocha@npm:^10.0.0":
+"mocha@npm:10.0.0":
   version: 10.0.0
   resolution: "mocha@npm:10.0.0"
   dependencies:
@@ -4081,7 +4081,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pa11y@npm:^6.2.3":
+"pa11y@npm:6.2.3":
   version: 6.2.3
   resolution: "pa11y@npm:6.2.3"
   dependencies:
@@ -4917,7 +4917,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"should-http@npm:^0.1.1":
+"should-http@npm:0.1.1":
   version: 0.1.1
   resolution: "should-http@npm:0.1.1"
   dependencies:
@@ -4952,7 +4952,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"should@npm:^13.2.3":
+"should@npm:13.2.3":
   version: 13.2.3
   resolution: "should@npm:13.2.3"
   dependencies:
@@ -4990,7 +4990,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sinon@npm:^14.0.0":
+"sinon@npm:14.0.0":
   version: 14.0.0
   resolution: "sinon@npm:14.0.0"
   dependencies:
@@ -5039,7 +5039,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sonar-scanner@npm:^3.1.0":
+"sonar-scanner@npm:3.1.0":
   version: 3.1.0
   resolution: "sonar-scanner@npm:3.1.0"
   bin:
@@ -5249,7 +5249,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"supertest@npm:^6.2.4":
+"supertest@npm:6.2.4":
   version: 6.2.4
   resolution: "supertest@npm:6.2.4"
   dependencies:
