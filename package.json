@@ -47,7 +47,7 @@
     "should-http": "0.1.1",
     "sinon": "14.0.2",
     "sonar-scanner": "3.1.0",
-    "supertest": "6.2.4"
+    "supertest": "6.3.1"
   },
   "packageManager": "yarn@3.2.3"
 }
