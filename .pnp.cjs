@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@hmcts/nodejs-logging", "npm:4.0.4"],\
             ["@hmcts/properties-volume", "npm:0.0.14"],\
             ["applicationinsights", "virtual:e087534260550bdfc1620d15599a3351bea65c44bd1baaa39629fd745daa9e23cfefd407097044244788669d253f77d8075209ee5db456b4d92f42a72f2b41ff#npm:2.3.5"],\
-            ["applicationinsights-native-metrics", "npm:0.0.7"],\
+            ["applicationinsights-native-metrics", "npm:0.0.8"],\
             ["chai", "npm:4.3.7"],\
             ["chai-http", "npm:4.3.0"],\
             ["config", "npm:3.3.7"],\
@@ -1039,7 +1039,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@opentelemetry/sdk-trace-base", "virtual:60680de98204562692ac6d6643def73d8eb006f324157acc1dca8d953c0185eb012070f7373f3dea560216f91aa023b5eb7b7010d5eeb1006678a208fab4f430#npm:1.3.0"],\
             ["@opentelemetry/semantic-conventions", "npm:1.3.0"],\
             ["@types/applicationinsights-native-metrics", null],\
-            ["applicationinsights-native-metrics", "npm:0.0.7"],\
+            ["applicationinsights-native-metrics", "npm:0.0.8"],\
             ["cls-hooked", "npm:4.2.2"],\
             ["continuation-local-storage", "npm:3.2.1"],\
             ["diagnostic-channel", "npm:1.1.0"],\
@@ -1053,10 +1053,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["applicationinsights-native-metrics", [\
-        ["npm:0.0.7", {\
-          "packageLocation": "./.yarn/unplugged/applicationinsights-native-metrics-npm-0.0.7-33308ae697/node_modules/applicationinsights-native-metrics/",\
+        ["npm:0.0.8", {\
+          "packageLocation": "./.yarn/unplugged/applicationinsights-native-metrics-npm-0.0.8-b3e58c922d/node_modules/applicationinsights-native-metrics/",\
           "packageDependencies": [\
-            ["applicationinsights-native-metrics", "npm:0.0.7"],\
+            ["applicationinsights-native-metrics", "npm:0.0.8"],\
             ["@mapbox/node-pre-gyp", "npm:1.0.9"],\
             ["nan", "npm:2.16.0"],\
             ["node-gyp", "npm:9.1.0"]\
@@ -3234,7 +3234,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@hmcts/nodejs-logging", "npm:4.0.4"],\
             ["@hmcts/properties-volume", "npm:0.0.14"],\
             ["applicationinsights", "virtual:e087534260550bdfc1620d15599a3351bea65c44bd1baaa39629fd745daa9e23cfefd407097044244788669d253f77d8075209ee5db456b4d92f42a72f2b41ff#npm:2.3.5"],\
-            ["applicationinsights-native-metrics", "npm:0.0.7"],\
+            ["applicationinsights-native-metrics", "npm:0.0.8"],\
             ["chai", "npm:4.3.7"],\
             ["chai-http", "npm:4.3.0"],\
             ["config", "npm:3.3.7"],\

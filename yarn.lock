@@ -820,14 +820,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"applicationinsights-native-metrics@npm:^0.0.7":
-  version: 0.0.7
-  resolution: "applicationinsights-native-metrics@npm:0.0.7"
+"applicationinsights-native-metrics@npm:^0.0.8":
+  version: 0.0.8
+  resolution: "applicationinsights-native-metrics@npm:0.0.8"
   dependencies:
     "@mapbox/node-pre-gyp": ^1.0.8
     nan: ^2.14.0
     node-gyp: latest
-  checksum: f0a1966556e79bf84fbf572ed59d0eeb0fc4559ef502e4863667a64ba616da9cbf9d5d0898eb73d4310a9cefc8b82f34894fb7485f9683d7ecb913a7a4234e31
+  checksum: 3a5c1ffffbf537acd3cc30d1af55605e72fe237f896906101c2494ab584781ae202b3a10fe1a2758d9b8fe09e05843f2e496cbd1aad72b6d87eb5c660c5ffd1d
   languageName: node
   linkType: hard
 
@@ -2714,7 +2714,7 @@ __metadata:
     "@hmcts/nodejs-logging": ^4.0.4
     "@hmcts/properties-volume": ^0.0.14
     applicationinsights: 2.3.5
-    applicationinsights-native-metrics: ^0.0.7
+    applicationinsights-native-metrics: ^0.0.8
     chai: 4.3.7
     chai-http: 4.3.0
     config: ^3.3.7
