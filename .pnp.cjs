@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@hmcts/properties-volume", "npm:0.0.14"],\
             ["applicationinsights", "virtual:e087534260550bdfc1620d15599a3351bea65c44bd1baaa39629fd745daa9e23cfefd407097044244788669d253f77d8075209ee5db456b4d92f42a72f2b41ff#npm:2.3.5"],\
             ["applicationinsights-native-metrics", "npm:0.0.7"],\
-            ["chai", "npm:4.3.6"],\
+            ["chai", "npm:4.3.7"],\
             ["chai-http", "npm:4.3.0"],\
             ["config", "npm:3.3.7"],\
             ["cross-env", "npm:7.0.3"],\
@@ -1502,13 +1502,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["chai", [\
-        ["npm:4.3.6", {\
-          "packageLocation": "./.yarn/cache/chai-npm-4.3.6-dba90e4b0b-acff93fd53.zip/node_modules/chai/",\
+        ["npm:4.3.7", {\
+          "packageLocation": "./.yarn/cache/chai-npm-4.3.7-48fdcf2584-0bba7d2678.zip/node_modules/chai/",\
           "packageDependencies": [\
-            ["chai", "npm:4.3.6"],\
+            ["chai", "npm:4.3.7"],\
             ["assertion-error", "npm:1.1.0"],\
             ["check-error", "npm:1.0.2"],\
-            ["deep-eql", "npm:3.0.1"],\
+            ["deep-eql", "npm:4.1.2"],\
             ["get-func-name", "npm:2.0.0"],\
             ["loupe", "npm:2.3.4"],\
             ["pathval", "npm:1.1.1"],\
@@ -2027,10 +2027,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["deep-eql", [\
-        ["npm:3.0.1", {\
-          "packageLocation": "./.yarn/cache/deep-eql-npm-3.0.1-9a66c09c65-4f4c9fb79e.zip/node_modules/deep-eql/",\
+        ["npm:4.1.2", {\
+          "packageLocation": "./.yarn/cache/deep-eql-npm-4.1.2-7017c4a2dc-1832456c5f.zip/node_modules/deep-eql/",\
           "packageDependencies": [\
-            ["deep-eql", "npm:3.0.1"],\
+            ["deep-eql", "npm:4.1.2"],\
             ["type-detect", "npm:4.0.8"]\
           ],\
           "linkType": "HARD"\
@@ -3219,7 +3219,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@hmcts/properties-volume", "npm:0.0.14"],\
             ["applicationinsights", "virtual:e087534260550bdfc1620d15599a3351bea65c44bd1baaa39629fd745daa9e23cfefd407097044244788669d253f77d8075209ee5db456b4d92f42a72f2b41ff#npm:2.3.5"],\
             ["applicationinsights-native-metrics", "npm:0.0.7"],\
-            ["chai", "npm:4.3.6"],\
+            ["chai", "npm:4.3.7"],\
             ["chai-http", "npm:4.3.0"],\
             ["config", "npm:3.3.7"],\
             ["cross-env", "npm:7.0.3"],\
