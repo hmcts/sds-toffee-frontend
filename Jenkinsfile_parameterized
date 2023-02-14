@@ -26,6 +26,7 @@ properties([
   pipelineTriggers([[$class: 'GitHubPushTrigger']])
 ])
 
+def expiresAfter = "3000-01-01"
 
 withParameterizedPipeline(params.TYPE, params.PRODUCT_NAME, params.APP, 'sbox', 'sbox') {
   //enableApiGatewayTest()
@@ -33,4 +34,5 @@ withParameterizedPipeline(params.TYPE, params.PRODUCT_NAME, params.APP, 'sbox', 
   onNonPR() {
     //loadVaultSecrets(apiTestSecrets)
   }
+  expires(expiresAfter)
 }
