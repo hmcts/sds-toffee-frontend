@@ -26,7 +26,6 @@ properties([
   pipelineTriggers([[$class: 'GitHubPushTrigger']])
 ])
 
-
 withParameterizedPipeline(params.TYPE, params.PRODUCT_NAME, params.APP, 'sbox', 'sbox') {
   //enableApiGatewayTest()
   disableLegacyDeployment()
