@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["applicationinsights-native-metrics", "npm:0.0.8"],\
             ["chai", "npm:4.3.7"],\
             ["chai-http", "npm:4.3.0"],\
-            ["config", "npm:3.3.7"],\
+            ["config", "npm:3.3.9"],\
             ["cross-env", "npm:7.0.3"],\
             ["eslint", "npm:8.32.0"],\
             ["eslint-plugin-mocha", "virtual:e087534260550bdfc1620d15599a3351bea65c44bd1baaa39629fd745daa9e23cfefd407097044244788669d253f77d8075209ee5db456b4d92f42a72f2b41ff#npm:10.1.0"],\
@@ -1745,10 +1745,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["config", [\
-        ["npm:3.3.7", {\
-          "packageLocation": "./.yarn/cache/config-npm-3.3.7-05ecd74a04-53b68dbf30.zip/node_modules/config/",\
+        ["npm:3.3.9", {\
+          "packageLocation": "./.yarn/cache/config-npm-3.3.9-7e0be6fe2e-2c29e40be2.zip/node_modules/config/",\
           "packageDependencies": [\
-            ["config", "npm:3.3.7"],\
+            ["config", "npm:3.3.9"],\
             ["json5", "npm:2.2.3"]\
           ],\
           "linkType": "HARD"\
@@ -3199,7 +3199,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["applicationinsights-native-metrics", "npm:0.0.8"],\
             ["chai", "npm:4.3.7"],\
             ["chai-http", "npm:4.3.0"],\
-            ["config", "npm:3.3.7"],\
+            ["config", "npm:3.3.9"],\
             ["cross-env", "npm:7.0.3"],\
             ["eslint", "npm:8.32.0"],\
             ["eslint-plugin-mocha", "virtual:e087534260550bdfc1620d15599a3351bea65c44bd1baaa39629fd745daa9e23cfefd407097044244788669d253f77d8075209ee5db456b4d92f42a72f2b41ff#npm:10.1.0"],\
