@@ -13,5 +13,5 @@ def component = "frontend"
 
 withNightlyPipeline(type, product, component) {
   env.TEST_URL = "https://toffee.sandbox.platform.hmcts.net/"
-  enableSecurityScan()
+  enableSecurityScanFrontend()
 }
