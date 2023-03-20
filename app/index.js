@@ -1,4 +1,4 @@
-const rp = require('request-promise');
+const axios = require('axios');
 const { Logger } = require('@hmcts/nodejs-logging');
 const { RECIPE_BACKEND_URL } = process.env;
 
@@ -8,12 +8,17 @@ const get = async (req, res) => {
   logger.info('Yay, logging!');
 
   const options = {
-    uri: `${RECIPE_BACKEND_URL}/recipes`,
-    json: true
+    url: `${RECIPE_BACKEND_URL}/recipes`,
+    method: 'get',
+    responseType: 'json'
   };
 
   try {
-    const { recipes } = await rp(options);
+    const { recipes } = await axios(options)
+        .then(function(response) {
+          return response.data;
+        });
+
     return res.render('index', { recipes });
   } catch (err) {
     logger.error(err.stack);
