@@ -48,7 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pug", "npm:3.0.2"],\
             ["should", "npm:13.2.3"],\
             ["should-http", "virtual:e087534260550bdfc1620d15599a3351bea65c44bd1baaa39629fd745daa9e23cfefd407097044244788669d253f77d8075209ee5db456b4d92f42a72f2b41ff#npm:0.1.1"],\
-            ["sinon", "npm:15.0.1"],\
+            ["sinon", "npm:15.0.2"],\
             ["sonar-scanner", "npm:3.1.0"],\
             ["supertest", "npm:6.3.1"]\
           ],\
@@ -715,18 +715,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@sinonjs/commons", [\
-        ["npm:1.8.3", {\
-          "packageLocation": "./.yarn/cache/@sinonjs-commons-npm-1.8.3-30cf78d93f-6159726db5.zip/node_modules/@sinonjs/commons/",\
-          "packageDependencies": [\
-            ["@sinonjs/commons", "npm:1.8.3"],\
-            ["type-detect", "npm:4.0.8"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:2.0.0", {\
           "packageLocation": "./.yarn/cache/@sinonjs-commons-npm-2.0.0-3716f24f20-5023ba17ed.zip/node_modules/@sinonjs/commons/",\
           "packageDependencies": [\
             ["@sinonjs/commons", "npm:2.0.0"],\
+            ["type-detect", "npm:4.0.8"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/@sinonjs-commons-npm-3.0.0-fa72ff71a1-b4b5b73d4d.zip/node_modules/@sinonjs/commons/",\
+          "packageDependencies": [\
+            ["@sinonjs/commons", "npm:3.0.0"],\
             ["type-detect", "npm:4.0.8"]\
           ],\
           "linkType": "HARD"\
@@ -738,14 +738,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@sinonjs/fake-timers", "npm:10.0.2"],\
             ["@sinonjs/commons", "npm:2.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:7.1.2", {\
-          "packageLocation": "./.yarn/cache/@sinonjs-fake-timers-npm-7.1.2-2a6b119ac7-c84773d797.zip/node_modules/@sinonjs/fake-timers/",\
-          "packageDependencies": [\
-            ["@sinonjs/fake-timers", "npm:7.1.2"],\
-            ["@sinonjs/commons", "npm:1.8.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3061,7 +3053,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pug", "npm:3.0.2"],\
             ["should", "npm:13.2.3"],\
             ["should-http", "virtual:e087534260550bdfc1620d15599a3351bea65c44bd1baaa39629fd745daa9e23cfefd407097044244788669d253f77d8075209ee5db456b4d92f42a72f2b41ff#npm:0.1.1"],\
-            ["sinon", "npm:15.0.1"],\
+            ["sinon", "npm:15.0.2"],\
             ["sonar-scanner", "npm:3.1.0"],\
             ["supertest", "npm:6.3.1"]\
           ],\
@@ -4143,12 +4135,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["nise", [\
-        ["npm:5.1.2", {\
-          "packageLocation": "./.yarn/cache/nise-npm-5.1.2-7d294cd167-688c557333.zip/node_modules/nise/",\
+        ["npm:5.1.4", {\
+          "packageLocation": "./.yarn/cache/nise-npm-5.1.4-66667508d6-bc57c10eae.zip/node_modules/nise/",\
           "packageDependencies": [\
-            ["nise", "npm:5.1.2"],\
+            ["nise", "npm:5.1.4"],\
             ["@sinonjs/commons", "npm:2.0.0"],\
-            ["@sinonjs/fake-timers", "npm:7.1.2"],\
+            ["@sinonjs/fake-timers", "npm:10.0.2"],\
             ["@sinonjs/text-encoding", "npm:0.7.1"],\
             ["just-extend", "npm:4.2.1"],\
             ["path-to-regexp", "npm:1.8.0"]\
@@ -5379,15 +5371,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["sinon", [\
-        ["npm:15.0.1", {\
-          "packageLocation": "./.yarn/cache/sinon-npm-15.0.1-115ae39e4c-4b5acff291.zip/node_modules/sinon/",\
+        ["npm:15.0.2", {\
+          "packageLocation": "./.yarn/cache/sinon-npm-15.0.2-aa49397231-98eb555442.zip/node_modules/sinon/",\
           "packageDependencies": [\
-            ["sinon", "npm:15.0.1"],\
-            ["@sinonjs/commons", "npm:2.0.0"],\
+            ["sinon", "npm:15.0.2"],\
+            ["@sinonjs/commons", "npm:3.0.0"],\
             ["@sinonjs/fake-timers", "npm:10.0.2"],\
             ["@sinonjs/samsam", "npm:7.0.1"],\
             ["diff", "npm:5.1.0"],\
-            ["nise", "npm:5.1.2"],\
+            ["nise", "npm:5.1.4"],\
             ["supports-color", "npm:7.2.0"]\
           ],\
           "linkType": "HARD"\
