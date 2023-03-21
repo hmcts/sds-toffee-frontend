@@ -463,9 +463,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mapbox/node-pre-gyp@npm:^1.0.8":
-  version: 1.0.9
-  resolution: "@mapbox/node-pre-gyp@npm:1.0.9"
+"@mapbox/node-pre-gyp@npm:^1.0.10":
+  version: 1.0.10
+  resolution: "@mapbox/node-pre-gyp@npm:1.0.10"
   dependencies:
     detect-libc: ^2.0.0
     https-proxy-agent: ^5.0.0
@@ -478,7 +478,7 @@ __metadata:
     tar: ^6.1.11
   bin:
     node-pre-gyp: bin/node-pre-gyp
-  checksum: 1b9c4c87a68d200daa13151d0fe033aa7aa8f7b26f3585255424dd8dfee2ec672c3e9bea4071c624469bc0aebbbcde08f8a300c8a958db52c50abadd5fb56920
+  checksum: 1a98db05d955b74dad3814679593df293b9194853698f3f5f1ed00ecd93128cdd4b14fb8767fe44ac6981ef05c23effcfdc88710e7c1de99ccb6f647890597c8
   languageName: node
   linkType: hard
 
@@ -815,14 +815,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"applicationinsights-native-metrics@npm:^0.0.8":
-  version: 0.0.8
-  resolution: "applicationinsights-native-metrics@npm:0.0.8"
+"applicationinsights-native-metrics@npm:^0.0.9":
+  version: 0.0.9
+  resolution: "applicationinsights-native-metrics@npm:0.0.9"
   dependencies:
-    "@mapbox/node-pre-gyp": ^1.0.8
-    nan: ^2.14.0
+    "@mapbox/node-pre-gyp": ^1.0.10
+    nan: ^2.17.0
     node-gyp: latest
-  checksum: 3a5c1ffffbf537acd3cc30d1af55605e72fe237f896906101c2494ab584781ae202b3a10fe1a2758d9b8fe09e05843f2e496cbd1aad72b6d87eb5c660c5ffd1d
+  checksum: c128857176497a9d78b20ff654914463b62dd2b6ffa60909e31b0acfe5e25f7be2ec6b4248ac6e14f5e75cdba30dd0ea6a4a8d488bb5be3ca66e5132e2258d8a
   languageName: node
   linkType: hard
 
@@ -2592,7 +2592,7 @@ __metadata:
     "@hmcts/nodejs-logging": ^4.0.4
     "@hmcts/properties-volume": ^0.0.14
     applicationinsights: 2.5.0
-    applicationinsights-native-metrics: ^0.0.8
+    applicationinsights-native-metrics: ^0.0.9
     chai: 4.3.7
     chai-http: 4.3.0
     config: ^3.3.7
@@ -3529,12 +3529,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nan@npm:^2.14.0":
-  version: 2.16.0
-  resolution: "nan@npm:2.16.0"
+"nan@npm:^2.17.0":
+  version: 2.17.0
+  resolution: "nan@npm:2.17.0"
   dependencies:
     node-gyp: latest
-  checksum: cb16937273ea55b01ea47df244094c12297ce6b29b36e845d349f1f7c268b8d7c5abd126a102c5678a1e1afd0d36bba35ea0cc959e364928ce60561c9306064a
+  checksum: ec609aeaf7e68b76592a3ba96b372aa7f5df5b056c1e37410b0f1deefbab5a57a922061e2c5b369bae9c7c6b5e6eecf4ad2dac8833a1a7d3a751e0a7c7f849ed
   languageName: node
   linkType: hard
 
