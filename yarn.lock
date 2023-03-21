@@ -2564,7 +2564,6 @@ __metadata:
     js-yaml: ^4.1.0
     mocha: 10.2.0
     nanoid: ^4.0.0
-    node-fetch: 2.6.9
     nyc: 15.1.0
     pa11y: 6.2.3
     pug: ^3.0.2
@@ -3542,20 +3541,6 @@ __metadata:
     just-extend: ^4.0.2
     path-to-regexp: ^1.7.0
   checksum: 688c557333dcbc5b41f4f1f1b0ea32fb0f8b424541a8958140bc61074980362c954b2aeb027c282de26b9ddcb4b230656f68ac4206777499e405dd7e716ec1f8
-  languageName: node
-  linkType: hard
-
-"node-fetch@npm:2.6.9":
-  version: 2.6.9
-  resolution: "node-fetch@npm:2.6.9"
-  dependencies:
-    whatwg-url: ^5.0.0
-  peerDependencies:
-    encoding: ^0.1.0
-  peerDependenciesMeta:
-    encoding:
-      optional: true
-  checksum: acb04f9ce7224965b2b59e71b33c639794d8991efd73855b0b250921382b38331ffc9d61bce502571f6cc6e11a8905ca9b1b6d4aeb586ab093e2756a1fd190d0
   languageName: node
   linkType: hard
 

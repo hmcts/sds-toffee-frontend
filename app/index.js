@@ -1,4 +1,3 @@
-const fetch = require('node-fetch');
 const { Logger } = require('@hmcts/nodejs-logging');
 const { RECIPE_BACKEND_URL } = process.env;
 

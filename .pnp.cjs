@@ -43,7 +43,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["js-yaml", "npm:4.1.0"],\
             ["mocha", "npm:10.2.0"],\
             ["nanoid", "npm:4.0.0"],\
-            ["node-fetch", "virtual:e087534260550bdfc1620d15599a3351bea65c44bd1baaa39629fd745daa9e23cfefd407097044244788669d253f77d8075209ee5db456b4d92f42a72f2b41ff#npm:2.6.9"],\
             ["nyc", "npm:15.1.0"],\
             ["pa11y", "npm:6.2.3"],\
             ["pug", "npm:3.0.2"],\
@@ -3057,7 +3056,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["js-yaml", "npm:4.1.0"],\
             ["mocha", "npm:10.2.0"],\
             ["nanoid", "npm:4.0.0"],\
-            ["node-fetch", "virtual:e087534260550bdfc1620d15599a3351bea65c44bd1baaa39629fd745daa9e23cfefd407097044244788669d253f77d8075209ee5db456b4d92f42a72f2b41ff#npm:2.6.9"],\
             ["nyc", "npm:15.1.0"],\
             ["pa11y", "npm:6.2.3"],\
             ["pug", "npm:3.0.2"],\
@@ -4166,31 +4164,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["npm:2.6.9", {\
-          "packageLocation": "./.yarn/cache/node-fetch-npm-2.6.9-9fc9a54529-acb04f9ce7.zip/node_modules/node-fetch/",\
-          "packageDependencies": [\
-            ["node-fetch", "npm:2.6.9"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
         ["virtual:7ef8e735579bc90514a76a01d20c7e4bad0199264ae1b9c6741cb9c534782e52ee1e790691603ec132756174d8766261ada111a64842daefd25955aad0f9f79c#npm:2.6.7", {\
           "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-cca53162dc/0/cache/node-fetch-npm-2.6.7-777aa2a6df-8d816ffd1e.zip/node_modules/node-fetch/",\
           "packageDependencies": [\
             ["node-fetch", "virtual:7ef8e735579bc90514a76a01d20c7e4bad0199264ae1b9c6741cb9c534782e52ee1e790691603ec132756174d8766261ada111a64842daefd25955aad0f9f79c#npm:2.6.7"],\
-            ["@types/encoding", null],\
-            ["encoding", null],\
-            ["whatwg-url", "npm:5.0.0"]\
-          ],\
-          "packagePeers": [\
-            "@types/encoding",\
-            "encoding"\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["virtual:e087534260550bdfc1620d15599a3351bea65c44bd1baaa39629fd745daa9e23cfefd407097044244788669d253f77d8075209ee5db456b4d92f42a72f2b41ff#npm:2.6.9", {\
-          "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-166b9e5532/0/cache/node-fetch-npm-2.6.9-9fc9a54529-acb04f9ce7.zip/node_modules/node-fetch/",\
-          "packageDependencies": [\
-            ["node-fetch", "virtual:e087534260550bdfc1620d15599a3351bea65c44bd1baaa39629fd745daa9e23cfefd407097044244788669d253f77d8075209ee5db456b4d92f42a72f2b41ff#npm:2.6.9"],\
             ["@types/encoding", null],\
             ["encoding", null],\
             ["whatwg-url", "npm:5.0.0"]\
