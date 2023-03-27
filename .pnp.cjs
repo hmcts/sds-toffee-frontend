@@ -42,7 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express", "npm:4.18.2"],\
             ["js-yaml", "npm:4.1.0"],\
             ["mocha", "npm:10.2.0"],\
-            ["nanoid", "npm:4.0.1"],\
+            ["nanoid", "npm:4.0.2"],\
             ["nyc", "npm:15.1.0"],\
             ["pa11y", "npm:6.2.3"],\
             ["pug", "npm:3.0.2"],\
@@ -3109,7 +3109,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express", "npm:4.18.2"],\
             ["js-yaml", "npm:4.1.0"],\
             ["mocha", "npm:10.2.0"],\
-            ["nanoid", "npm:4.0.1"],\
+            ["nanoid", "npm:4.0.2"],\
             ["nyc", "npm:15.1.0"],\
             ["pa11y", "npm:6.2.3"],\
             ["pug", "npm:3.0.2"],\
@@ -4170,10 +4170,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:4.0.1", {\
-          "packageLocation": "./.yarn/cache/nanoid-npm-4.0.1-d3abfa88f9-21022a7910.zip/node_modules/nanoid/",\
+        ["npm:4.0.2", {\
+          "packageLocation": "./.yarn/cache/nanoid-npm-4.0.2-ae010cad86-747c399cea.zip/node_modules/nanoid/",\
           "packageDependencies": [\
-            ["nanoid", "npm:4.0.1"]\
+            ["nanoid", "npm:4.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
