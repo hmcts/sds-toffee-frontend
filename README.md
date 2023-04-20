@@ -1,3 +1,6 @@
-# Express application template
+# This is the Toffee Frontend Application
 
-TODO: complete the readme
+This is a Node.JS frontend for the mythical Toffee product
+
+
+

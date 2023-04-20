@@ -1,0 +1,8 @@
+node_modules/*
+docs/*
+govuk_modules/*
+public/*
+app/assets/javascripts/jquery-1.11.3.js
+app/assets/javascripts/nomnoml.js
+app/assets/javascripts/dagre.js
+lib/*

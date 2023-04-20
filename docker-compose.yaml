@@ -1,0 +1,43 @@
+---
+version: '2.2'
+
+services:
+  plum-frontend:
+    build:
+      context: .
+    cpus: 0.2
+    mem_limit: 128M
+    environment:
+      RECIPE_BACKEND_URL: http://plum-recipes-service:4550
+    ports:
+      - 1337:1337
+    depends_on:
+      - plum-recipes-service
+  plum-recipes-service:
+    image: hmctspublic.azurecr.io/plum/recipe-backend:latest
+    mem_limit: 1024M
+    environment:
+      POSTGRES_HOST: database
+      POSTGRES_DATABASE: plum
+      POSTGRES_USER: plum
+      POSTGRES_PASSWORD: plum
+      POSTGRES_SSL_MODE: disable
+    ports:
+      - 4550:4550
+    depends_on:
+      - database
+  database:
+    image: docker.io/library/postgres:15-alpine
+    environment:
+      POSTGRES_USER: plum
+      POSTGRES_PASSWORD: plum
+      POSTGRES_DB: plum
+    volumes:
+      - database-data:/var/lib/postgresql/data
+    ports:
+      - 5555:5432
+    mem_limit: 320m
+    memswap_limit: 0
+
+volumes:
+  database-data:

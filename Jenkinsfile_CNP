@@ -1,0 +1,39 @@
+#!groovy
+
+@Library("Infrastructure")
+
+def type = "nodejs"
+def product = "toffee"
+def component = "frontend"
+
+def secrets = [ 'toffeesi-${env}':
+  [
+    secret('appInsights-InstrumentationKey', 'APPINSIGHTS_INSTRUMENTATIONKEY')
+  ]
+]
+
+static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
+  [ $class: 'AzureKeyVaultSecret',
+    secretType: 'Secret',
+    name: secretName,
+    version: '',
+    envVariable: envVar
+  ]
+}
+
+def yarnBuilder = new uk.gov.hmcts.contino.YarnBuilder(this)
+
+withPipeline(type, product, component) {
+  loadVaultSecrets(secrets)
+  disableLegacyDeployment()
+
+  afterSuccess('checkout') {
+    echo 'Render Templates'
+    sh './scripts/render_templates.sh'
+  }
+
+  afterSuccess('build') {
+    yarnBuilder.yarn('rebuild puppeteer')
+    yarnBuilder.yarn('build')
+  }
+}

@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  ${{ values.component }}:
+    build:
+      context: .
+      args:
+        - http_proxy
+        - https_proxy
+        - no_proxy
+    ports:
+      - '${{ values.http_port }}:${{ values.http_port }}'
