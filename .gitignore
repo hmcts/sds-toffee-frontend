@@ -123,6 +123,40 @@ dist
 .vscode-test
 
 # yarn v2
+node_modules/
+.nyc_output
+.sass-cache
+*.css
+
+.idea/
+*.iml
+
+*swp
+*log
+.DS_Store
+
+src/main/public/img/lib/*
+src/main/public/js/lib/**/*.js
+src/main/public/stylesheets/lib/*
+src/main/resources/localhost-ssl
+
+node-rpm-packaging/
+mochawesome-report/
+npm-debug.log.*
+
+.project
+.settings/
+dist/
+public/
+src/main/views/govuk
+coverage/
+smoke-output/
+functional-output/
+
+.eslintcache
+
+# yarn v2
+.yarn/*
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
@@ -142,3 +176,6 @@ dist
 # yarn audit suppressions script
 yarn-audit-issues
 yarn-audit-result
+!.yarn/unplugged
+!.yarn/plugins
+!.yarn/cache

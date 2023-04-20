@@ -2,6 +2,7 @@
 
 @Library("Infrastructure")
 
+def type = "nodejs"
 def product = "toffee"
 def component = "frontend"
 
@@ -10,6 +11,8 @@ def secrets = [ 'toffeesi-${env}':
     secret('appInsights-InstrumentationKey', 'APPINSIGHTS_INSTRUMENTATIONKEY')
   ]
 ]
+
+def yarnBuilder = new uk.gov.hmcts.contino.YarnBuilder(this)
 
 static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
   [ $class: 'AzureKeyVaultSecret',
@@ -20,7 +23,13 @@ static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
   ]
 }
 
-withPipeline("nodejs", product, component) {
+withPipeline(type, product, component) {
   loadVaultSecrets(secrets)
   disableLegacyDeployment()
+
+  afterAlways('build') {
+    yarnBuilder.yarn('rebuild puppeteer')
+    yarnBuilder.yarn('build')
+  }
+
 }
