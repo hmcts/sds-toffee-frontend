@@ -5,6 +5,9 @@
   "description": "Contino Frontend",
   "author": "Hibri Marzook <hibri.marzook@contino.io>",
   "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "start": "cross-env NODE_PATH=. node server.js",
     "setup": "cross-env NODE_PATH=. node --version",
