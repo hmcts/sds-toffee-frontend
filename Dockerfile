@@ -1,4 +1,5 @@
 # ---- Base image ----
+# Please also update acb.tpl.yaml when updating base image.
 FROM hmctspublic.azurecr.io/base/node:18-alpine as base
 
 USER root
@@ -18,4 +19,5 @@ FROM base as runtime
 
 COPY --from=build $WORKDIR/src/main ./src/main
 # TODO: expose the right port for your application
+# EXPOSE 1337
 EXPOSE 3100
