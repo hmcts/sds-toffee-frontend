@@ -25,35 +25,35 @@ spec:
         app: ${SERVICE_NAME}
     spec:
       containers:
-      - image: ${IMAGE_NAME}
-        name: ${SERVICE_NAME}
+        - image: ${IMAGE_NAME}
+          name: ${SERVICE_NAME}
 
-        # These are obtained from environment variables.  If it's
-        # an environment variable, it can be used here.  Projects
-        # would usually source custom values from:
-        #   - Jenkins Azure Keyvault plugin (e.g. secrets)
-        #   - Your project's Jenkinsfile
-        #   - hardcoded to AAT URLs
-        #   - a ConfigMap
+          # These are obtained from environment variables.  If it's
+          # an environment variable, it can be used here.  Projects
+          # would usually source custom values from:
+          #   - Jenkins Azure Keyvault plugin (e.g. secrets)
+          #   - Your project's Jenkinsfile
+          #   - hardcoded to AAT URLs
+          #   - a ConfigMap
 
-        envFrom:
-          - configMapRef:
-              name: ${SERVICE_NAME}-config
+          envFrom:
+            - configMapRef:
+                name: ${SERVICE_NAME}-config
 
-        # These may be adjusted, but be mindful please
-        resources:
-          requests:
-            memory: "64Mi"
-            cpu: "200m"
-          limits:
-            memory: "256Mi"
-            cpu: "500m"
+          # These may be adjusted, but be mindful please
+          resources:
+            requests:
+              memory: '64Mi'
+              cpu: '200m'
+            limits:
+              memory: '256Mi'
+              cpu: '500m'
 
-        # This is the port your process is listening on in the container
-        ports:
-        - containerPort: 1337
-          name: http
-        imagePullPolicy: Always
+          # This is the port your process is listening on in the container
+          ports:
+            - containerPort: 1337
+              name: http
+          imagePullPolicy: Always
 ---
 #
 # Service
@@ -86,11 +86,10 @@ metadata:
     kubernetes.io/ingress.class: traefik
 spec:
   rules:
-  - host: ${SERVICE_FQDN}
-    http:
-      paths:
-      - path: /
-        backend:
-          serviceName: ${SERVICE_NAME}
-          servicePort: 80
-
+    - host: ${SERVICE_FQDN}
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: ${SERVICE_NAME}
+              servicePort: 80

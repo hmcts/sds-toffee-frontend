@@ -8,7 +8,7 @@ steps:
     cmd: >
       docker pull --platform linux/amd64 $registry/base/node:$nodeImageVersion &&
       docker tag $registry/base/node:$nodeImageVersion $registry/base/node/linux/amd64:$nodeImageVersion
-    when: ["-"]
+    when: ['-']
     keep: true
 
   - id: pull-base-amd64
@@ -85,10 +85,10 @@ steps:
 
   - id: push-images
     push:
-      - "{{.Run.Registry}}/plum/frontend/base:amd64"
-      - "{{.Run.Registry}}/{{CI_IMAGE_TAG}}-amd64"
-      - "{{.Run.Registry}}/plum/frontend/base:arm64"
-      - "{{.Run.Registry}}/{{CI_IMAGE_TAG}}-arm64"
+      - '{{.Run.Registry}}/plum/frontend/base:amd64'
+      - '{{.Run.Registry}}/{{CI_IMAGE_TAG}}-amd64'
+      - '{{.Run.Registry}}/plum/frontend/base:arm64'
+      - '{{.Run.Registry}}/{{CI_IMAGE_TAG}}-arm64'
     when:
       - runtime-amd64
       - runtime-arm64
