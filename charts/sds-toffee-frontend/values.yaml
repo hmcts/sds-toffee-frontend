@@ -1,11 +1,11 @@
 nodejs:
   applicationPort: 1337
-  aadIdentityName: rpe
-  ingressHost: rpe-expressjs-template.{{ .Values.global.environment }}.platform.hmcts.net
-  image: 'hmctspublic.azurecr.io/rpe/expressjs-template:latest'
+  aadIdentityName: sds-toffee
+  ingressHost: sds-toffee-frontend.{{ .Values.global.environment }}.platform.hmcts.net
+  image: 'hmctspublic.azurecr.io/sds-toffee/frontend:latest'
   #  Uncomment once the vault containing the app insights key has been set up
   #  keyVaults:
-  #    rpe:
+  #    sds-toffee:
   #      secrets:
   #        - AppInsightsInstrumentationKey
   environment:
