@@ -1,6 +1,4 @@
 ARG PLATFORM=""
-
-# ---- Base image ----
 # Please also update acb.tpl.yaml when updating base image.
 FROM hmctspublic.azurecr.io/base/node${PLATFORM}:18-alpine as base
 
