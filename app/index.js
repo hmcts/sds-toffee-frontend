@@ -9,15 +9,12 @@ const get = async (req, res) => {
   const url = `${RECIPE_BACKEND_URL}/recipes`;
 
   try {
-    const { recipes } = await fetch(url)
-        .then(res => res.json());
+    const { recipes } = await fetch(url).then(res => res.json());
 
     return res.render('index', { recipes });
   } catch (err) {
     logger.error(err.stack);
-    return res
-      .status(500)
-      .render('error', { message: 'Problem communicating with backend' });
+    return res.status(500).render('error', { message: 'Problem communicating with backend' });
   }
 };
 

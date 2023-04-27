@@ -19,19 +19,17 @@ describe('Testing readiness', () => {
   });
 });
 
-
 describe('Testing liveness', () => {
-    it('should respond 200 OK ', function (done) {
-        request(server)
-            .get('/health/liveness')
-            .set('Accept', 'application/json')
-            .expect('Content-Type', /json/)
-            .end((err, res) => {
-                res.should.have.status(200);
-                res.body.status.should.equal('UP');
-                server.close();
-                done();
-            });
-    });
+  it('should respond 200 OK ', function (done) {
+    request(server)
+      .get('/health/liveness')
+      .set('Accept', 'application/json')
+      .expect('Content-Type', /json/)
+      .end((err, res) => {
+        res.should.have.status(200);
+        res.body.status.should.equal('UP');
+        server.close();
+        done();
+      });
+  });
 });
-
