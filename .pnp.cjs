@@ -81,7 +81,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:29.5.0"],\
             ["jest-html-reporter", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.9.0"],\
-            ["jquery", "npm:3.6.4"],\
+            ["jquery", "npm:3.7.0"],\
             ["js-yaml", "npm:4.1.0"],\
             ["lint-staged", "npm:13.2.2"],\
             ["lodash", "npm:4.17.21"],\
@@ -10669,10 +10669,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["jquery", [\
-        ["npm:3.6.4", {\
-          "packageLocation": "./.yarn/cache/jquery-npm-3.6.4-c665e9b5ea-8354f7bd0a.zip/node_modules/jquery/",\
+        ["npm:3.7.0", {\
+          "packageLocation": "./.yarn/cache/jquery-npm-3.7.0-a02a382bf4-907785e133.zip/node_modules/jquery/",\
           "packageDependencies": [\
-            ["jquery", "npm:3.6.4"]\
+            ["jquery", "npm:3.7.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -13607,7 +13607,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:29.5.0"],\
             ["jest-html-reporter", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.9.0"],\
-            ["jquery", "npm:3.6.4"],\
+            ["jquery", "npm:3.7.0"],\
             ["js-yaml", "npm:4.1.0"],\
             ["lint-staged", "npm:13.2.2"],\
             ["lodash", "npm:4.17.21"],\
