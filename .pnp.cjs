@@ -90,7 +90,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nodemon", "npm:2.0.22"],\
             ["nunjucks", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.2.4"],\
             ["pa11y", "npm:6.2.3"],\
-            ["playwright", "npm:1.33.0"],\
+            ["playwright", "npm:1.34.3"],\
             ["prettier", "npm:2.8.8"],\
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
@@ -12496,20 +12496,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["playwright", [\
-        ["npm:1.33.0", {\
-          "packageLocation": "./.yarn/unplugged/playwright-npm-1.33.0-4778c510c5/node_modules/playwright/",\
+        ["npm:1.34.3", {\
+          "packageLocation": "./.yarn/unplugged/playwright-npm-1.34.3-ab07fbe58d/node_modules/playwright/",\
           "packageDependencies": [\
-            ["playwright", "npm:1.33.0"],\
-            ["playwright-core", "npm:1.33.0"]\
+            ["playwright", "npm:1.34.3"],\
+            ["playwright-core", "npm:1.34.3"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["playwright-core", [\
-        ["npm:1.33.0", {\
-          "packageLocation": "./.yarn/unplugged/playwright-core-npm-1.33.0-e4d08e3262/node_modules/playwright-core/",\
+        ["npm:1.34.3", {\
+          "packageLocation": "./.yarn/unplugged/playwright-core-npm-1.34.3-f476cefee2/node_modules/playwright-core/",\
           "packageDependencies": [\
-            ["playwright-core", "npm:1.33.0"]\
+            ["playwright-core", "npm:1.34.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -13648,7 +13648,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nodemon", "npm:2.0.22"],\
             ["nunjucks", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.2.4"],\
             ["pa11y", "npm:6.2.3"],\
-            ["playwright", "npm:1.33.0"],\
+            ["playwright", "npm:1.34.3"],\
             ["prettier", "npm:2.8.8"],\
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
