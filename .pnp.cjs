@@ -95,7 +95,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
             ["sass", "npm:1.62.1"],\
-            ["sass-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:13.3.0"],\
+            ["sass-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:13.3.1"],\
             ["serve-favicon", "npm:2.5.0"],\
             ["sinon", "npm:15.1.0"],\
             ["sinon-chai", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.7.0"],\
@@ -13802,17 +13802,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["sass-loader", [\
-        ["npm:13.3.0", {\
-          "packageLocation": "./.yarn/cache/sass-loader-npm-13.3.0-4e5db28e56-a3b57eaf09.zip/node_modules/sass-loader/",\
+        ["npm:13.3.1", {\
+          "packageLocation": "./.yarn/cache/sass-loader-npm-13.3.1-60dba719be-0cd4fcb6a6.zip/node_modules/sass-loader/",\
           "packageDependencies": [\
-            ["sass-loader", "npm:13.3.0"]\
+            ["sass-loader", "npm:13.3.1"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:13.3.0", {\
-          "packageLocation": "./.yarn/__virtual__/sass-loader-virtual-b3c116ab4e/0/cache/sass-loader-npm-13.3.0-4e5db28e56-a3b57eaf09.zip/node_modules/sass-loader/",\
+        ["virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:13.3.1", {\
+          "packageLocation": "./.yarn/__virtual__/sass-loader-virtual-9e9e5a6daf/0/cache/sass-loader-npm-13.3.1-60dba719be-0cd4fcb6a6.zip/node_modules/sass-loader/",\
           "packageDependencies": [\
-            ["sass-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:13.3.0"],\
+            ["sass-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:13.3.1"],\
             ["@types/fibers", null],\
             ["@types/node-sass", null],\
             ["@types/sass", null],\
@@ -13936,7 +13936,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
             ["sass", "npm:1.62.1"],\
-            ["sass-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:13.3.0"],\
+            ["sass-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:13.3.1"],\
             ["serve-favicon", "npm:2.5.0"],\
             ["sinon", "npm:15.1.0"],\
             ["sinon-chai", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.7.0"],\
