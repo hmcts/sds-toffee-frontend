@@ -62,6 +62,14 @@ function expectNoErrors(messages: PallyIssue[]): void {
   }
 }
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+global.fetch = jest.fn(() =>
+  Promise.resolve({
+    json: () => Promise.resolve({ recipes: [] }),
+  })
+);
+
 function testAccessibility(url: string): void {
   describe(`Page ${url}`, () => {
     test('should have no accessibility errors', async () => {
