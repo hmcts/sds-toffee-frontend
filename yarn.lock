@@ -10791,8 +10791,8 @@ __metadata:
   linkType: hard
 
 "postcss@npm:^8.4.25":
-  version: 8.4.31
-  resolution: "postcss@npm:8.4.31"
+  version: 8.4.26
+  resolution: "postcss@npm:8.4.26"
   dependencies:
     nanoid: ^3.3.6
     picocolors: ^1.0.0
