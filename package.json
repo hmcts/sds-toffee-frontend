@@ -55,7 +55,7 @@
     "js-yaml": "^4.1.0",
     "lodash": "^4.17.21",
     "nunjucks": "^3.2.3",
-    "postcss": "8.4.31",
+    "postcss": "8.4.26",
     "require-directory": "^2.1.1",
     "serve-favicon": "^2.5.0",
     "stylelint": "^15.0.0",
