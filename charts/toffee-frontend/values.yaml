@@ -8,3 +8,5 @@ nodejs:
     'toffeesi':
       secrets:
         - name: appInsights-InstrumentationKey
+
+        
