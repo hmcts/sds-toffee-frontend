@@ -1,16 +1,24 @@
 import * as path from 'path';
 
-import { AppInsights } from './modules/appinsights';
-import { Helmet } from './modules/helmet';
-import { Nunjucks } from './modules/nunjucks';
-import { PropertiesVolume } from './modules/properties-volume';
-
 import * as bodyParser from 'body-parser';
+
 import cookieParser from 'cookie-parser';
+
 import express from 'express';
+
 import { glob } from 'glob';
+
 import favicon from 'serve-favicon';
+
 import { HTTPError } from './HttpError';
+
+import { AppInsights } from './modules/appinsights';
+
+import { Helmet } from './modules/helmet';
+
+import { Nunjucks } from './modules/nunjucks';
+
+import { PropertiesVolume } from './modules/properties-volume';
 
 const { Logger } = require('@hmcts/nodejs-logging');
 

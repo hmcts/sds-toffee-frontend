@@ -1,8 +1,8 @@
+import { expect } from 'chai';
+
 import request from 'supertest';
 
 import { app } from '../../main/app';
-
-import { expect } from 'chai';
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
