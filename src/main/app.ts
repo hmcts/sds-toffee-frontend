@@ -1,6 +1,5 @@
 import * as path from 'path';
 
-import { HTTPError } from './HttpError';
 import { AppInsights } from './modules/appinsights';
 import { Helmet } from './modules/helmet';
 import { Nunjucks } from './modules/nunjucks';
@@ -11,10 +10,11 @@ import cookieParser from 'cookie-parser';
 import express from 'express';
 import { glob } from 'glob';
 import favicon from 'serve-favicon';
-
-const { setupDev } = require('./development');
+import { HTTPError } from './HttpError';
 
 const { Logger } = require('@hmcts/nodejs-logging');
+
+const { setupDev } = require('./development');
 
 const env = process.env.NODE_ENV || 'development';
 const developmentMode = env === 'development';
