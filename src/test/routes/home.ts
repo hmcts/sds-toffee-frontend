@@ -1,8 +1,7 @@
-import { app } from '../../main/app';
-
 import { expect } from 'chai';
 import request from 'supertest';
 
+import { app } from '../../main/app';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 global.fetch = jest.fn(() =>
