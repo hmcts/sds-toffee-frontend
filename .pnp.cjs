@@ -79,7 +79,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["glob", "npm:10.3.10"],\
             ["govuk-frontend", "npm:4.7.0"],\
             ["helmet", "npm:7.1.0"],\
-            ["html-webpack-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:5.5.4"],\
+            ["html-webpack-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:5.6.0"],\
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:29.7.0"],\
             ["jest-html-reporter", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.10.2"],\
@@ -9566,18 +9566,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["html-webpack-plugin", [\
-        ["npm:5.5.4", {\
-          "packageLocation": "./.yarn/cache/html-webpack-plugin-npm-5.5.4-48ed927da2-b49befb73d.zip/node_modules/html-webpack-plugin/",\
+        ["npm:5.6.0", {\
+          "packageLocation": "./.yarn/cache/html-webpack-plugin-npm-5.6.0-4225ed9587-32a6e41da5.zip/node_modules/html-webpack-plugin/",\
           "packageDependencies": [\
-            ["html-webpack-plugin", "npm:5.5.4"]\
+            ["html-webpack-plugin", "npm:5.6.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:5.5.4", {\
-          "packageLocation": "./.yarn/__virtual__/html-webpack-plugin-virtual-76fa37fdb9/0/cache/html-webpack-plugin-npm-5.5.4-48ed927da2-b49befb73d.zip/node_modules/html-webpack-plugin/",\
+        ["virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:5.6.0", {\
+          "packageLocation": "./.yarn/__virtual__/html-webpack-plugin-virtual-e791811eb3/0/cache/html-webpack-plugin-npm-5.6.0-4225ed9587-32a6e41da5.zip/node_modules/html-webpack-plugin/",\
           "packageDependencies": [\
-            ["html-webpack-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:5.5.4"],\
+            ["html-webpack-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:5.6.0"],\
+            ["@rspack/core", null],\
             ["@types/html-minifier-terser", "npm:6.1.0"],\
+            ["@types/rspack__core", null],\
             ["@types/webpack", null],\
             ["html-minifier-terser", "npm:6.1.0"],\
             ["lodash", "npm:4.17.21"],\
@@ -9586,6 +9588,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["webpack", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:5.89.0"]\
           ],\
           "packagePeers": [\
+            "@rspack/core",\
+            "@types/rspack__core",\
             "@types/webpack",\
             "webpack"\
           ],\
@@ -14095,7 +14099,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["glob", "npm:10.3.10"],\
             ["govuk-frontend", "npm:4.7.0"],\
             ["helmet", "npm:7.1.0"],\
-            ["html-webpack-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:5.5.4"],\
+            ["html-webpack-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:5.6.0"],\
             ["husky", "npm:8.0.3"],\
             ["jest", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:29.7.0"],\
             ["jest-html-reporter", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.10.2"],\
