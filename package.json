@@ -120,7 +120,6 @@
     "qs": "^6.9.7",
     "json5": "^2.0.0",
     "http-cache-semantics": "^4.1.1",
-    "follow-redirects": "^1.15.4",
     "cookiejar": "^2.1.4"
   },
   "lint-staged": {
