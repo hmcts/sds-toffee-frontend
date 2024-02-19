@@ -15,7 +15,7 @@ export default function (app: Application): void {
       return res.render('home', { recipes });
     } catch (err) {
       logger.error(err.stack);
-      return res.status(500).render('error', { message: 'Problem communicating with the backend' });
+      res.status(500).end();
     }
   });
 }
