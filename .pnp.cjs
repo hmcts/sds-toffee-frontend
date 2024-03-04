@@ -56,7 +56,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:6.13.1"],\
             ["@typescript-eslint/parser", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:6.13.1"],\
             ["applicationinsights", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:2.9.1"],\
-            ["axios", "npm:1.6.2"],\
+            ["axios", "npm:1.6.7"],\
             ["axios-debug-log", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:1.0.0"],\
             ["babel-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:9.1.3"],\
             ["body-parser", "npm:1.20.2"],\
@@ -5791,7 +5791,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/axios-npm-1.6.2-2334cb6eee-4a7429e2b7.zip/node_modules/axios/",\
           "packageDependencies": [\
             ["axios", "npm:1.6.2"],\
-            ["follow-redirects", "virtual:2334cb6eeeb6b3dfd608966f28539c2de97a7f40c2b9762074181b72a63a8cdcab5646db63b491e1572f204e304748e40aff79a28dbdc8ee85d2dd16cd3803c7#npm:1.15.4"],\
+            ["follow-redirects", "virtual:d7b9974d1bba76881cc57a280a16dd4914416a6fc4923c2efbb6328057412974da1e719cef1530b7a62b97d85d828f7e1d49b5f6de3b5b0854d49902ec87827c#npm:1.15.4"],\
+            ["form-data", "npm:4.0.0"],\
+            ["proxy-from-env", "npm:1.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:1.6.7", {\
+          "packageLocation": "./.yarn/cache/axios-npm-1.6.7-d7b9974d1b-87d4d42992.zip/node_modules/axios/",\
+          "packageDependencies": [\
+            ["axios", "npm:1.6.7"],\
+            ["follow-redirects", "virtual:d7b9974d1bba76881cc57a280a16dd4914416a6fc4923c2efbb6328057412974da1e719cef1530b7a62b97d85d828f7e1d49b5f6de3b5b0854d49902ec87827c#npm:1.15.4"],\
             ["form-data", "npm:4.0.0"],\
             ["proxy-from-env", "npm:1.1.0"]\
           ],\
@@ -5812,7 +5822,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["axios-debug-log", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:1.0.0"],\
             ["@types/axios", null],\
             ["@types/debug", "npm:4.1.12"],\
-            ["axios", "npm:1.6.2"],\
+            ["axios", "npm:1.6.7"],\
             ["debug", "virtual:2f4f5d4be0c4271f81a756602d102e02c292a5b30d8b7f5dd19d5368d75df8bb2f1bf516e3f835c2b5501d1663eb437d4f00d6d057bcaee770b46e87267a0fa3#npm:4.3.4"]\
           ],\
           "packagePeers": [\
@@ -8878,10 +8888,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:2334cb6eeeb6b3dfd608966f28539c2de97a7f40c2b9762074181b72a63a8cdcab5646db63b491e1572f204e304748e40aff79a28dbdc8ee85d2dd16cd3803c7#npm:1.15.4", {\
-          "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-3552a81181/0/cache/follow-redirects-npm-1.15.4-3384d6a415-e178d1deff.zip/node_modules/follow-redirects/",\
+        ["virtual:d7b9974d1bba76881cc57a280a16dd4914416a6fc4923c2efbb6328057412974da1e719cef1530b7a62b97d85d828f7e1d49b5f6de3b5b0854d49902ec87827c#npm:1.15.4", {\
+          "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-84772a0654/0/cache/follow-redirects-npm-1.15.4-3384d6a415-e178d1deff.zip/node_modules/follow-redirects/",\
           "packageDependencies": [\
-            ["follow-redirects", "virtual:2334cb6eeeb6b3dfd608966f28539c2de97a7f40c2b9762074181b72a63a8cdcab5646db63b491e1572f204e304748e40aff79a28dbdc8ee85d2dd16cd3803c7#npm:1.15.4"],\
+            ["follow-redirects", "virtual:d7b9974d1bba76881cc57a280a16dd4914416a6fc4923c2efbb6328057412974da1e719cef1530b7a62b97d85d828f7e1d49b5f6de3b5b0854d49902ec87827c#npm:1.15.4"],\
             ["@types/debug", null],\
             ["debug", null]\
           ],\
@@ -14076,7 +14086,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:6.13.1"],\
             ["@typescript-eslint/parser", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:6.13.1"],\
             ["applicationinsights", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:2.9.1"],\
-            ["axios", "npm:1.6.2"],\
+            ["axios", "npm:1.6.7"],\
             ["axios-debug-log", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:1.0.0"],\
             ["babel-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:9.1.3"],\
             ["body-parser", "npm:1.20.2"],\
