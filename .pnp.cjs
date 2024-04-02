@@ -76,7 +76,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jest", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:27.9.0"],\
             ["express", "npm:4.19.2"],\
             ["express-nunjucks", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.1.2"],\
-            ["glob", "npm:10.3.10"],\
+            ["glob", "npm:10.3.12"],\
             ["govuk-frontend", "npm:4.7.0"],\
             ["helmet", "npm:7.1.0"],\
             ["html-webpack-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:5.6.0"],\
@@ -6311,7 +6311,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cacache", "npm:18.0.2"],\
             ["@npmcli/fs", "npm:3.1.0"],\
             ["fs-minipass", "npm:3.0.3"],\
-            ["glob", "npm:10.3.10"],\
+            ["glob", "npm:10.3.12"],\
             ["lru-cache", "npm:10.2.0"],\
             ["minipass", "npm:7.0.4"],\
             ["minipass-collect", "npm:2.0.1"],\
@@ -9198,15 +9198,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["glob", [\
-        ["npm:10.3.10", {\
-          "packageLocation": "./.yarn/cache/glob-npm-10.3.10-da1ef8b112-4f2fe2511e.zip/node_modules/glob/",\
+        ["npm:10.3.12", {\
+          "packageLocation": "./.yarn/cache/glob-npm-10.3.12-f2e90133a0-2b0949d636.zip/node_modules/glob/",\
           "packageDependencies": [\
-            ["glob", "npm:10.3.10"],\
+            ["glob", "npm:10.3.12"],\
             ["foreground-child", "npm:3.1.1"],\
             ["jackspeak", "npm:2.3.6"],\
             ["minimatch", "npm:9.0.3"],\
             ["minipass", "npm:7.0.4"],\
-            ["path-scurry", "npm:1.10.1"]\
+            ["path-scurry", "npm:1.10.2"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -11054,7 +11054,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["js-beautify", "npm:1.15.1"],\
             ["config-chain", "npm:1.1.13"],\
             ["editorconfig", "npm:1.0.4"],\
-            ["glob", "npm:10.3.10"],\
+            ["glob", "npm:10.3.12"],\
             ["js-cookie", "npm:3.0.5"],\
             ["nopt", "npm:7.2.0"]\
           ],\
@@ -12344,7 +12344,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["node-gyp", "npm:10.0.1"],\
             ["env-paths", "npm:2.2.1"],\
             ["exponential-backoff", "npm:3.1.1"],\
-            ["glob", "npm:10.3.10"],\
+            ["glob", "npm:10.3.12"],\
             ["graceful-fs", "npm:4.2.11"],\
             ["make-fetch-happen", "npm:13.0.0"],\
             ["nopt", "npm:7.2.0"],\
@@ -12905,10 +12905,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["path-scurry", [\
-        ["npm:1.10.1", {\
-          "packageLocation": "./.yarn/cache/path-scurry-npm-1.10.1-52bd946f2e-e2557cff3a.zip/node_modules/path-scurry/",\
+        ["npm:1.10.2", {\
+          "packageLocation": "./.yarn/cache/path-scurry-npm-1.10.2-676482c764-6739b4290f.zip/node_modules/path-scurry/",\
           "packageDependencies": [\
-            ["path-scurry", "npm:1.10.1"],\
+            ["path-scurry", "npm:1.10.2"],\
             ["lru-cache", "npm:10.2.0"],\
             ["minipass", "npm:7.0.4"]\
           ],\
@@ -14110,7 +14110,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jest", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:27.9.0"],\
             ["express", "npm:4.19.2"],\
             ["express-nunjucks", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.1.2"],\
-            ["glob", "npm:10.3.10"],\
+            ["glob", "npm:10.3.12"],\
             ["govuk-frontend", "npm:4.7.0"],\
             ["helmet", "npm:7.1.0"],\
             ["html-webpack-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:5.6.0"],\
