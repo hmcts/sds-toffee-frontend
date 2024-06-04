@@ -5082,8 +5082,8 @@ __metadata:
   linkType: hard
 
 "css-loader@npm:^7.0.0":
-  version: 7.1.0
-  resolution: "css-loader@npm:7.1.0"
+  version: 7.1.2
+  resolution: "css-loader@npm:7.1.2"
   dependencies:
     icss-utils: ^5.1.0
     postcss: ^8.4.33
@@ -5101,7 +5101,7 @@ __metadata:
       optional: true
     webpack:
       optional: true
-  checksum: 247b07ca3f1369ec41e3c79cc59c6d97f0a473d767bf9ee563a2ee7ab404ff7f65ed4a2a3a108721250bc4055df82be6a88225f42adb360714533e37ea032da0
+  checksum: 15bfd90d778ddab90ee1d04c8c8bcc13ea6c0791d01b52b09d1b1c753b3410f7a7788a510d93726a9878e70b7c1a140f21efdf5c96e1857872107551d3897822
   languageName: node
   linkType: hard
 
