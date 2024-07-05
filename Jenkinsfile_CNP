@@ -23,23 +23,6 @@ static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
   ]
 }
 
-// Function to execute the pipeline with retries on specific error
-def executeWithRetry(retries, closure) {
-    for (int i = 0; i < retries; i++) {
-        try {
-            closure.call()
-            break // Exit loop if successful
-        } catch (Exception e) {
-            if (e.message.contains("hudson.remoting.ChannelClosedException")) {
-                echo "Encountered ChannelClosedException. Retrying... (Attempt ${i + 1} of ${retries})"
-                sleep(time: 10, unit: 'SECONDS') // Optional: sleep between retries
-            } else {
-                throw e // Rethrow if it's a different exception
-            }
-        }
-
-
-executeWithRetry(3) {
   withPipeline(type, product, component) {
     loadVaultSecrets(secrets)
     disableLegacyDeployment()
@@ -49,4 +32,3 @@ executeWithRetry(3) {
       yarnBuilder.yarn('build')
     }
   }
-}
