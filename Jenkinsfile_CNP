@@ -38,18 +38,8 @@ def executeWithRetry(retries, closure) {
             }
         }
 
-        // Check the log for disconnection message if exception isn't caught
-        def log = currentBuild.rawBuild.log
-        if (log.contains("hudson.remoting.ChannelClosedException")) {
-            echo "Detected ChannelClosedException in log. Retrying... (Attempt ${i + 1} of ${retries})"
-            sleep(time: 10, unit: 'SECONDS') // Optional: sleep between retries
-        } else {
-            break // Exit loop if no disconnection detected
-        }
-    }
-}
 
-executeWithRetry(3) {  // Retry the whole block up to 2 times if it fails
+executeWithRetry(3) {
   withPipeline(type, product, component) {
     loadVaultSecrets(secrets)
     disableLegacyDeployment()
