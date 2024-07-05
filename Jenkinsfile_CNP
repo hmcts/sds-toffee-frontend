@@ -23,13 +23,14 @@ static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
   ]
 }
 
-withPipeline(type, product, component) {
-  loadVaultSecrets(secrets)
-  disableLegacyDeployment()
+retry(2) {  // Retry the whole block up to 2 times if it fails
+  withPipeline(type, product, component) {
+    loadVaultSecrets(secrets)
+    disableLegacyDeployment()
 
-  afterAlways('build') {
-    yarnBuilder.yarn('rebuild puppeteer')
-    yarnBuilder.yarn('build')
+    afterAlways('build') {
+      yarnBuilder.yarn('rebuild puppeteer')
+      yarnBuilder.yarn('build')
+    }
   }
-
 }
