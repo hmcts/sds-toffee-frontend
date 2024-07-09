@@ -1,6 +1,6 @@
 #!groovy
 
-@Library("Infrastructure")
+@Library("Infrastructure@DTSPO-14033/spot-instance-ek")
 
 def type = "nodejs"
 def product = "toffee"
