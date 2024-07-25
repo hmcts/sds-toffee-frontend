@@ -36,7 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@hmcts/info-provider", "npm:1.2.1"],\
             ["@hmcts/nodejs-healthcheck", "npm:1.8.5"],\
             ["@hmcts/nodejs-logging", "npm:4.0.4"],\
-            ["@hmcts/properties-volume", "npm:1.1.0"],\
+            ["@hmcts/properties-volume", "npm:1.2.0"],\
             ["@types/body-parser", "npm:1.19.5"],\
             ["@types/chai-as-promised", "npm:7.1.8"],\
             ["@types/config", "npm:3.3.4"],\
@@ -185,6 +185,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tslib", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:1.9.2", {\
+          "packageLocation": "./.yarn/cache/@azure-core-client-npm-1.9.2-1ef0857920-961b829dfd.zip/node_modules/@azure/core-client/",\
+          "packageDependencies": [\
+            ["@azure/core-client", "npm:1.9.2"],\
+            ["@azure/abort-controller", "npm:2.0.0"],\
+            ["@azure/core-auth", "npm:1.6.0"],\
+            ["@azure/core-rest-pipeline", "npm:1.14.0"],\
+            ["@azure/core-tracing", "npm:1.0.1"],\
+            ["@azure/core-util", "npm:1.9.1"],\
+            ["@azure/logger", "npm:1.0.4"],\
+            ["tslib", "npm:2.6.3"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@azure/core-http-compat", [\
@@ -284,22 +298,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tslib", "npm:2.6.2"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:1.9.1", {\
+          "packageLocation": "./.yarn/cache/@azure-core-util-npm-1.9.1-2bcbbcecde-6b6a11c717.zip/node_modules/@azure/core-util/",\
+          "packageDependencies": [\
+            ["@azure/core-util", "npm:1.9.1"],\
+            ["@azure/abort-controller", "npm:2.0.0"],\
+            ["tslib", "npm:2.6.3"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@azure/identity", [\
-        ["npm:4.0.1", {\
-          "packageLocation": "./.yarn/cache/@azure-identity-npm-4.0.1-b3969663ba-2c975ca70b.zip/node_modules/@azure/identity/",\
+        ["npm:4.4.0", {\
+          "packageLocation": "./.yarn/cache/@azure-identity-npm-4.4.0-80dd1242a4-d3aecb92e4.zip/node_modules/@azure/identity/",\
           "packageDependencies": [\
-            ["@azure/identity", "npm:4.0.1"],\
+            ["@azure/identity", "npm:4.4.0"],\
             ["@azure/abort-controller", "npm:1.1.0"],\
             ["@azure/core-auth", "npm:1.6.0"],\
-            ["@azure/core-client", "npm:1.8.0"],\
+            ["@azure/core-client", "npm:1.9.2"],\
             ["@azure/core-rest-pipeline", "npm:1.14.0"],\
             ["@azure/core-tracing", "npm:1.0.1"],\
             ["@azure/core-util", "npm:1.7.0"],\
             ["@azure/logger", "npm:1.0.4"],\
-            ["@azure/msal-browser", "npm:3.10.0"],\
-            ["@azure/msal-node", "npm:2.6.4"],\
+            ["@azure/msal-browser", "npm:3.20.0"],\
+            ["@azure/msal-node", "npm:2.12.0"],\
             ["events", "npm:3.3.0"],\
             ["jws", "npm:4.0.0"],\
             ["open", "npm:8.4.2"],\
@@ -340,30 +363,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@azure/msal-browser", [\
-        ["npm:3.10.0", {\
-          "packageLocation": "./.yarn/cache/@azure-msal-browser-npm-3.10.0-a780f9f81d-c34763df2b.zip/node_modules/@azure/msal-browser/",\
+        ["npm:3.20.0", {\
+          "packageLocation": "./.yarn/cache/@azure-msal-browser-npm-3.20.0-b06c83e8d6-237a041bbe.zip/node_modules/@azure/msal-browser/",\
           "packageDependencies": [\
-            ["@azure/msal-browser", "npm:3.10.0"],\
-            ["@azure/msal-common", "npm:14.7.1"]\
+            ["@azure/msal-browser", "npm:3.20.0"],\
+            ["@azure/msal-common", "npm:14.14.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@azure/msal-common", [\
-        ["npm:14.7.1", {\
-          "packageLocation": "./.yarn/cache/@azure-msal-common-npm-14.7.1-30428dfdeb-effcb39f57.zip/node_modules/@azure/msal-common/",\
+        ["npm:14.14.0", {\
+          "packageLocation": "./.yarn/cache/@azure-msal-common-npm-14.14.0-e59c10cc3d-c77f51bddd.zip/node_modules/@azure/msal-common/",\
           "packageDependencies": [\
-            ["@azure/msal-common", "npm:14.7.1"]\
+            ["@azure/msal-common", "npm:14.14.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@azure/msal-node", [\
-        ["npm:2.6.4", {\
-          "packageLocation": "./.yarn/cache/@azure-msal-node-npm-2.6.4-7ef451cbf6-39e5186470.zip/node_modules/@azure/msal-node/",\
+        ["npm:2.12.0", {\
+          "packageLocation": "./.yarn/cache/@azure-msal-node-npm-2.12.0-7ffe6b920c-ad02d84ff0.zip/node_modules/@azure/msal-node/",\
           "packageDependencies": [\
-            ["@azure/msal-node", "npm:2.6.4"],\
-            ["@azure/msal-common", "npm:14.7.1"],\
+            ["@azure/msal-node", "npm:2.12.0"],\
+            ["@azure/msal-common", "npm:14.14.0"],\
             ["jsonwebtoken", "npm:9.0.2"],\
             ["uuid", "npm:8.3.2"]\
           ],\
@@ -3428,11 +3451,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@hmcts/properties-volume", [\
-        ["npm:1.1.0", {\
-          "packageLocation": "./.yarn/cache/@hmcts-properties-volume-npm-1.1.0-8ae26f1ed8-7091f3e852.zip/node_modules/@hmcts/properties-volume/",\
+        ["npm:1.2.0", {\
+          "packageLocation": "./.yarn/cache/@hmcts-properties-volume-npm-1.2.0-3245eeab8f-b64cc191d7.zip/node_modules/@hmcts/properties-volume/",\
           "packageDependencies": [\
-            ["@hmcts/properties-volume", "npm:1.1.0"],\
-            ["@azure/identity", "npm:4.0.1"],\
+            ["@hmcts/properties-volume", "npm:1.2.0"],\
+            ["@azure/identity", "npm:4.4.0"],\
             ["@azure/keyvault-secrets", "npm:4.8.0"],\
             ["@hmcts/nodejs-logging", "npm:4.0.4"],\
             ["js-yaml", "npm:4.1.0"],\
@@ -14143,7 +14166,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@hmcts/info-provider", "npm:1.2.1"],\
             ["@hmcts/nodejs-healthcheck", "npm:1.8.5"],\
             ["@hmcts/nodejs-logging", "npm:4.0.4"],\
-            ["@hmcts/properties-volume", "npm:1.1.0"],\
+            ["@hmcts/properties-volume", "npm:1.2.0"],\
             ["@types/body-parser", "npm:1.19.5"],\
             ["@types/chai-as-promised", "npm:7.1.8"],\
             ["@types/config", "npm:3.3.4"],\
@@ -15619,6 +15642,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/tslib-npm-2.6.2-4fc8c068d9-329ea56123.zip/node_modules/tslib/",\
           "packageDependencies": [\
             ["tslib", "npm:2.6.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:2.6.3", {\
+          "packageLocation": "./.yarn/cache/tslib-npm-2.6.3-0fd136b3be-74fce0e100.zip/node_modules/tslib/",\
+          "packageDependencies": [\
+            ["tslib", "npm:2.6.3"]\
           ],\
           "linkType": "HARD"\
         }]\
