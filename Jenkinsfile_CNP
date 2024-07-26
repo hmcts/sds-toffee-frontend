@@ -1,6 +1,6 @@
 #!groovy
 
-@Library("Infrastructure")
+@Library("Infrastructure@DTSPO-18118-jenkins-block-messages")
 
 def type = "nodejs"
 def product = "toffee"
