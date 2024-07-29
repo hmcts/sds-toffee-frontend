@@ -1,6 +1,6 @@
 #!groovy
 
-@Library("Infrastructure")
+@Library("Infrastructure@DTSPO-14033-Spot-instance-trial-for-Jenkins-agent")
 
 def type = "nodejs"
 def product = "toffee"
