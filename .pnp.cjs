@@ -101,7 +101,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sass", "npm:1.77.8"],\
             ["sass-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:16.0.0"],\
             ["serve-favicon", "npm:2.5.0"],\
-            ["sinon", "npm:17.0.1"],\
+            ["sinon", "npm:18.0.0"],\
             ["sinon-chai", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.7.0"],\
             ["style-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.3.4"],\
             ["stylelint", "npm:16.8.1"],\
@@ -13888,10 +13888,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["nise", [\
-        ["npm:5.1.9", {\
-          "packageLocation": "./.yarn/cache/nise-npm-5.1.9-6af6a9c69b-ab9fd6eabc.zip/node_modules/nise/",\
+        ["npm:6.0.0", {\
+          "packageLocation": "./.yarn/cache/nise-npm-6.0.0-a555b2bffd-86d6ebe5ba.zip/node_modules/nise/",\
           "packageDependencies": [\
-            ["nise", "npm:5.1.9"],\
+            ["nise", "npm:6.0.0"],\
             ["@sinonjs/commons", "npm:3.0.1"],\
             ["@sinonjs/fake-timers", "npm:11.2.2"],\
             ["@sinonjs/text-encoding", "npm:0.7.2"],\
@@ -15924,7 +15924,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sass", "npm:1.77.8"],\
             ["sass-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:16.0.0"],\
             ["serve-favicon", "npm:2.5.0"],\
-            ["sinon", "npm:17.0.1"],\
+            ["sinon", "npm:18.0.0"],\
             ["sinon-chai", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.7.0"],\
             ["style-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.3.4"],\
             ["stylelint", "npm:16.8.1"],\
@@ -16142,15 +16142,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["sinon", [\
-        ["npm:17.0.1", {\
-          "packageLocation": "./.yarn/cache/sinon-npm-17.0.1-997c13081d-a807c2997d.zip/node_modules/sinon/",\
+        ["npm:18.0.0", {\
+          "packageLocation": "./.yarn/cache/sinon-npm-18.0.0-a220c4846c-5d7bc61c6c.zip/node_modules/sinon/",\
           "packageDependencies": [\
-            ["sinon", "npm:17.0.1"],\
+            ["sinon", "npm:18.0.0"],\
             ["@sinonjs/commons", "npm:3.0.1"],\
             ["@sinonjs/fake-timers", "npm:11.2.2"],\
             ["@sinonjs/samsam", "npm:8.0.0"],\
             ["diff", "npm:5.2.0"],\
-            ["nise", "npm:5.1.9"],\
+            ["nise", "npm:6.0.0"],\
             ["supports-color", "npm:7.2.0"]\
           ],\
           "linkType": "HARD"\
@@ -16171,7 +16171,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/chai", null],\
             ["@types/sinon", null],\
             ["chai", "npm:4.5.0"],\
-            ["sinon", "npm:17.0.1"]\
+            ["sinon", "npm:18.0.0"]\
           ],\
           "packagePeers": [\
             "@types/chai",\
