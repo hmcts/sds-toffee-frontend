@@ -89,7 +89,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:15.2.10"],\
             ["lodash", "npm:4.17.21"],\
             ["mini-css-extract-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:2.9.0"],\
-            ["nock", "npm:13.5.4"],\
+            ["nock", "npm:13.5.5"],\
             ["nodemon", "npm:3.1.4"],\
             ["nunjucks", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.2.4"],\
             ["pa11y", "npm:6.2.3"],\
@@ -14219,10 +14219,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["nock", [\
-        ["npm:13.5.4", {\
-          "packageLocation": "./.yarn/cache/nock-npm-13.5.4-2c4f77b249-d31f924e34.zip/node_modules/nock/",\
+        ["npm:13.5.5", {\
+          "packageLocation": "./.yarn/cache/nock-npm-13.5.5-ccb57f0a2f-91947b6839.zip/node_modules/nock/",\
           "packageDependencies": [\
-            ["nock", "npm:13.5.4"],\
+            ["nock", "npm:13.5.5"],\
             ["debug", "virtual:54915bee9c6121bcb9b034526912936ae8c4cdca123a702d78f163d8a6d7adc7353dc821a23a5078dd1266af97af369b1228dd2b7f3535bfff0ad729e590d069#npm:4.3.6"],\
             ["json-stringify-safe", "npm:5.0.1"],\
             ["propagate", "npm:2.0.1"]\
@@ -16225,7 +16225,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:15.2.10"],\
             ["lodash", "npm:4.17.21"],\
             ["mini-css-extract-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:2.9.0"],\
-            ["nock", "npm:13.5.4"],\
+            ["nock", "npm:13.5.5"],\
             ["nodemon", "npm:3.1.4"],\
             ["nunjucks", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.2.4"],\
             ["pa11y", "npm:6.2.3"],\
