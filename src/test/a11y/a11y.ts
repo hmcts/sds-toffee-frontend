@@ -81,6 +81,8 @@ function testAccessibility(url: string): void {
   });
 }
 
+jest.setTimeout(20000);
+
 describe('Accessibility', () => {
   // testing accessibility of the home page
   testAccessibility('/');

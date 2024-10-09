@@ -180,3 +180,4 @@ yarn-audit-result
 !.yarn/unplugged
 !.yarn/plugins
 !.yarn/cache
+!.yarn/releases
