@@ -96,6 +96,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["playwright", "npm:1.33.0"],\
             ["pnp-webpack-plugin", "npm:1.7.0"],\
             ["prettier", "npm:3.3.3"],\
+            ["puppeteer", "npm:9.1.1"],\
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
             ["sass", "npm:1.77.8"],\
@@ -16356,6 +16357,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["playwright", "npm:1.33.0"],\
             ["pnp-webpack-plugin", "npm:1.7.0"],\
             ["prettier", "npm:3.3.3"],\
+            ["puppeteer", "npm:9.1.1"],\
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
             ["sass", "npm:1.77.8"],\

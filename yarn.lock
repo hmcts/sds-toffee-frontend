@@ -11994,7 +11994,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"puppeteer@npm:~9.1.1":
+"puppeteer@npm:9.1.1, puppeteer@npm:~9.1.1":
   version: 9.1.1
   resolution: "puppeteer@npm:9.1.1"
   dependencies:
@@ -12628,6 +12628,7 @@ __metadata:
     playwright: 1.33.0
     pnp-webpack-plugin: ^1.7.0
     prettier: ^3.0.0
+    puppeteer: 9.1.1
     request: ^2.88.2
     require-directory: ^2.1.1
     sass: ^1.54.9
