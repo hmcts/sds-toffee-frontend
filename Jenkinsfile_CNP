@@ -1,6 +1,6 @@
 #!groovy
 
-@Library("Infrastructure")
+@Library("Infrastructure@update-to-helm3-command")
 
 def type = "nodejs"
 def product = "toffee"
