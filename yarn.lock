@@ -3782,7 +3782,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/body-parser@npm:*, @types/body-parser@npm:^1.19.2":
+"@types/body-parser@npm:*, @types/body-parser@npm:^1.19.5":
   version: 1.19.5
   resolution: "@types/body-parser@npm:1.19.5"
   dependencies:
@@ -12701,7 +12701,7 @@ __metadata:
     "@hmcts/nodejs-healthcheck": ^1.7.3
     "@hmcts/nodejs-logging": ^4.0.4
     "@hmcts/properties-volume": ^1.0.0
-    "@types/body-parser": ^1.19.2
+    "@types/body-parser": ^1.19.5
     "@types/chai-as-promised": ^8.0.0
     "@types/config": ^3.3.0
     "@types/cookie-parser": ^1.4.3
