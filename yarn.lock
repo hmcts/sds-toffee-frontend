@@ -2438,8 +2438,8 @@ __metadata:
   version: 1.12.2
   resolution: "@grpc/grpc-js@npm:1.12.2"
   dependencies:
-    "@grpc/proto-loader": ^0.7.13
-    "@js-sdsl/ordered-map": ^4.4.2
+    "@grpc/proto-loader": "npm:^0.7.13"
+    "@js-sdsl/ordered-map": "npm:^4.4.2"
   checksum: ee51317f92ec5331931b68bf3a4e485a6f7a715609b8aaa29573b3a2b211d5f37c48cda084e25e2bf21142925f8ec9ca49a9e613cbbe06b73785150825d171df
   languageName: node
   linkType: hard
