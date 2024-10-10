@@ -65,7 +65,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chokidar", "npm:3.6.0"],\
             ["codeceptjs", "npm:3.4.1"],\
             ["config", "npm:3.3.12"],\
-            ["cookie", "npm:0.7.2"],\
+            ["cookie-parser", "npm:1.4.7"],\
             ["copy-webpack-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:9.1.0"],\
             ["css-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:7.1.2"],\
             ["csurf", "npm:1.11.0"],\
@@ -8880,6 +8880,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["cookie-parser", [\
+        ["npm:1.4.7", {\
+          "packageLocation": "./.yarn/cache/cookie-parser-npm-1.4.7-970a70a2fd-243fa13f21.zip/node_modules/cookie-parser/",\
+          "packageDependencies": [\
+            ["cookie-parser", "npm:1.4.7"],\
+            ["cookie", "npm:0.7.2"],\
+            ["cookie-signature", "npm:1.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["cookie-signature", [\
         ["npm:1.0.6", {\
           "packageLocation": "./.yarn/cache/cookie-signature-npm-1.0.6-93f325f7f0-f4e1b0a98a.zip/node_modules/cookie-signature/",\
@@ -16425,7 +16436,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chokidar", "npm:3.6.0"],\
             ["codeceptjs", "npm:3.4.1"],\
             ["config", "npm:3.3.12"],\
-            ["cookie", "npm:0.7.2"],\
+            ["cookie-parser", "npm:1.4.7"],\
             ["copy-webpack-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:9.1.0"],\
             ["css-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:7.1.2"],\
             ["csurf", "npm:1.11.0"],\
