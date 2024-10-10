@@ -98,7 +98,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.3.3"],\
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
-            ["sass", "npm:1.77.8"],\
+            ["sass", "npm:1.79.4"],\
             ["sass-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:16.0.1"],\
             ["serve-favicon", "npm:2.5.0"],\
             ["sinon", "npm:18.0.1"],\
@@ -8429,6 +8429,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["readdirp", "npm:3.6.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:4.0.1", {\
+          "packageLocation": "./.yarn/cache/chokidar-npm-4.0.1-989df9ae3c-193da9786b.zip/node_modules/chokidar/",\
+          "packageDependencies": [\
+            ["chokidar", "npm:4.0.1"],\
+            ["readdirp", "npm:4.0.2"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["chownr", [\
@@ -15789,6 +15797,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["picomatch", "npm:2.3.1"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:4.0.2", {\
+          "packageLocation": "./.yarn/cache/readdirp-npm-4.0.2-8001f0febc-309376e717.zip/node_modules/readdirp/",\
+          "packageDependencies": [\
+            ["readdirp", "npm:4.0.2"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["rechoir", [\
@@ -16217,11 +16232,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["sass", [\
-        ["npm:1.77.8", {\
-          "packageLocation": "./.yarn/cache/sass-npm-1.77.8-d0ad322666-6b5dce17fa.zip/node_modules/sass/",\
+        ["npm:1.79.4", {\
+          "packageLocation": "./.yarn/cache/sass-npm-1.79.4-fa344ddaab-c6da564289.zip/node_modules/sass/",\
           "packageDependencies": [\
-            ["sass", "npm:1.77.8"],\
-            ["chokidar", "npm:3.6.0"],\
+            ["sass", "npm:1.79.4"],\
+            ["chokidar", "npm:4.0.1"],\
             ["immutable", "npm:4.3.5"],\
             ["source-map-js", "npm:1.0.2"]\
           ],\
@@ -16248,7 +16263,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/webpack", null],\
             ["neo-async", "npm:2.6.2"],\
             ["node-sass", null],\
-            ["sass", "npm:1.77.8"],\
+            ["sass", "npm:1.79.4"],\
             ["sass-embedded", null],\
             ["webpack", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:5.94.0"]\
           ],\
@@ -16365,7 +16380,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.3.3"],\
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
-            ["sass", "npm:1.77.8"],\
+            ["sass", "npm:1.79.4"],\
             ["sass-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:16.0.1"],\
             ["serve-favicon", "npm:2.5.0"],\
             ["sinon", "npm:18.0.1"],\
