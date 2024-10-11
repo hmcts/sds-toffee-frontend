@@ -78,7 +78,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express-nunjucks", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.1.2"],\
             ["glob", "npm:11.0.0"],\
             ["govuk-frontend", "npm:4.7.0"],\
-            ["helmet", "npm:7.1.0"],\
+            ["helmet", "npm:8.0.0"],\
             ["html-webpack-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:5.6.0"],\
             ["husky", "npm:9.1.5"],\
             ["ip", "npm:2.0.1"],\
@@ -10910,6 +10910,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["helmet", "npm:7.1.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:8.0.0", {\
+          "packageLocation": "./.yarn/cache/helmet-npm-8.0.0-ba86ece81a-1a7ef94d35.zip/node_modules/helmet/",\
+          "packageDependencies": [\
+            ["helmet", "npm:8.0.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["hexoid", [\
@@ -15813,7 +15820,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express-nunjucks", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.1.2"],\
             ["glob", "npm:11.0.0"],\
             ["govuk-frontend", "npm:4.7.0"],\
-            ["helmet", "npm:7.1.0"],\
+            ["helmet", "npm:8.0.0"],\
             ["html-webpack-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:5.6.0"],\
             ["husky", "npm:9.1.5"],\
             ["ip", "npm:2.0.1"],\
