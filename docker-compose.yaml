@@ -27,7 +27,7 @@ services:
     depends_on:
       - database
   database:
-    image: docker.io/library/postgres:16-alpine
+    image: docker.io/library/postgres:17-alpine
     environment:
       POSTGRES_USER: plum
       POSTGRES_PASSWORD: plum
