@@ -101,7 +101,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sass", "npm:1.79.5"],\
             ["sass-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:16.0.2"],\
             ["serve-favicon", "npm:2.5.0"],\
-            ["sinon", "npm:18.0.1"],\
+            ["sinon", "npm:19.0.2"],\
             ["sinon-chai", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:4.0.0"],\
             ["style-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:4.0.0"],\
             ["stylelint", "npm:16.9.0"],\
@@ -5304,14 +5304,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@sinonjs/commons", [\
-        ["npm:2.0.0", {\
-          "packageLocation": "./.yarn/cache/@sinonjs-commons-npm-2.0.0-3716f24f20-5023ba17ed.zip/node_modules/@sinonjs/commons/",\
-          "packageDependencies": [\
-            ["@sinonjs/commons", "npm:2.0.0"],\
-            ["type-detect", "npm:4.0.8"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:3.0.1", {\
           "packageLocation": "./.yarn/cache/@sinonjs-commons-npm-3.0.1-bffb9f5a53-a7c3e7cc61.zip/node_modules/@sinonjs/commons/",\
           "packageDependencies": [\
@@ -5330,32 +5322,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:11.2.2", {\
-          "packageLocation": "./.yarn/cache/@sinonjs-fake-timers-npm-11.2.2-eb695fcf3c-68c29b0e18.zip/node_modules/@sinonjs/fake-timers/",\
+        ["npm:13.0.2", {\
+          "packageLocation": "./.yarn/cache/@sinonjs-fake-timers-npm-13.0.2-6d212b1963-f0170da0d5.zip/node_modules/@sinonjs/fake-timers/",\
           "packageDependencies": [\
-            ["@sinonjs/fake-timers", "npm:11.2.2"],\
+            ["@sinonjs/fake-timers", "npm:13.0.2"],\
             ["@sinonjs/commons", "npm:3.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@sinonjs/samsam", [\
-        ["npm:8.0.0", {\
-          "packageLocation": "./.yarn/cache/@sinonjs-samsam-npm-8.0.0-fb46139e7a-95e40d0bb9.zip/node_modules/@sinonjs/samsam/",\
+        ["npm:8.0.2", {\
+          "packageLocation": "./.yarn/cache/@sinonjs-samsam-npm-8.0.2-6691110cca-7dc24a388e.zip/node_modules/@sinonjs/samsam/",\
           "packageDependencies": [\
-            ["@sinonjs/samsam", "npm:8.0.0"],\
-            ["@sinonjs/commons", "npm:2.0.0"],\
+            ["@sinonjs/samsam", "npm:8.0.2"],\
+            ["@sinonjs/commons", "npm:3.0.1"],\
             ["lodash.get", "npm:4.4.2"],\
-            ["type-detect", "npm:4.0.8"]\
+            ["type-detect", "npm:4.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["@sinonjs/text-encoding", [\
-        ["npm:0.7.2", {\
-          "packageLocation": "./.yarn/cache/@sinonjs-text-encoding-npm-0.7.2-ab9862ba52-fe690002a3.zip/node_modules/@sinonjs/text-encoding/",\
+        ["npm:0.7.3", {\
+          "packageLocation": "./.yarn/cache/@sinonjs-text-encoding-npm-0.7.3-3d861e5a19-d53f3a3fc9.zip/node_modules/@sinonjs/text-encoding/",\
           "packageDependencies": [\
-            ["@sinonjs/text-encoding", "npm:0.7.2"]\
+            ["@sinonjs/text-encoding", "npm:0.7.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -9061,10 +9053,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:5.2.0", {\
-          "packageLocation": "./.yarn/cache/diff-npm-5.2.0-f523a581f3-12b63ca9c3.zip/node_modules/diff/",\
+        ["npm:7.0.0", {\
+          "packageLocation": "./.yarn/cache/diff-npm-7.0.0-dcfd888f89-5db0d33947.zip/node_modules/diff/",\
           "packageDependencies": [\
-            ["diff", "npm:5.2.0"]\
+            ["diff", "npm:7.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -13889,15 +13881,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["nise", [\
-        ["npm:6.0.0", {\
-          "packageLocation": "./.yarn/cache/nise-npm-6.0.0-a555b2bffd-86d6ebe5ba.zip/node_modules/nise/",\
+        ["npm:6.1.1", {\
+          "packageLocation": "./.yarn/cache/nise-npm-6.1.1-78045699a5-31cfc9147e.zip/node_modules/nise/",\
           "packageDependencies": [\
-            ["nise", "npm:6.0.0"],\
+            ["nise", "npm:6.1.1"],\
             ["@sinonjs/commons", "npm:3.0.1"],\
-            ["@sinonjs/fake-timers", "npm:11.2.2"],\
-            ["@sinonjs/text-encoding", "npm:0.7.2"],\
+            ["@sinonjs/fake-timers", "npm:13.0.2"],\
+            ["@sinonjs/text-encoding", "npm:0.7.3"],\
             ["just-extend", "npm:6.2.0"],\
-            ["path-to-regexp", "npm:6.2.1"]\
+            ["path-to-regexp", "npm:8.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -14572,10 +14564,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:6.2.1", {\
-          "packageLocation": "./.yarn/cache/path-to-regexp-npm-6.2.1-8ebfe03654-f0227af828.zip/node_modules/path-to-regexp/",\
+        ["npm:8.2.0", {\
+          "packageLocation": "./.yarn/cache/path-to-regexp-npm-8.2.0-71c92fc0c6-56e13e4596.zip/node_modules/path-to-regexp/",\
           "packageDependencies": [\
-            ["path-to-regexp", "npm:6.2.1"]\
+            ["path-to-regexp", "npm:8.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -15998,7 +15990,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sass", "npm:1.79.5"],\
             ["sass-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:16.0.2"],\
             ["serve-favicon", "npm:2.5.0"],\
-            ["sinon", "npm:18.0.1"],\
+            ["sinon", "npm:19.0.2"],\
             ["sinon-chai", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:4.0.0"],\
             ["style-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:4.0.0"],\
             ["stylelint", "npm:16.9.0"],\
@@ -16216,15 +16208,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["sinon", [\
-        ["npm:18.0.1", {\
-          "packageLocation": "./.yarn/cache/sinon-npm-18.0.1-eb670134a1-6201b5381c.zip/node_modules/sinon/",\
+        ["npm:19.0.2", {\
+          "packageLocation": "./.yarn/cache/sinon-npm-19.0.2-594b36f1b3-7eccc0505b.zip/node_modules/sinon/",\
           "packageDependencies": [\
-            ["sinon", "npm:18.0.1"],\
+            ["sinon", "npm:19.0.2"],\
             ["@sinonjs/commons", "npm:3.0.1"],\
-            ["@sinonjs/fake-timers", "npm:11.2.2"],\
-            ["@sinonjs/samsam", "npm:8.0.0"],\
-            ["diff", "npm:5.2.0"],\
-            ["nise", "npm:6.0.0"],\
+            ["@sinonjs/fake-timers", "npm:13.0.2"],\
+            ["@sinonjs/samsam", "npm:8.0.2"],\
+            ["diff", "npm:7.0.0"],\
+            ["nise", "npm:6.1.1"],\
             ["supports-color", "npm:7.2.0"]\
           ],\
           "linkType": "HARD"\
@@ -16245,7 +16237,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/chai", null],\
             ["@types/sinon", null],\
             ["chai", "npm:4.5.0"],\
-            ["sinon", "npm:18.0.1"]\
+            ["sinon", "npm:19.0.2"]\
           ],\
           "packagePeers": [\
             "@types/chai",\
