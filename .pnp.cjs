@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/cookie-parser", "npm:1.4.7"],\
             ["@types/csurf", "npm:1.11.5"],\
             ["@types/es6-promisify", "npm:6.0.4"],\
-            ["@types/express", "npm:4.17.21"],\
+            ["@types/express", "npm:5.0.0"],\
             ["@types/glob", "npm:8.1.0"],\
             ["@types/helmet", "npm:4.0.0"],\
             ["@types/jest", "npm:29.5.13"],\
@@ -5569,6 +5569,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/serve-static", "npm:1.15.5"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/@types-express-npm-5.0.0-a645691cd5-ef68d8e2b7.zip/node_modules/@types/express/",\
+          "packageDependencies": [\
+            ["@types/express", "npm:5.0.0"],\
+            ["@types/body-parser", "npm:1.19.5"],\
+            ["@types/express-serve-static-core", "npm:5.0.0"],\
+            ["@types/qs", "npm:6.9.12"],\
+            ["@types/serve-static", "npm:1.15.5"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@types/express-serve-static-core", [\
@@ -5576,6 +5587,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-express-serve-static-core-npm-4.17.43-9cbdf8ef01-08e940cae5.zip/node_modules/@types/express-serve-static-core/",\
           "packageDependencies": [\
             ["@types/express-serve-static-core", "npm:4.17.43"],\
+            ["@types/node", "npm:22.7.5"],\
+            ["@types/qs", "npm:6.9.12"],\
+            ["@types/range-parser", "npm:1.2.7"],\
+            ["@types/send", "npm:0.17.4"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/@types-express-serve-static-core-npm-5.0.0-d89b918522-d4e2abfc96.zip/node_modules/@types/express-serve-static-core/",\
+          "packageDependencies": [\
+            ["@types/express-serve-static-core", "npm:5.0.0"],\
             ["@types/node", "npm:22.7.5"],\
             ["@types/qs", "npm:6.9.12"],\
             ["@types/range-parser", "npm:1.2.7"],\
@@ -10063,7 +10085,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/express-nunjucks-virtual-ab059517a1/0/cache/express-nunjucks-npm-3.1.2-3e9cb7ed22-cccec33d26.zip/node_modules/express-nunjucks/",\
           "packageDependencies": [\
             ["express-nunjucks", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.1.2"],\
-            ["@types/express", "npm:4.17.21"],\
+            ["@types/express", "npm:5.0.0"],\
             ["@types/nunjucks", "npm:3.2.6"],\
             ["express", "npm:4.21.1"],\
             ["nunjucks", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.2.4"],\
@@ -15939,7 +15961,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/cookie-parser", "npm:1.4.7"],\
             ["@types/csurf", "npm:1.11.5"],\
             ["@types/es6-promisify", "npm:6.0.4"],\
-            ["@types/express", "npm:4.17.21"],\
+            ["@types/express", "npm:5.0.0"],\
             ["@types/glob", "npm:8.1.0"],\
             ["@types/helmet", "npm:4.0.0"],\
             ["@types/jest", "npm:29.5.13"],\
