@@ -98,7 +98,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.3.3"],\
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
-            ["sass", "npm:1.80.4"],\
+            ["sass", "npm:1.80.5"],\
             ["sass-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:16.0.2"],\
             ["serve-favicon", "npm:2.5.0"],\
             ["sinon", "npm:19.0.2"],\
@@ -15952,10 +15952,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["sass", [\
-        ["npm:1.80.4", {\
-          "packageLocation": "./.yarn/cache/sass-npm-1.80.4-604cd1b502-83278e922a.zip/node_modules/sass/",\
+        ["npm:1.80.5", {\
+          "packageLocation": "./.yarn/cache/sass-npm-1.80.5-859ab57fc4-de71f140e3.zip/node_modules/sass/",\
           "packageDependencies": [\
-            ["sass", "npm:1.80.4"],\
+            ["sass", "npm:1.80.5"],\
             ["@parcel/watcher", "npm:2.4.1"],\
             ["chokidar", "npm:4.0.1"],\
             ["immutable", "npm:4.3.5"],\
@@ -15984,7 +15984,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/webpack", null],\
             ["neo-async", "npm:2.6.2"],\
             ["node-sass", null],\
-            ["sass", "npm:1.80.4"],\
+            ["sass", "npm:1.80.5"],\
             ["sass-embedded", null],\
             ["webpack", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:5.95.0"]\
           ],\
@@ -16101,7 +16101,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.3.3"],\
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
-            ["sass", "npm:1.80.4"],\
+            ["sass", "npm:1.80.5"],\
             ["sass-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:16.0.2"],\
             ["serve-favicon", "npm:2.5.0"],\
             ["sinon", "npm:19.0.2"],\
