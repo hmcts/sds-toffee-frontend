@@ -95,7 +95,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pa11y", "npm:6.2.3"],\
             ["playwright", "npm:1.33.0"],\
             ["pnp-webpack-plugin", "npm:1.7.0"],\
-            ["prettier", "npm:3.4.0"],\
+            ["prettier", "npm:3.4.1"],\
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
             ["sass", "npm:1.81.0"],\
@@ -15222,10 +15222,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prettier", [\
-        ["npm:3.4.0", {\
-          "packageLocation": "./.yarn/unplugged/prettier-npm-3.4.0-981798b0da/node_modules/prettier/",\
+        ["npm:3.4.1", {\
+          "packageLocation": "./.yarn/unplugged/prettier-npm-3.4.1-ebb52d2db5/node_modules/prettier/",\
           "packageDependencies": [\
-            ["prettier", "npm:3.4.0"]\
+            ["prettier", "npm:3.4.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -16137,7 +16137,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["pa11y", "npm:6.2.3"],\
             ["playwright", "npm:1.33.0"],\
             ["pnp-webpack-plugin", "npm:1.7.0"],\
-            ["prettier", "npm:3.4.0"],\
+            ["prettier", "npm:3.4.1"],\
             ["request", "npm:2.88.2"],\
             ["require-directory", "npm:2.1.1"],\
             ["sass", "npm:1.81.0"],\
