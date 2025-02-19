@@ -62,7 +62,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["body-parser", "npm:1.20.3"],\
             ["chai", "npm:4.5.0"],\
             ["chai-as-promised", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:8.0.1"],\
-            ["chokidar", "npm:4.0.1"],\
+            ["chokidar", "npm:4.0.3"],\
             ["codeceptjs", "npm:3.4.1"],\
             ["config", "npm:3.3.12"],\
             ["cookie-parser", "npm:1.4.7"],\
@@ -8148,10 +8148,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:4.0.1", {\
-          "packageLocation": "./.yarn/cache/chokidar-npm-4.0.1-989df9ae3c-193da9786b.zip/node_modules/chokidar/",\
+        ["npm:4.0.3", {\
+          "packageLocation": "./.yarn/cache/chokidar-npm-4.0.3-962354fbb4-a8765e452b.zip/node_modules/chokidar/",\
           "packageDependencies": [\
-            ["chokidar", "npm:4.0.1"],\
+            ["chokidar", "npm:4.0.3"],\
             ["readdirp", "npm:4.0.2"]\
           ],\
           "linkType": "HARD"\
@@ -14284,7 +14284,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/chokidar", null],\
             ["a-sync-waterfall", "npm:1.0.1"],\
             ["asap", "npm:2.0.6"],\
-            ["chokidar", "npm:4.0.1"],\
+            ["chokidar", "npm:4.0.3"],\
             ["commander", "npm:5.1.0"]\
           ],\
           "packagePeers": [\
@@ -16024,7 +16024,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["sass", "npm:1.85.0"],\
             ["@parcel/watcher", "npm:2.4.1"],\
-            ["chokidar", "npm:4.0.1"],\
+            ["chokidar", "npm:4.0.3"],\
             ["immutable", "npm:5.0.2"],\
             ["source-map-js", "npm:1.0.2"]\
           ],\
@@ -16143,7 +16143,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["body-parser", "npm:1.20.3"],\
             ["chai", "npm:4.5.0"],\
             ["chai-as-promised", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:8.0.1"],\
-            ["chokidar", "npm:4.0.1"],\
+            ["chokidar", "npm:4.0.3"],\
             ["codeceptjs", "npm:3.4.1"],\
             ["config", "npm:3.3.12"],\
             ["cookie-parser", "npm:1.4.7"],\
