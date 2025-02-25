@@ -1,6 +1,6 @@
 #!groovy
 
-@Library("Infrastructure")
+@Library("Infrastructure@DTSPO-24205-update-nagger-script")
 
 def type = "nodejs"
 def product = "toffee"
