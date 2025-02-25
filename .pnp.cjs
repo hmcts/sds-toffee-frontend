@@ -97,7 +97,7 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.4.2"],\
           ["request", "npm:2.88.2"],\
           ["require-directory", "npm:2.1.1"],\
-          ["sass", "npm:1.85.0"],\
+          ["sass", "npm:1.85.1"],\
           ["sass-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:16.0.5"],\
           ["serve-favicon", "npm:2.5.0"],\
           ["sinon", "npm:19.0.2"],\
@@ -16419,10 +16419,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["sass", [\
-      ["npm:1.85.0", {\
-        "packageLocation": "./.yarn/cache/sass-npm-1.85.0-2e8f85cae4-4af4627505.zip/node_modules/sass/",\
+      ["npm:1.85.1", {\
+        "packageLocation": "./.yarn/cache/sass-npm-1.85.1-330947ad29-2803b8d4d2.zip/node_modules/sass/",\
         "packageDependencies": [\
-          ["sass", "npm:1.85.0"],\
+          ["sass", "npm:1.85.1"],\
           ["@parcel/watcher", "npm:2.4.1"],\
           ["chokidar", "npm:4.0.3"],\
           ["immutable", "npm:5.0.2"],\
@@ -16451,7 +16451,7 @@ const RAW_RUNTIME_STATE =
           ["@types/webpack", null],\
           ["neo-async", "npm:2.6.2"],\
           ["node-sass", null],\
-          ["sass", "npm:1.85.0"],\
+          ["sass", "npm:1.85.1"],\
           ["sass-embedded", null],\
           ["webpack", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:5.98.0"]\
         ],\
@@ -16579,7 +16579,7 @@ const RAW_RUNTIME_STATE =
           ["prettier", "npm:3.4.2"],\
           ["request", "npm:2.88.2"],\
           ["require-directory", "npm:2.1.1"],\
-          ["sass", "npm:1.85.0"],\
+          ["sass", "npm:1.85.1"],\
           ["sass-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:16.0.5"],\
           ["serve-favicon", "npm:2.5.0"],\
           ["sinon", "npm:19.0.2"],\
