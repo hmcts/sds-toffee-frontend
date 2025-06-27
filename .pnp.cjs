@@ -94,7 +94,7 @@ const RAW_RUNTIME_STATE =
           ["pa11y", "npm:8.0.0"],\
           ["playwright", "npm:1.50.1"],\
           ["pnp-webpack-plugin", "npm:1.7.0"],\
-          ["prettier", "npm:3.4.2"],\
+          ["prettier", "npm:3.6.2"],\
           ["request", "npm:2.88.2"],\
           ["require-directory", "npm:2.1.1"],\
           ["sass", "npm:1.85.1"],\
@@ -15628,10 +15628,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["prettier", [\
-      ["npm:3.4.2", {\
-        "packageLocation": "./.yarn/unplugged/prettier-npm-3.4.2-fae349e44a/node_modules/prettier/",\
+      ["npm:3.6.2", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.6.2-2668152203/node_modules/prettier/",\
         "packageDependencies": [\
-          ["prettier", "npm:3.4.2"]\
+          ["prettier", "npm:3.6.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -16577,7 +16577,7 @@ const RAW_RUNTIME_STATE =
           ["pa11y", "npm:8.0.0"],\
           ["playwright", "npm:1.50.1"],\
           ["pnp-webpack-plugin", "npm:1.7.0"],\
-          ["prettier", "npm:3.4.2"],\
+          ["prettier", "npm:3.6.2"],\
           ["request", "npm:2.88.2"],\
           ["require-directory", "npm:2.1.1"],\
           ["sass", "npm:1.85.1"],\
