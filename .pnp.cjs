@@ -32,7 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-env", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:7.26.9"],\
           ["@codeceptjs/allure-legacy", "npm:1.0.2"],\
           ["@codeceptjs/configure", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:1.0.2"],\
-          ["@hmcts/info-provider", "npm:1.2.2"],\
+          ["@hmcts/info-provider", "npm:1.2.3"],\
           ["@hmcts/nodejs-healthcheck", "npm:1.8.6"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
           ["@hmcts/properties-volume", "npm:1.2.0"],\
@@ -3585,10 +3585,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@hmcts/info-provider", [\
-      ["npm:1.2.2", {\
-        "packageLocation": "./.yarn/cache/@hmcts-info-provider-npm-1.2.2-a0b80fce74-2d9dc7bb58.zip/node_modules/@hmcts/info-provider/",\
+      ["npm:1.2.3", {\
+        "packageLocation": "./.yarn/cache/@hmcts-info-provider-npm-1.2.3-ca9aa43193-cc712b89bb.zip/node_modules/@hmcts/info-provider/",\
         "packageDependencies": [\
-          ["@hmcts/info-provider", "npm:1.2.2"],\
+          ["@hmcts/info-provider", "npm:1.2.3"],\
           ["express", "npm:4.21.2"],\
           ["js-yaml", "npm:4.1.0"]\
         ],\
@@ -16544,7 +16544,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/preset-env", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:7.26.9"],\
           ["@codeceptjs/allure-legacy", "npm:1.0.2"],\
           ["@codeceptjs/configure", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:1.0.2"],\
-          ["@hmcts/info-provider", "npm:1.2.2"],\
+          ["@hmcts/info-provider", "npm:1.2.3"],\
           ["@hmcts/nodejs-healthcheck", "npm:1.8.6"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
           ["@hmcts/properties-volume", "npm:1.2.0"],\
