@@ -36,7 +36,7 @@ const RAW_RUNTIME_STATE =
           ["@hmcts/nodejs-healthcheck", "npm:1.8.6"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
           ["@hmcts/properties-volume", "npm:1.2.0"],\
-          ["@types/body-parser", "npm:1.19.5"],\
+          ["@types/body-parser", "npm:1.19.6"],\
           ["@types/chai-as-promised", "npm:8.0.1"],\
           ["@types/config", "npm:3.3.5"],\
           ["@types/cookie-parser", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:1.4.8"],\
@@ -5705,10 +5705,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/body-parser", [\
-      ["npm:1.19.5", {\
-        "packageLocation": "./.yarn/cache/@types-body-parser-npm-1.19.5-97fb106976-1e251118c4.zip/node_modules/@types/body-parser/",\
+      ["npm:1.19.6", {\
+        "packageLocation": "./.yarn/cache/@types-body-parser-npm-1.19.6-363c879d4f-33041e88ea.zip/node_modules/@types/body-parser/",\
         "packageDependencies": [\
-          ["@types/body-parser", "npm:1.19.5"],\
+          ["@types/body-parser", "npm:1.19.6"],\
           ["@types/connect", "npm:3.4.38"],\
           ["@types/node", "npm:22.13.5"]\
         ],\
@@ -5857,7 +5857,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@types-express-npm-4.17.21-be92a0245e-7a6d26cf6f.zip/node_modules/@types/express/",\
         "packageDependencies": [\
           ["@types/express", "npm:4.17.21"],\
-          ["@types/body-parser", "npm:1.19.5"],\
+          ["@types/body-parser", "npm:1.19.6"],\
           ["@types/express-serve-static-core", "npm:4.17.43"],\
           ["@types/qs", "npm:6.9.12"],\
           ["@types/serve-static", "npm:1.15.5"]\
@@ -5868,7 +5868,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@types-express-npm-5.0.0-a645691cd5-45b199ab66.zip/node_modules/@types/express/",\
         "packageDependencies": [\
           ["@types/express", "npm:5.0.0"],\
-          ["@types/body-parser", "npm:1.19.5"],\
+          ["@types/body-parser", "npm:1.19.6"],\
           ["@types/express-serve-static-core", "npm:5.0.0"],\
           ["@types/qs", "npm:6.9.12"],\
           ["@types/serve-static", "npm:1.15.5"]\
@@ -16548,7 +16548,7 @@ const RAW_RUNTIME_STATE =
           ["@hmcts/nodejs-healthcheck", "npm:1.8.6"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
           ["@hmcts/properties-volume", "npm:1.2.0"],\
-          ["@types/body-parser", "npm:1.19.5"],\
+          ["@types/body-parser", "npm:1.19.6"],\
           ["@types/chai-as-promised", "npm:8.0.1"],\
           ["@types/config", "npm:3.3.5"],\
           ["@types/cookie-parser", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:1.4.8"],\
