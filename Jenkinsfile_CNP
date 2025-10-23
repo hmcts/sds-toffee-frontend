@@ -1,6 +1,6 @@
 #!groovy
 
-@Library("Infrastructure")
+@Library("Infrastructure@dtspo-28286-inspect-kv-url")
 
 def type = "nodejs"
 def product = "toffee"
@@ -36,7 +36,7 @@ static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
       yarnBuilder.yarn('build')
     }
 
-    beforeAlways('Smoke Test - AKS dev') {
+    afterAlways('smoketest:dev') {
       echo "EXTERNAL_AUTOMATION_PASSWORD length: ${env.EXTERNAL_AUTOMATION_PASSWORD?.length()}"
     }
   }
