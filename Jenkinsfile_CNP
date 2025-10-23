@@ -9,6 +9,10 @@ def component = "frontend"
 def secrets = [ 'toffeesi-${env}':
   [
     secret('appInsights-InstrumentationKey', 'APPINSIGHTS_INSTRUMENTATIONKEY')
+  ],
+  'darts-stg': [
+    secret('DartsExternalUsersTestPassword', 'EXTERNAL_AUTOMATION_PASSWORD'),
+    secret('DartsAdminUserName', 'TEST_ADMIN_USERNAME'),
   ]
 ]
 
@@ -30,5 +34,9 @@ static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
     afterAlways('build') {
       yarnBuilder.yarn('rebuild puppeteer')
       yarnBuilder.yarn('build')
+    }
+
+    beforeAlways('Smoke Test - AKS dev') {
+      echo "EXTERNAL_AUTOMATION_PASSWORD length: ${env.EXTERNAL_AUTOMATION_PASSWORD?.length()}"
     }
   }
