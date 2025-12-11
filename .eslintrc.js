@@ -32,6 +32,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/no-var-requires': 'off',
+    '@typescript-eslint/no-require-imports': 'off',
     curly: 'error',
     eqeqeq: 'error',
     'import/no-duplicates': 'error',

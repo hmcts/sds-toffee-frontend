@@ -15,7 +15,7 @@ export default function (app: Application): void {
           } else {
             return healthcheck.down({ message: 'Backend is DOWN' });
           }
-        } catch (error) {
+        } catch {
           return healthcheck.down({ statusCode: 500, message: 'Backend is DOWN' });
         }
       }),
