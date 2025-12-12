@@ -51,7 +51,7 @@ const RAW_RUNTIME_STATE =
           ["@types/nunjucks", "npm:3.2.6"],\
           ["@types/require-directory", "npm:2.1.6"],\
           ["@types/serve-favicon", "npm:2.5.7"],\
-          ["@types/supertest", "npm:6.0.2"],\
+          ["@types/supertest", "npm:6.0.3"],\
           ["@typescript-eslint/eslint-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:7.18.0"],\
           ["@typescript-eslint/parser", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:7.18.0"],\
           ["applicationinsights", "npm:3.5.0"],\
@@ -6224,10 +6224,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/supertest", [\
-      ["npm:6.0.2", {\
-        "packageLocation": "./.yarn/cache/@types-supertest-npm-6.0.2-1f239669e4-4b67fb2d1b.zip/node_modules/@types/supertest/",\
+      ["npm:6.0.3", {\
+        "packageLocation": "./.yarn/cache/@types-supertest-npm-6.0.3-0d43ae5953-6ec05eb591.zip/node_modules/@types/supertest/",\
         "packageDependencies": [\
-          ["@types/supertest", "npm:6.0.2"],\
+          ["@types/supertest", "npm:6.0.3"],\
           ["@types/methods", "npm:1.1.4"],\
           ["@types/superagent", "npm:8.1.6"]\
         ],\
@@ -16575,7 +16575,7 @@ const RAW_RUNTIME_STATE =
           ["@types/nunjucks", "npm:3.2.6"],\
           ["@types/require-directory", "npm:2.1.6"],\
           ["@types/serve-favicon", "npm:2.5.7"],\
-          ["@types/supertest", "npm:6.0.2"],\
+          ["@types/supertest", "npm:6.0.3"],\
           ["@typescript-eslint/eslint-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:7.18.0"],\
           ["@typescript-eslint/parser", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:7.18.0"],\
           ["applicationinsights", "npm:3.5.0"],\
