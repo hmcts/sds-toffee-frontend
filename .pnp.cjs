@@ -92,7 +92,7 @@ const RAW_RUNTIME_STATE =
           ["nodemon", "npm:3.1.9"],\
           ["nunjucks", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.2.4"],\
           ["pa11y", "npm:8.0.0"],\
-          ["playwright", "npm:1.50.1"],\
+          ["playwright", "npm:1.55.1"],\
           ["pnp-webpack-plugin", "npm:1.7.0"],\
           ["prettier", "npm:3.4.2"],\
           ["request", "npm:2.88.2"],\
@@ -15321,21 +15321,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["playwright", [\
-      ["npm:1.50.1", {\
-        "packageLocation": "./.yarn/cache/playwright-npm-1.50.1-eb600fd9db-a3687614ac.zip/node_modules/playwright/",\
+      ["npm:1.55.1", {\
+        "packageLocation": "./.yarn/cache/playwright-npm-1.55.1-8b5d08a45d-5dcf9ce564.zip/node_modules/playwright/",\
         "packageDependencies": [\
-          ["playwright", "npm:1.50.1"],\
+          ["playwright", "npm:1.55.1"],\
           ["fsevents", "patch:fsevents@npm%3A2.3.2#optional!builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"],\
-          ["playwright-core", "npm:1.50.1"]\
+          ["playwright-core", "npm:1.55.1"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["playwright-core", [\
-      ["npm:1.50.1", {\
-        "packageLocation": "./.yarn/cache/playwright-core-npm-1.50.1-be16b4e251-9a310b8a66.zip/node_modules/playwright-core/",\
+      ["npm:1.55.1", {\
+        "packageLocation": "./.yarn/cache/playwright-core-npm-1.55.1-1fbca4286d-953a43039d.zip/node_modules/playwright-core/",\
         "packageDependencies": [\
-          ["playwright-core", "npm:1.50.1"]\
+          ["playwright-core", "npm:1.55.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -16604,7 +16604,7 @@ const RAW_RUNTIME_STATE =
           ["nodemon", "npm:3.1.9"],\
           ["nunjucks", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.2.4"],\
           ["pa11y", "npm:8.0.0"],\
-          ["playwright", "npm:1.50.1"],\
+          ["playwright", "npm:1.55.1"],\
           ["pnp-webpack-plugin", "npm:1.7.0"],\
           ["prettier", "npm:3.4.2"],\
           ["request", "npm:2.88.2"],\
