@@ -1,6 +1,6 @@
 ARG PLATFORM=""
 # Please also update acb.tpl.yaml when updating base image.
-FROM hmctsprod.azurecr.io/base/node${PLATFORM}:18-alpine as base
+FROM hmctspublic.azurecr.io/base/node${PLATFORM}:18-alpine as base
 
 USER root
 RUN corepack enable
