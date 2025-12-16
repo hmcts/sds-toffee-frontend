@@ -1,7 +1,7 @@
 version: v1.1.0
 alias:
   values:
-    registry: hmctspublic.azurecr.io
+    registry: hmctsprod.azurecr.io
     nodeImageVersion: 18-alpine
 steps:
   - id: pull-base-image-amd64
