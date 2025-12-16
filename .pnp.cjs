@@ -39,7 +39,7 @@ const RAW_RUNTIME_STATE =
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
           ["@hmcts/properties-volume", "npm:1.2.0"],\
           ["@types/body-parser", "npm:1.19.5"],\
-          ["@types/chai-as-promised", "npm:8.0.1"],\
+          ["@types/chai-as-promised", "npm:8.0.2"],\
           ["@types/config", "npm:3.3.5"],\
           ["@types/cookie-parser", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:1.4.8"],\
           ["@types/es6-promisify", "npm:6.0.4"],\
@@ -60,7 +60,7 @@ const RAW_RUNTIME_STATE =
           ["babel-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:9.2.1"],\
           ["body-parser", "npm:1.20.3"],\
           ["chai", "npm:4.5.0"],\
-          ["chai-as-promised", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:8.0.1"],\
+          ["chai-as-promised", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:8.0.2"],\
           ["chokidar", "npm:4.0.3"],\
           ["codeceptjs", "npm:3.4.1"],\
           ["config", "npm:3.3.12"],\
@@ -5796,10 +5796,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/chai-as-promised", [\
-      ["npm:8.0.1", {\
-        "packageLocation": "./.yarn/cache/@types-chai-as-promised-npm-8.0.1-e0aa16855e-827f7d8d5a.zip/node_modules/@types/chai-as-promised/",\
+      ["npm:8.0.2", {\
+        "packageLocation": "./.yarn/cache/@types-chai-as-promised-npm-8.0.2-7f20dac090-c1ff3eb32f.zip/node_modules/@types/chai-as-promised/",\
         "packageDependencies": [\
-          ["@types/chai-as-promised", "npm:8.0.1"],\
+          ["@types/chai-as-promised", "npm:8.0.2"],\
           ["@types/chai", "npm:4.3.12"]\
         ],\
         "linkType": "HARD"\
@@ -8286,17 +8286,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["chai-as-promised", [\
-      ["npm:8.0.1", {\
-        "packageLocation": "./.yarn/cache/chai-as-promised-npm-8.0.1-ca46459400-1938d9f00b.zip/node_modules/chai-as-promised/",\
+      ["npm:8.0.2", {\
+        "packageLocation": "./.yarn/cache/chai-as-promised-npm-8.0.2-84997b3017-9723b6cda3.zip/node_modules/chai-as-promised/",\
         "packageDependencies": [\
-          ["chai-as-promised", "npm:8.0.1"]\
+          ["chai-as-promised", "npm:8.0.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:8.0.1", {\
-        "packageLocation": "./.yarn/__virtual__/chai-as-promised-virtual-1ca1cc9a77/0/cache/chai-as-promised-npm-8.0.1-ca46459400-1938d9f00b.zip/node_modules/chai-as-promised/",\
+      ["virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:8.0.2", {\
+        "packageLocation": "./.yarn/__virtual__/chai-as-promised-virtual-4f25c20d78/0/cache/chai-as-promised-npm-8.0.2-84997b3017-9723b6cda3.zip/node_modules/chai-as-promised/",\
         "packageDependencies": [\
-          ["chai-as-promised", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:8.0.1"],\
+          ["chai-as-promised", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:8.0.2"],\
           ["@types/chai", null],\
           ["chai", "npm:4.5.0"],\
           ["check-error", "npm:2.1.1"]\
@@ -16529,7 +16529,7 @@ const RAW_RUNTIME_STATE =
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
           ["@hmcts/properties-volume", "npm:1.2.0"],\
           ["@types/body-parser", "npm:1.19.5"],\
-          ["@types/chai-as-promised", "npm:8.0.1"],\
+          ["@types/chai-as-promised", "npm:8.0.2"],\
           ["@types/config", "npm:3.3.5"],\
           ["@types/cookie-parser", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:1.4.8"],\
           ["@types/es6-promisify", "npm:6.0.4"],\
@@ -16550,7 +16550,7 @@ const RAW_RUNTIME_STATE =
           ["babel-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:9.2.1"],\
           ["body-parser", "npm:1.20.3"],\
           ["chai", "npm:4.5.0"],\
-          ["chai-as-promised", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:8.0.1"],\
+          ["chai-as-promised", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:8.0.2"],\
           ["chokidar", "npm:4.0.3"],\
           ["codeceptjs", "npm:3.4.1"],\
           ["config", "npm:3.3.12"],\
