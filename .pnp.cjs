@@ -43,7 +43,7 @@ const RAW_RUNTIME_STATE =
           ["@types/config", "npm:3.3.5"],\
           ["@types/cookie-parser", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:1.4.8"],\
           ["@types/es6-promisify", "npm:6.0.4"],\
-          ["@types/express", "npm:5.0.0"],\
+          ["@types/express", "npm:5.0.6"],\
           ["@types/glob", "npm:8.1.0"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/lodash", "npm:4.17.15"],\
@@ -5836,7 +5836,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@types-cookie-parser-virtual-cb44cbc3c9/0/cache/@types-cookie-parser-npm-1.4.8-fa95028070-b26ace5560.zip/node_modules/@types/cookie-parser/",\
         "packageDependencies": [\
           ["@types/cookie-parser", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:1.4.8"],\
-          ["@types/express", "npm:5.0.0"]\
+          ["@types/express", "npm:5.0.6"]\
         ],\
         "packagePeers": [\
           "@types/express"\
@@ -5904,41 +5904,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/express", [\
-      ["npm:4.17.21", {\
-        "packageLocation": "./.yarn/cache/@types-express-npm-4.17.21-be92a0245e-7a6d26cf6f.zip/node_modules/@types/express/",\
+      ["npm:5.0.6", {\
+        "packageLocation": "./.yarn/cache/@types-express-npm-5.0.6-a43836c0f4-da2cc3de1b.zip/node_modules/@types/express/",\
         "packageDependencies": [\
-          ["@types/express", "npm:4.17.21"],\
-          ["@types/body-parser", "npm:1.19.5"],\
-          ["@types/express-serve-static-core", "npm:4.17.43"],\
-          ["@types/qs", "npm:6.9.12"],\
-          ["@types/serve-static", "npm:1.15.5"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:5.0.0", {\
-        "packageLocation": "./.yarn/cache/@types-express-npm-5.0.0-a645691cd5-45b199ab66.zip/node_modules/@types/express/",\
-        "packageDependencies": [\
-          ["@types/express", "npm:5.0.0"],\
+          ["@types/express", "npm:5.0.6"],\
           ["@types/body-parser", "npm:1.19.5"],\
           ["@types/express-serve-static-core", "npm:5.0.0"],\
-          ["@types/qs", "npm:6.9.12"],\
-          ["@types/serve-static", "npm:1.15.5"]\
+          ["@types/serve-static", "npm:2.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@types/express-serve-static-core", [\
-      ["npm:4.17.43", {\
-        "packageLocation": "./.yarn/cache/@types-express-serve-static-core-npm-4.17.43-9cbdf8ef01-9079e13747.zip/node_modules/@types/express-serve-static-core/",\
-        "packageDependencies": [\
-          ["@types/express-serve-static-core", "npm:4.17.43"],\
-          ["@types/node", "npm:22.13.5"],\
-          ["@types/qs", "npm:6.9.12"],\
-          ["@types/range-parser", "npm:1.2.7"],\
-          ["@types/send", "npm:0.17.4"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:5.0.0", {\
         "packageLocation": "./.yarn/cache/@types-express-serve-static-core-npm-5.0.0-d89b918522-fc40cdeae6.zip/node_modules/@types/express-serve-static-core/",\
         "packageDependencies": [\
@@ -6073,13 +6050,6 @@ const RAW_RUNTIME_STATE =
           ["@types/mime", "npm:1.3.5"]\
         ],\
         "linkType": "HARD"\
-      }],\
-      ["npm:3.0.4", {\
-        "packageLocation": "./.yarn/cache/@types-mime-npm-3.0.4-5cb286d662-a6139c8e1f.zip/node_modules/@types/mime/",\
-        "packageDependencies": [\
-          ["@types/mime", "npm:3.0.4"]\
-        ],\
-        "linkType": "HARD"\
       }]\
     ]],\
     ["@types/minimatch", [\
@@ -6205,18 +6175,17 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@types-serve-favicon-npm-2.5.7-91d885686a-1ae98ff01c.zip/node_modules/@types/serve-favicon/",\
         "packageDependencies": [\
           ["@types/serve-favicon", "npm:2.5.7"],\
-          ["@types/express", "npm:4.17.21"]\
+          ["@types/express", "npm:5.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@types/serve-static", [\
-      ["npm:1.15.5", {\
-        "packageLocation": "./.yarn/cache/@types-serve-static-npm-1.15.5-b911ffc092-49aa21c367.zip/node_modules/@types/serve-static/",\
+      ["npm:2.2.0", {\
+        "packageLocation": "./.yarn/cache/@types-serve-static-npm-2.2.0-5b97070e23-f2bad1304c.zip/node_modules/@types/serve-static/",\
         "packageDependencies": [\
-          ["@types/serve-static", "npm:1.15.5"],\
+          ["@types/serve-static", "npm:2.2.0"],\
           ["@types/http-errors", "npm:2.0.4"],\
-          ["@types/mime", "npm:3.0.4"],\
           ["@types/node", "npm:22.13.5"]\
         ],\
         "linkType": "HARD"\
@@ -10627,7 +10596,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/express-nunjucks-virtual-ab059517a1/0/cache/express-nunjucks-npm-3.1.2-3e9cb7ed22-d5c259a26b.zip/node_modules/express-nunjucks/",\
         "packageDependencies": [\
           ["express-nunjucks", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.1.2"],\
-          ["@types/express", "npm:5.0.0"],\
+          ["@types/express", "npm:5.0.6"],\
           ["@types/nunjucks", "npm:3.2.6"],\
           ["express", "npm:4.21.2"],\
           ["nunjucks", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.2.4"],\
@@ -16533,7 +16502,7 @@ const RAW_RUNTIME_STATE =
           ["@types/config", "npm:3.3.5"],\
           ["@types/cookie-parser", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:1.4.8"],\
           ["@types/es6-promisify", "npm:6.0.4"],\
-          ["@types/express", "npm:5.0.0"],\
+          ["@types/express", "npm:5.0.6"],\
           ["@types/glob", "npm:8.1.0"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/lodash", "npm:4.17.15"],\
