@@ -33,7 +33,7 @@ const RAW_RUNTIME_STATE =
           ["@codeceptjs/allure-legacy", "npm:1.0.2"],\
           ["@codeceptjs/configure", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:1.0.2"],\
           ["@eslint/eslintrc", "npm:3.3.3"],\
-          ["@eslint/js", "npm:9.39.1"],\
+          ["@eslint/js", "npm:9.39.2"],\
           ["@hmcts/info-provider", "npm:1.2.2"],\
           ["@hmcts/nodejs-healthcheck", "npm:1.8.6"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
@@ -3566,10 +3566,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:9.39.1", {\
-        "packageLocation": "./.yarn/cache/@eslint-js-npm-9.39.1-0adbea37fc-b10b9b9532.zip/node_modules/@eslint/js/",\
+      ["npm:9.39.2", {\
+        "packageLocation": "./.yarn/cache/@eslint-js-npm-9.39.2-c8e5f9bf73-6b7f676746.zip/node_modules/@eslint/js/",\
         "packageDependencies": [\
-          ["@eslint/js", "npm:9.39.1"]\
+          ["@eslint/js", "npm:9.39.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -16523,7 +16523,7 @@ const RAW_RUNTIME_STATE =
           ["@codeceptjs/allure-legacy", "npm:1.0.2"],\
           ["@codeceptjs/configure", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:1.0.2"],\
           ["@eslint/eslintrc", "npm:3.3.3"],\
-          ["@eslint/js", "npm:9.39.1"],\
+          ["@eslint/js", "npm:9.39.2"],\
           ["@hmcts/info-provider", "npm:1.2.2"],\
           ["@hmcts/nodejs-healthcheck", "npm:1.8.6"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
