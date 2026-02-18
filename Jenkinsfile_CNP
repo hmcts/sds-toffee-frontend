@@ -1,6 +1,6 @@
 #!groovy
 
-@Library("Infrastructure")
+@Library("Infrastructure@DTSPO-30163-build-only-agent")
 
 def type = "nodejs"
 def product = "toffee"
