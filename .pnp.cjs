@@ -88,7 +88,7 @@ const RAW_RUNTIME_STATE =
           ["lodash", "npm:4.18.1"],\
           ["mini-css-extract-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:2.9.2"],\
           ["nock", "npm:13.5.6"],\
-          ["nodemon", "npm:3.1.9"],\
+          ["nodemon", "npm:3.1.14"],\
           ["nunjucks", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.2.4"],\
           ["pa11y", "npm:8.0.0"],\
           ["playwright", "npm:1.57.0"],\
@@ -9297,6 +9297,20 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
+      ["virtual:58ccc9ac245a39eeec160ecda6f112d7ef0ddf9c7f8cfea2e2aceaea55ec9940ab3f8b3bf1e3152f49bc6f7b9ed1ecde5638b22c54edf74c709936ced24c14f4#npm:4.4.3", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-d78100f867/0/cache/debug-npm-4.4.3-0105c6123a-9ada3434ea.zip/node_modules/debug/",\
+        "packageDependencies": [\
+          ["debug", "virtual:58ccc9ac245a39eeec160ecda6f112d7ef0ddf9c7f8cfea2e2aceaea55ec9940ab3f8b3bf1e3152f49bc6f7b9ed1ecde5638b22c54edf74c709936ced24c14f4#npm:4.4.3"],\
+          ["@types/supports-color", null],\
+          ["ms", "npm:2.1.3"],\
+          ["supports-color", "npm:5.5.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/supports-color",\
+          "supports-color"\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["virtual:5dc40fea712494f06495996e8631fe3d962d9b85eec49908b9f35dc6ec9523d9b63e829ac878a2fa2414a0d111083466b19302a37186a46f0da9795af68d1f4c#npm:4.4.3", {\
         "packageLocation": "./.yarn/__virtual__/debug-virtual-f8a5e59d91/0/cache/debug-npm-4.4.3-0105c6123a-9ada3434ea.zip/node_modules/debug/",\
         "packageDependencies": [\
@@ -9318,20 +9332,6 @@ const RAW_RUNTIME_STATE =
           ["@types/supports-color", null],\
           ["ms", "npm:2.0.0"],\
           ["supports-color", null]\
-        ],\
-        "packagePeers": [\
-          "@types/supports-color",\
-          "supports-color"\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["virtual:f1382c554182f9e1abb3745e34e5163637ebd3c611df77e82da38f1ec9964f1d016765e440e68141eed073069546eb468a3a6ce4bd0b2b99cbf6baa9d7635af7#npm:4.4.3", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-405939cecc/0/cache/debug-npm-4.4.3-0105c6123a-9ada3434ea.zip/node_modules/debug/",\
-        "packageDependencies": [\
-          ["debug", "virtual:f1382c554182f9e1abb3745e34e5163637ebd3c611df77e82da38f1ec9964f1d016765e440e68141eed073069546eb468a3a6ce4bd0b2b99cbf6baa9d7635af7#npm:4.4.3"],\
-          ["@types/supports-color", null],\
-          ["ms", "npm:2.1.3"],\
-          ["supports-color", "npm:5.5.0"]\
         ],\
         "packagePeers": [\
           "@types/supports-color",\
@@ -14705,14 +14705,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["nodemon", [\
-      ["npm:3.1.9", {\
-        "packageLocation": "./.yarn/unplugged/nodemon-npm-3.1.9-f1382c5541/node_modules/nodemon/",\
+      ["npm:3.1.14", {\
+        "packageLocation": "./.yarn/unplugged/nodemon-npm-3.1.14-58ccc9ac24/node_modules/nodemon/",\
         "packageDependencies": [\
-          ["nodemon", "npm:3.1.9"],\
+          ["nodemon", "npm:3.1.14"],\
           ["chokidar", "npm:3.6.0"],\
-          ["debug", "virtual:f1382c554182f9e1abb3745e34e5163637ebd3c611df77e82da38f1ec9964f1d016765e440e68141eed073069546eb468a3a6ce4bd0b2b99cbf6baa9d7635af7#npm:4.4.3"],\
+          ["debug", "virtual:58ccc9ac245a39eeec160ecda6f112d7ef0ddf9c7f8cfea2e2aceaea55ec9940ab3f8b3bf1e3152f49bc6f7b9ed1ecde5638b22c54edf74c709936ced24c14f4#npm:4.4.3"],\
           ["ignore-by-default", "npm:1.0.1"],\
-          ["minimatch", "npm:3.1.2"],\
+          ["minimatch", "npm:10.2.5"],\
           ["pstree.remy", "npm:1.1.8"],\
           ["semver", "npm:7.6.3"],\
           ["simple-update-notifier", "npm:2.0.0"],\
@@ -16692,7 +16692,7 @@ const RAW_RUNTIME_STATE =
           ["lodash", "npm:4.18.1"],\
           ["mini-css-extract-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:2.9.2"],\
           ["nock", "npm:13.5.6"],\
-          ["nodemon", "npm:3.1.9"],\
+          ["nodemon", "npm:3.1.14"],\
           ["nunjucks", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:3.2.4"],\
           ["pa11y", "npm:8.0.0"],\
           ["playwright", "npm:1.57.0"],\
