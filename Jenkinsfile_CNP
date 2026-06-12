@@ -1,6 +1,6 @@
 #!groovy
 
-@Library("Infrastructure@DTSPO-00001")
+@Library("Infrastructure@library-branch-controls")
 
 def type = "nodejs"
 def product = "toffee"
