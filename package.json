@@ -123,8 +123,8 @@
     "minimatch@npm:9.0.1": "npm:9.0.9",
     "minimatch@npm:^9.0.4": "npm:9.0.9",
     "minimatch@npm:^10.1.1": "npm:10.2.5",
-    "protobufjs@npm:^7.2.5": "npm:7.5.8",
-    "protobufjs@npm:^7.3.0": "npm:7.5.8"
+    "protobufjs@npm:^7.2.5": "npm:protobufjs@7.6.5",
+    "protobufjs@npm:^7.3.0": "npm:protobufjs@7.6.5"
   },
   "lint-staged": {
     "*.{js,ts}": "eslint --cache --fix",
