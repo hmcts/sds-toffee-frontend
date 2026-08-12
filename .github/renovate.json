@@ -1,24 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>hmcts/.github//renovate/cnp-jenkins-library",
+    "local>hmcts/.github:renovate-config",
     "github>hmcts/.github//renovate/automerge-all",
-    "local>hmcts/.github:renovate-config"
+    "github>hmcts/.github//renovate/cnp-jenkins-library"
   ],
   "internalChecksFilter": "strict",
   "packageRules": [
-    {
-      "matchPackagePatterns": ["Jenkins-.*"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true,
-      "automergeType": "pr"
-    },
-    {
-      "matchPackagePatterns": ["Jenkins-.*"],
-      "matchUpdateTypes": ["major"],
-      "automerge": false,
-      "platformAutomerge": false
-    },
     {
       "matchPackageNames": ["copy-webpack-plugin"],
       "allowedVersions": "<=10",
