@@ -1,7 +1,6 @@
 #!groovy
 
-@Library('Infrastructure@2.7.3')
-import uk.gov.hmcts.contino.Helm
+@Library('Infrastructure@2.7.3') _
 
 // ______        _   _       _     _____
 // |  _  \      | \ | |     | |   /  __ \
@@ -21,23 +20,44 @@ node('ubuntu-sbox && !nightly') {
     }
 
     stage('Validate Helm chart with kubeconform') {
-      withEnv([
-        'SUBSCRIPTION_NAME=sbox',
-        'DEPLOYMENT_ENVIRONMENT=sbox',
-        'REGISTRY_NAME=hmctssbox',
-        'REGISTRY_SUBSCRIPTION=DCD-CFT-Sandbox',
-        'DUAL_ACR_PUBLISH_ENABLED=false'
-      ]) {
-        Helm helm = new Helm(this, 'apple-frontend')
-        try {
-          helm.authenticateAcr()
-          helm.dependencyUpdate()
-          sh(label: 'kubeconform version', script: 'kubeconform -v')
-          helm.kubeconform()
-        } finally {
-          helm.restoreChartDependencyFiles()
-        }
-      }
+      sh(label: 'kubeconform schema validation', script: '''#!/usr/bin/env bash
+        set -euo pipefail
+
+        kubeconform_version="$(kubeconform -v)"
+        echo "kubeconform version: $kubeconform_version"
+        test "$kubeconform_version" = "v0.6.7"
+
+        temp_dir="$(mktemp -d)"
+        trap 'rm -rf "$temp_dir"' EXIT
+        cp -R charts/apple-frontend "$temp_dir/apple-frontend"
+        sed -i 's#oci://hmctsprod.azurecr.io/helm#oci://hmctssbox.azurecr.io/helm#' "$temp_dir/apple-frontend/Chart.yaml"
+
+        export AZURE_CONFIG_DIR=/opt/jenkins/.azure-sbox
+        az login --identity >/dev/null
+        az acr login --name hmctssbox --subscription DCD-CFT-Sandbox
+        helm dependency update "$temp_dir/apple-frontend"
+
+        echo 'Validating base values'
+        helm template apple-frontend "$temp_dir/apple-frontend" \
+          -f "$temp_dir/apple-frontend/values.yaml" \
+          | kubeconform \
+              -strict \
+              -summary \
+              -ignore-missing-schemas \
+              -kubernetes-version 1.35.0 \
+              -schema-location default
+
+        echo 'Validating values.sbox.template.yaml'
+        helm template apple-frontend "$temp_dir/apple-frontend" \
+          -f "$temp_dir/apple-frontend/values.yaml" \
+          -f "$temp_dir/apple-frontend/values.sbox.template.yaml" \
+          | kubeconform \
+              -strict \
+              -summary \
+              -ignore-missing-schemas \
+              -kubernetes-version 1.35.0 \
+              -schema-location default
+      ''')
     }
   }
 }
