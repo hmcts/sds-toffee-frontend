@@ -1,5 +1,8 @@
 #!groovy
 
+@Library('Infrastructure@2.7.3')
+import uk.gov.hmcts.contino.Helm
+
 // ______        _   _       _     _____
 // |  _  \      | \ | |     | |   /  __ \
 // | | | |___   |  \| | ___ | |_  | /  \/ ___  _ __  _   _
@@ -10,14 +13,6 @@
 //                                            |_|    |___/
 //
 // THIS PIPELINE IS FOR TESTING SHARED PIPELINE CODE ONLY
-
-properties([
-  parameters([
-    string(name: 'LIB_VERSION', defaultValue: '2.7.3', description: 'Branch name of pipeline library to use')
-  ])
-])
-
-def infrastructure = library "Infrastructure@${params.LIB_VERSION}"
 
 node('ubuntu-sbox && !nightly') {
   timeout(time: 30, unit: 'MINUTES') {
@@ -33,7 +28,7 @@ node('ubuntu-sbox && !nightly') {
         'REGISTRY_SUBSCRIPTION=DCD-CFT-Sandbox',
         'DUAL_ACR_PUBLISH_ENABLED=false'
       ]) {
-        def helm = infrastructure.uk.gov.hmcts.contino.Helm.new(this, 'apple-frontend')
+        Helm helm = new Helm(this, 'apple-frontend')
         try {
           helm.authenticateAcr()
           helm.dependencyUpdate()
