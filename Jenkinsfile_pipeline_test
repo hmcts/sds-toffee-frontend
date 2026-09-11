@@ -13,23 +13,36 @@
 
 properties([
   parameters([
-    string(name: 'LIB_VERSION', defaultValue: '2.4.3', description: 'Branch name of pipeline library to use')
+    string(name: 'LIB_VERSION', defaultValue: '2.7.3', description: 'Branch name of pipeline library to use')
   ])
 ])
 
-library "Infrastructure@${params.LIB_VERSION}"
+def infrastructure = library "Infrastructure@${params.LIB_VERSION}"
 
-def type = "nodejs"
+node('ubuntu-sbox && !nightly') {
+  timeout(time: 30, unit: 'MINUTES') {
+    stage('Checkout') {
+      checkout scm
+    }
 
-def product = "apple"
-
-def app = "frontend"
-
-def expiresAfter = "3000-01-01"
-
-withPipeline(type, product, app) {
-  // never skip stages when testing the pipeline
-  env.NO_SKIP_IMG_BUILD = 'true'
-  disableLegacyDeployment()
-  expires(expiresAfter)
+    stage('Validate Helm chart with kubeconform') {
+      withEnv([
+        'SUBSCRIPTION_NAME=sbox',
+        'DEPLOYMENT_ENVIRONMENT=sbox',
+        'REGISTRY_NAME=hmctssbox',
+        'REGISTRY_SUBSCRIPTION=DCD-CFT-Sandbox',
+        'DUAL_ACR_PUBLISH_ENABLED=false'
+      ]) {
+        def helm = infrastructure.uk.gov.hmcts.contino.Helm.new(this, 'apple-frontend')
+        try {
+          helm.authenticateAcr()
+          helm.dependencyUpdate()
+          sh(label: 'kubeconform version', script: 'kubeconform -v')
+          helm.kubeconform()
+        } finally {
+          helm.restoreChartDependencyFiles()
+        }
+      }
+    }
+  }
 }
