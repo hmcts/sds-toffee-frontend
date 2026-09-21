@@ -1,5 +1,7 @@
 #!groovy
 
+@Library('Infrastructure@2.7.3') _
+
 // ______        _   _       _     _____
 // |  _  \      | \ | |     | |   /  __ \
 // | | | |___   |  \| | ___ | |_  | /  \/ ___  _ __  _   _
@@ -11,25 +13,51 @@
 //
 // THIS PIPELINE IS FOR TESTING SHARED PIPELINE CODE ONLY
 
-properties([
-  parameters([
-    string(name: 'LIB_VERSION', defaultValue: '2.4.3', description: 'Branch name of pipeline library to use')
-  ])
-])
+node('ubuntu-sbox && !nightly') {
+  timeout(time: 30, unit: 'MINUTES') {
+    stage('Checkout') {
+      checkout scm
+    }
 
-library "Infrastructure@${params.LIB_VERSION}"
+    stage('Validate Helm chart with kubeconform') {
+      sh(label: 'kubeconform schema validation', script: '''#!/usr/bin/env bash
+        set -euo pipefail
 
-def type = "nodejs"
+        kubeconform_version="$(kubeconform -v)"
+        echo "kubeconform version: $kubeconform_version"
+        test "$kubeconform_version" = "v0.6.7"
 
-def product = "apple"
+        temp_dir="$(mktemp -d)"
+        trap 'rm -rf "$temp_dir"' EXIT
+        cp -R charts/apple-frontend "$temp_dir/apple-frontend"
+        sed -i 's#oci://hmctsprod.azurecr.io/helm#oci://hmctssbox.azurecr.io/helm#' "$temp_dir/apple-frontend/Chart.yaml"
 
-def app = "frontend"
+        export AZURE_CONFIG_DIR=/opt/jenkins/.azure-sbox
+        az login --identity >/dev/null
+        az acr login --name hmctssbox --subscription DCD-CFT-Sandbox
+        helm dependency update "$temp_dir/apple-frontend"
 
-def expiresAfter = "3000-01-01"
+        echo 'Validating base values'
+        helm template apple-frontend "$temp_dir/apple-frontend" \
+          -f "$temp_dir/apple-frontend/values.yaml" \
+          | kubeconform \
+              -strict \
+              -summary \
+              -ignore-missing-schemas \
+              -kubernetes-version 1.35.0 \
+              -schema-location default
 
-withPipeline(type, product, app) {
-  // never skip stages when testing the pipeline
-  env.NO_SKIP_IMG_BUILD = 'true'
-  disableLegacyDeployment()
-  expires(expiresAfter)
+        echo 'Validating values.sbox.template.yaml'
+        helm template apple-frontend "$temp_dir/apple-frontend" \
+          -f "$temp_dir/apple-frontend/values.yaml" \
+          -f "$temp_dir/apple-frontend/values.sbox.template.yaml" \
+          | kubeconform \
+              -strict \
+              -summary \
+              -ignore-missing-schemas \
+              -kubernetes-version 1.35.0 \
+              -schema-location default
+      ''')
+    }
+  }
 }
