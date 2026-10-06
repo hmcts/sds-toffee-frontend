@@ -37,7 +37,7 @@ const RAW_RUNTIME_STATE =
           ["@hmcts/info-provider", "npm:1.2.2"],\
           ["@hmcts/nodejs-healthcheck", "npm:1.8.6"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
-          ["@hmcts/properties-volume", "npm:1.4.0"],\
+          ["@hmcts/properties-volume", "npm:1.4.1"],\
           ["@types/body-parser", "npm:1.19.6"],\
           ["@types/chai-as-promised", "npm:8.0.2"],\
           ["@types/config", "npm:3.3.5"],\
@@ -3625,10 +3625,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@hmcts/properties-volume", [\
-      ["npm:1.4.0", {\
-        "packageLocation": "./.yarn/cache/@hmcts-properties-volume-npm-1.4.0-c2be5d086e-2d5ecf1286.zip/node_modules/@hmcts/properties-volume/",\
+      ["npm:1.4.1", {\
+        "packageLocation": "./.yarn/cache/@hmcts-properties-volume-npm-1.4.1-b28ede9351-e5c532a5a4.zip/node_modules/@hmcts/properties-volume/",\
         "packageDependencies": [\
-          ["@hmcts/properties-volume", "npm:1.4.0"],\
+          ["@hmcts/properties-volume", "npm:1.4.1"],\
           ["@azure/identity", "npm:4.13.1"],\
           ["@azure/keyvault-secrets", "npm:4.11.2"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
@@ -17242,7 +17242,7 @@ const RAW_RUNTIME_STATE =
           ["@hmcts/info-provider", "npm:1.2.2"],\
           ["@hmcts/nodejs-healthcheck", "npm:1.8.6"],\
           ["@hmcts/nodejs-logging", "npm:4.0.4"],\
-          ["@hmcts/properties-volume", "npm:1.4.0"],\
+          ["@hmcts/properties-volume", "npm:1.4.1"],\
           ["@types/body-parser", "npm:1.19.6"],\
           ["@types/chai-as-promised", "npm:8.0.2"],\
           ["@types/config", "npm:3.3.5"],\
