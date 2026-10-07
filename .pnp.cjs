@@ -54,7 +54,7 @@ const RAW_RUNTIME_STATE =
           ["@types/supertest", "npm:6.0.3"],\
           ["@typescript-eslint/eslint-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:8.49.0"],\
           ["@typescript-eslint/parser", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:8.49.0"],\
-          ["applicationinsights", "npm:3.5.0"],\
+          ["applicationinsights", "npm:3.17.0"],\
           ["axios", "npm:1.20.0"],\
           ["axios-debug-log", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:1.0.0"],\
           ["babel-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:9.2.1"],\
@@ -140,17 +140,22 @@ const RAW_RUNTIME_STATE =
           ["tslib", "npm:2.6.3"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:2.9.0", {\
+        "packageLocation": "./.yarn/cache/@azure-rest-core-client-npm-2.9.0-8d8eafb7f1-53e3e477ac.zip/node_modules/@azure-rest/core-client/",\
+        "packageDependencies": [\
+          ["@azure-rest/core-client", "npm:2.9.0"],\
+          ["@azure/abort-controller", "npm:2.1.2"],\
+          ["@azure/core-auth", "npm:1.10.1"],\
+          ["@azure/core-rest-pipeline", "npm:1.24.0"],\
+          ["@azure/core-tracing", "npm:1.3.1"],\
+          ["@typespec/ts-http-runtime", "npm:0.3.9"],\
+          ["tslib", "npm:2.6.3"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@azure/abort-controller", [\
-      ["npm:1.1.0", {\
-        "packageLocation": "./.yarn/cache/@azure-abort-controller-npm-1.1.0-5b4e309629-1efe8735cf.zip/node_modules/@azure/abort-controller/",\
-        "packageDependencies": [\
-          ["@azure/abort-controller", "npm:1.1.0"],\
-          ["tslib", "npm:2.6.2"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:2.0.0", {\
         "packageLocation": "./.yarn/cache/@azure-abort-controller-npm-2.0.0-658db9ceff-fdb37cb91e.zip/node_modules/@azure/abort-controller/",\
         "packageDependencies": [\
@@ -173,6 +178,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@azure-core-auth-npm-1.10.1-d750410a50-230c1766d4.zip/node_modules/@azure/core-auth/",\
         "packageDependencies": [\
           ["@azure/core-auth", "npm:1.10.1"],\
+          ["@azure/abort-controller", "npm:2.1.2"],\
+          ["@azure/core-util", "npm:1.13.1"],\
+          ["tslib", "npm:2.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.11.0", {\
+        "packageLocation": "./.yarn/cache/@azure-core-auth-npm-1.11.0-35b82438f9-035e1ef465.zip/node_modules/@azure/core-auth/",\
+        "packageDependencies": [\
+          ["@azure/core-auth", "npm:1.11.0"],\
           ["@azure/abort-controller", "npm:2.1.2"],\
           ["@azure/core-util", "npm:1.13.1"],\
           ["tslib", "npm:2.6.3"]\
@@ -229,6 +244,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@azure/core-process", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "./.yarn/cache/@azure-core-process-npm-1.0.0-166ced4765-760913c11b.zip/node_modules/@azure/core-process/",\
+        "packageDependencies": [\
+          ["@azure/core-process", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@azure/core-rest-pipeline", [\
       ["npm:1.14.0", {\
         "packageLocation": "./.yarn/cache/@azure-core-rest-pipeline-npm-1.14.0-251085d6e8-d5b2f70d9e.zip/node_modules/@azure/core-rest-pipeline/",\
@@ -245,25 +269,24 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:1.16.3", {\
-        "packageLocation": "./.yarn/cache/@azure-core-rest-pipeline-npm-1.16.3-4226fffbc7-c64e866fcc.zip/node_modules/@azure/core-rest-pipeline/",\
-        "packageDependencies": [\
-          ["@azure/core-rest-pipeline", "npm:1.16.3"],\
-          ["@azure/abort-controller", "npm:2.0.0"],\
-          ["@azure/core-auth", "npm:1.6.0"],\
-          ["@azure/core-tracing", "npm:1.0.1"],\
-          ["@azure/core-util", "npm:1.9.2"],\
-          ["@azure/logger", "npm:1.0.4"],\
-          ["http-proxy-agent", "npm:7.0.2"],\
-          ["https-proxy-agent", "npm:7.0.5"],\
-          ["tslib", "npm:2.6.3"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:1.24.0", {\
         "packageLocation": "./.yarn/cache/@azure-core-rest-pipeline-npm-1.24.0-325a628b8e-a272b76a1e.zip/node_modules/@azure/core-rest-pipeline/",\
         "packageDependencies": [\
           ["@azure/core-rest-pipeline", "npm:1.24.0"],\
+          ["@azure/abort-controller", "npm:2.1.2"],\
+          ["@azure/core-auth", "npm:1.10.1"],\
+          ["@azure/core-tracing", "npm:1.3.1"],\
+          ["@azure/core-util", "npm:1.13.1"],\
+          ["@azure/logger", "npm:1.3.0"],\
+          ["@typespec/ts-http-runtime", "npm:0.3.6"],\
+          ["tslib", "npm:2.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.25.0", {\
+        "packageLocation": "./.yarn/cache/@azure-core-rest-pipeline-npm-1.25.0-9d9ef54ee3-a1066040f5.zip/node_modules/@azure/core-rest-pipeline/",\
+        "packageDependencies": [\
+          ["@azure/core-rest-pipeline", "npm:1.25.0"],\
           ["@azure/abort-controller", "npm:2.1.2"],\
           ["@azure/core-auth", "npm:1.10.1"],\
           ["@azure/core-tracing", "npm:1.3.1"],\
@@ -329,35 +352,24 @@ const RAW_RUNTIME_STATE =
           ["tslib", "npm:2.6.3"]\
         ],\
         "linkType": "HARD"\
-      }],\
-      ["npm:1.9.2", {\
-        "packageLocation": "./.yarn/cache/@azure-core-util-npm-1.9.2-0fbf333f15-341d9ed642.zip/node_modules/@azure/core-util/",\
+      }]\
+    ]],\
+    ["@azure/functions", [\
+      ["npm:4.16.5", {\
+        "packageLocation": "./.yarn/cache/@azure-functions-npm-4.16.5-7b33416030-af600a9fdd.zip/node_modules/@azure/functions/",\
         "packageDependencies": [\
-          ["@azure/core-util", "npm:1.9.2"],\
-          ["@azure/abort-controller", "npm:2.0.0"],\
-          ["tslib", "npm:2.6.3"]\
+          ["@azure/functions", "npm:4.16.5"],\
+          ["@azure/functions-extensions-base", "npm:0.3.0"],\
+          ["cookie", "npm:0.7.2"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
-    ["@azure/functions", [\
-      ["npm:3.5.1", {\
-        "packageLocation": "./.yarn/cache/@azure-functions-npm-3.5.1-7939173602-09730bfdd4.zip/node_modules/@azure/functions/",\
+    ["@azure/functions-extensions-base", [\
+      ["npm:0.3.0", {\
+        "packageLocation": "./.yarn/cache/@azure-functions-extensions-base-npm-0.3.0-07846680b7-be55be51fd.zip/node_modules/@azure/functions-extensions-base/",\
         "packageDependencies": [\
-          ["@azure/functions", "npm:3.5.1"],\
-          ["iconv-lite", "npm:0.6.3"],\
-          ["long", "npm:4.0.0"],\
-          ["uuid", "npm:8.3.2"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:4.6.1", {\
-        "packageLocation": "./.yarn/cache/@azure-functions-npm-4.6.1-ee7c89b08b-ec6ee801d9.zip/node_modules/@azure/functions/",\
-        "packageDependencies": [\
-          ["@azure/functions", "npm:4.6.1"],\
-          ["cookie", "npm:0.7.2"],\
-          ["long", "npm:4.0.0"],\
-          ["undici", "npm:5.28.5"]\
+          ["@azure/functions-extensions-base", "npm:0.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -381,23 +393,21 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:4.4.0", {\
-        "packageLocation": "./.yarn/cache/@azure-identity-npm-4.4.0-80dd1242a4-77d5821e51.zip/node_modules/@azure/identity/",\
+      ["npm:4.13.3", {\
+        "packageLocation": "./.yarn/cache/@azure-identity-npm-4.13.3-83ab1c9ae9-0b7e8955da.zip/node_modules/@azure/identity/",\
         "packageDependencies": [\
-          ["@azure/identity", "npm:4.4.0"],\
-          ["@azure/abort-controller", "npm:1.1.0"],\
-          ["@azure/core-auth", "npm:1.6.0"],\
+          ["@azure/identity", "npm:4.13.3"],\
+          ["@azure/abort-controller", "npm:2.0.0"],\
+          ["@azure/core-auth", "npm:1.10.1"],\
           ["@azure/core-client", "npm:1.9.2"],\
-          ["@azure/core-rest-pipeline", "npm:1.14.0"],\
+          ["@azure/core-process", "npm:1.0.0"],\
+          ["@azure/core-rest-pipeline", "npm:1.24.0"],\
           ["@azure/core-tracing", "npm:1.0.1"],\
-          ["@azure/core-util", "npm:1.7.0"],\
+          ["@azure/core-util", "npm:1.13.1"],\
           ["@azure/logger", "npm:1.0.4"],\
-          ["@azure/msal-browser", "npm:3.20.0"],\
-          ["@azure/msal-node", "npm:2.12.0"],\
-          ["events", "npm:3.3.0"],\
-          ["jws", "npm:4.0.0"],\
-          ["open", "npm:8.4.2"],\
-          ["stoppable", "npm:1.1.0"],\
+          ["@azure/msal-browser", "npm:5.16.0"],\
+          ["@azure/msal-node", "npm:6.0.1"],\
+          ["open", "npm:10.2.0"],\
           ["tslib", "npm:2.6.2"]\
         ],\
         "linkType": "HARD"\
@@ -460,73 +470,70 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@azure/monitor-opentelemetry", [\
-      ["npm:1.8.1", {\
-        "packageLocation": "./.yarn/cache/@azure-monitor-opentelemetry-npm-1.8.1-6bb62aed1a-6652ea136d.zip/node_modules/@azure/monitor-opentelemetry/",\
+      ["npm:1.20.1", {\
+        "packageLocation": "./.yarn/cache/@azure-monitor-opentelemetry-npm-1.20.1-43d67484ec-b2ab0b300d.zip/node_modules/@azure/monitor-opentelemetry/",\
         "packageDependencies": [\
-          ["@azure/monitor-opentelemetry", "npm:1.8.1"],\
-          ["@azure/core-auth", "npm:1.6.0"],\
-          ["@azure/core-client", "npm:1.9.2"],\
-          ["@azure/core-rest-pipeline", "npm:1.14.0"],\
-          ["@azure/logger", "npm:1.0.4"],\
-          ["@azure/monitor-opentelemetry-exporter", "npm:1.0.0-beta.28"],\
-          ["@azure/opentelemetry-instrumentation-azure-sdk", "npm:1.0.0-beta.8"],\
-          ["@microsoft/applicationinsights-web-snippet", "npm:1.2.1"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/api-logs", "npm:0.57.2"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/instrumentation", "virtual:e1efd4fc8ee740eb359cde42b95ad60b449ae13f0a8a70112e3d8a442da33bb6dfa126f24c187d69b6823156f5fef68f432c1d90b57f52b1962e3503525b956e#npm:0.220.0"],\
-          ["@opentelemetry/instrumentation-bunyan", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.45.0"],\
-          ["@opentelemetry/instrumentation-http", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.57.2"],\
-          ["@opentelemetry/instrumentation-mongodb", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.51.0"],\
-          ["@opentelemetry/instrumentation-mysql", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.45.0"],\
-          ["@opentelemetry/instrumentation-pg", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.50.0"],\
-          ["@opentelemetry/instrumentation-redis", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.46.0"],\
-          ["@opentelemetry/instrumentation-redis-4", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.46.0"],\
-          ["@opentelemetry/instrumentation-winston", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.44.0"],\
-          ["@opentelemetry/resource-detector-azure", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.6.0"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-logs", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:0.57.2"],\
-          ["@opentelemetry/sdk-metrics", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-node", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.57.2"],\
-          ["@opentelemetry/sdk-trace-base", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-trace-node", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:1.30.1"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.30.0"],\
-          ["@opentelemetry/winston-transport", "npm:0.10.0"],\
+          ["@azure/monitor-opentelemetry", "npm:1.20.1"],\
+          ["@azure-rest/core-client", "npm:2.9.0"],\
+          ["@azure/core-auth", "npm:1.11.0"],\
+          ["@azure/core-rest-pipeline", "npm:1.25.0"],\
+          ["@azure/core-tracing", "npm:1.2.0"],\
+          ["@azure/identity", "npm:4.13.3"],\
+          ["@azure/logger", "npm:1.3.0"],\
+          ["@azure/monitor-opentelemetry-exporter", "npm:1.0.0-beta.46"],\
+          ["@azure/opentelemetry-instrumentation-azure-sdk", "npm:1.1.0-beta.1"],\
+          ["@microsoft/applicationinsights-web-snippet", "npm:1.2.3"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/api-logs", "npm:0.221.0"],\
+          ["@opentelemetry/core", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/instrumentation", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.220.0"],\
+          ["@opentelemetry/instrumentation-bunyan", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.66.0"],\
+          ["@opentelemetry/instrumentation-console", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.3.0"],\
+          ["@opentelemetry/instrumentation-http", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.221.0"],\
+          ["@opentelemetry/instrumentation-mongodb", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.74.0"],\
+          ["@opentelemetry/instrumentation-mysql", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.67.0"],\
+          ["@opentelemetry/instrumentation-pg", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.73.0"],\
+          ["@opentelemetry/instrumentation-redis", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.69.0"],\
+          ["@opentelemetry/instrumentation-winston", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.65.0"],\
+          ["@opentelemetry/resource-detector-azure", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.29.0"],\
+          ["@opentelemetry/resources", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/sdk-logs", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:0.221.0"],\
+          ["@opentelemetry/sdk-metrics", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/sdk-node", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.221.0"],\
+          ["@opentelemetry/sdk-trace-base", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/sdk-trace-node", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:2.12.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
+          ["@opentelemetry/winston-transport", "npm:0.31.0"],\
           ["tslib", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@azure/monitor-opentelemetry-exporter", [\
-      ["npm:1.0.0-beta.28", {\
-        "packageLocation": "./.yarn/cache/@azure-monitor-opentelemetry-exporter-npm-1.0.0-beta.28-e197861363-65b3e6afa9.zip/node_modules/@azure/monitor-opentelemetry-exporter/",\
+      ["npm:1.0.0-beta.46", {\
+        "packageLocation": "./.yarn/cache/@azure-monitor-opentelemetry-exporter-npm-1.0.0-beta.46-c2802d502f-9b5a1ba983.zip/node_modules/@azure/monitor-opentelemetry-exporter/",\
         "packageDependencies": [\
-          ["@azure/monitor-opentelemetry-exporter", "npm:1.0.0-beta.28"],\
-          ["@azure/core-auth", "npm:1.6.0"],\
+          ["@azure/monitor-opentelemetry-exporter", "npm:1.0.0-beta.46"],\
+          ["@azure-rest/core-client", "npm:2.9.0"],\
+          ["@azure/core-auth", "npm:1.10.1"],\
           ["@azure/core-client", "npm:1.9.2"],\
-          ["@azure/core-rest-pipeline", "npm:1.14.0"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/api-logs", "npm:0.57.2"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-logs", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:0.57.2"],\
-          ["@opentelemetry/sdk-metrics", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-trace-base", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.30.0"],\
+          ["@azure/core-process", "npm:1.0.0"],\
+          ["@azure/core-rest-pipeline", "npm:1.24.0"],\
+          ["@azure/core-util", "npm:1.13.1"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/api-logs", "npm:0.221.0"],\
+          ["@opentelemetry/core", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/resources", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/sdk-logs", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:0.221.0"],\
+          ["@opentelemetry/sdk-metrics", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/sdk-trace-base", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
           ["tslib", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@azure/msal-browser", [\
-      ["npm:3.20.0", {\
-        "packageLocation": "./.yarn/cache/@azure-msal-browser-npm-3.20.0-b06c83e8d6-25bf912f41.zip/node_modules/@azure/msal-browser/",\
-        "packageDependencies": [\
-          ["@azure/msal-browser", "npm:3.20.0"],\
-          ["@azure/msal-common", "npm:14.14.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:5.16.0", {\
         "packageLocation": "./.yarn/cache/@azure-msal-browser-npm-5.16.0-fd05df7834-ceec41de06.zip/node_modules/@azure/msal-browser/",\
         "packageDependencies": [\
@@ -537,32 +544,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@azure/msal-common", [\
-      ["npm:14.14.0", {\
-        "packageLocation": "./.yarn/cache/@azure-msal-common-npm-14.14.0-e59c10cc3d-1c8b19c6e2.zip/node_modules/@azure/msal-common/",\
-        "packageDependencies": [\
-          ["@azure/msal-common", "npm:14.14.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:16.11.0", {\
         "packageLocation": "./.yarn/cache/@azure-msal-common-npm-16.11.0-3d08ebdc42-d34c650893.zip/node_modules/@azure/msal-common/",\
         "packageDependencies": [\
           ["@azure/msal-common", "npm:16.11.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:16.14.1", {\
+        "packageLocation": "./.yarn/cache/@azure-msal-common-npm-16.14.1-54e4c8b52f-7b8355aa95.zip/node_modules/@azure/msal-common/",\
+        "packageDependencies": [\
+          ["@azure/msal-common", "npm:16.14.1"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@azure/msal-node", [\
-      ["npm:2.12.0", {\
-        "packageLocation": "./.yarn/cache/@azure-msal-node-npm-2.12.0-7ffe6b920c-96ae84891a.zip/node_modules/@azure/msal-node/",\
-        "packageDependencies": [\
-          ["@azure/msal-node", "npm:2.12.0"],\
-          ["@azure/msal-common", "npm:14.14.0"],\
-          ["jsonwebtoken", "npm:9.0.2"],\
-          ["uuid", "npm:8.3.2"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:5.3.1", {\
         "packageLocation": "./.yarn/cache/@azure-msal-node-npm-5.3.1-9634757ee6-7fe2a21d7a.zip/node_modules/@azure/msal-node/",\
         "packageDependencies": [\
@@ -571,31 +568,42 @@ const RAW_RUNTIME_STATE =
           ["jsonwebtoken", "npm:9.0.2"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:6.0.1", {\
+        "packageLocation": "./.yarn/cache/@azure-msal-node-npm-6.0.1-70ef5bab4e-75c8f2d42f.zip/node_modules/@azure/msal-node/",\
+        "packageDependencies": [\
+          ["@azure/msal-node", "npm:6.0.1"],\
+          ["@azure/msal-common", "npm:16.14.1"],\
+          ["jsonwebtoken", "npm:9.0.2"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@azure/opentelemetry-instrumentation-azure-sdk", [\
-      ["npm:1.0.0-beta.5", {\
-        "packageLocation": "./.yarn/cache/@azure-opentelemetry-instrumentation-azure-sdk-npm-1.0.0-beta.5-1dd4d8bebf-7576223971.zip/node_modules/@azure/opentelemetry-instrumentation-azure-sdk/",\
+      ["npm:1.0.0", {\
+        "packageLocation": "./.yarn/cache/@azure-opentelemetry-instrumentation-azure-sdk-npm-1.0.0-f9228c6e07-b8be22db8f.zip/node_modules/@azure/opentelemetry-instrumentation-azure-sdk/",\
         "packageDependencies": [\
-          ["@azure/opentelemetry-instrumentation-azure-sdk", "npm:1.0.0-beta.5"],\
-          ["@azure/core-tracing", "npm:1.0.1"],\
-          ["@azure/logger", "npm:1.0.4"],\
-          ["@opentelemetry/api", "npm:1.8.0"],\
-          ["@opentelemetry/core", "virtual:1dd4d8bebf496333420f554162cb425b1049ae4ffca452c6e271586e19d5735fa9d18d8cc868fbc93d522aac322641bf9b128ea8b19b63c447aa9c92921151d3#npm:1.22.0"],\
-          ["@opentelemetry/instrumentation", "virtual:1dd4d8bebf496333420f554162cb425b1049ae4ffca452c6e271586e19d5735fa9d18d8cc868fbc93d522aac322641bf9b128ea8b19b63c447aa9c92921151d3#npm:0.220.0"],\
-          ["tslib", "npm:2.6.2"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:1.0.0-beta.8", {\
-        "packageLocation": "./.yarn/cache/@azure-opentelemetry-instrumentation-azure-sdk-npm-1.0.0-beta.8-e1efd4fc8e-8fe7ee9f2e.zip/node_modules/@azure/opentelemetry-instrumentation-azure-sdk/",\
-        "packageDependencies": [\
-          ["@azure/opentelemetry-instrumentation-azure-sdk", "npm:1.0.0-beta.8"],\
+          ["@azure/opentelemetry-instrumentation-azure-sdk", "npm:1.0.0"],\
           ["@azure/core-tracing", "npm:1.2.0"],\
           ["@azure/logger", "npm:1.0.4"],\
           ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/instrumentation", "virtual:e1efd4fc8ee740eb359cde42b95ad60b449ae13f0a8a70112e3d8a442da33bb6dfa126f24c187d69b6823156f5fef68f432c1d90b57f52b1962e3503525b956e#npm:0.220.0"],\
+          ["@opentelemetry/core", "virtual:3eab3d26005015522e0e1ad5e484ac6b55244492912882707ad9b0db49da36ed847e3e473b0a37a5db4ef08931a183665d8f21e64f3dc18a80b7e1f998a3e5f8#npm:2.12.0"],\
+          ["@opentelemetry/instrumentation", "virtual:3eab3d26005015522e0e1ad5e484ac6b55244492912882707ad9b0db49da36ed847e3e473b0a37a5db4ef08931a183665d8f21e64f3dc18a80b7e1f998a3e5f8#npm:0.220.0"],\
+          ["@opentelemetry/sdk-trace-web", "virtual:3eab3d26005015522e0e1ad5e484ac6b55244492912882707ad9b0db49da36ed847e3e473b0a37a5db4ef08931a183665d8f21e64f3dc18a80b7e1f998a3e5f8#npm:2.12.0"],\
+          ["tslib", "npm:2.8.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.1.0-beta.1", {\
+        "packageLocation": "./.yarn/cache/@azure-opentelemetry-instrumentation-azure-sdk-npm-1.1.0-beta.1-3eab3d2600-f7cb397de2.zip/node_modules/@azure/opentelemetry-instrumentation-azure-sdk/",\
+        "packageDependencies": [\
+          ["@azure/opentelemetry-instrumentation-azure-sdk", "npm:1.1.0-beta.1"],\
+          ["@azure/core-tracing", "npm:1.2.0"],\
+          ["@azure/logger", "npm:1.0.4"],\
+          ["@opentelemetry/api", "npm:1.9.0"],\
+          ["@opentelemetry/core", "virtual:3eab3d26005015522e0e1ad5e484ac6b55244492912882707ad9b0db49da36ed847e3e473b0a37a5db4ef08931a183665d8f21e64f3dc18a80b7e1f998a3e5f8#npm:2.12.0"],\
+          ["@opentelemetry/instrumentation", "virtual:3eab3d26005015522e0e1ad5e484ac6b55244492912882707ad9b0db49da36ed847e3e473b0a37a5db4ef08931a183665d8f21e64f3dc18a80b7e1f998a3e5f8#npm:0.220.0"],\
+          ["@opentelemetry/sdk-trace-web", "virtual:3eab3d26005015522e0e1ad5e484ac6b55244492912882707ad9b0db49da36ed847e3e473b0a37a5db4ef08931a183665d8f21e64f3dc18a80b7e1f998a3e5f8#npm:2.12.0"],\
           ["tslib", "npm:2.8.1"]\
         ],\
         "linkType": "HARD"\
@@ -3537,34 +3545,25 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["@fastify/busboy", [\
-      ["npm:2.1.1", {\
-        "packageLocation": "./.yarn/cache/@fastify-busboy-npm-2.1.1-455d8b6bf5-2bb8a7eca8.zip/node_modules/@fastify/busboy/",\
-        "packageDependencies": [\
-          ["@fastify/busboy", "npm:2.1.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["@grpc/grpc-js", [\
-      ["npm:1.11.1", {\
-        "packageLocation": "./.yarn/cache/@grpc-grpc-js-npm-1.11.1-334ffff186-28fb8d0bbc.zip/node_modules/@grpc/grpc-js/",\
+      ["npm:1.14.5", {\
+        "packageLocation": "./.yarn/cache/@grpc-grpc-js-npm-1.14.5-c688c33830-3be7fe0105.zip/node_modules/@grpc/grpc-js/",\
         "packageDependencies": [\
-          ["@grpc/grpc-js", "npm:1.11.1"],\
-          ["@grpc/proto-loader", "npm:0.7.13"],\
+          ["@grpc/grpc-js", "npm:1.14.5"],\
+          ["@grpc/proto-loader", "npm:0.8.1"],\
           ["@js-sdsl/ordered-map", "npm:4.4.2"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@grpc/proto-loader", [\
-      ["npm:0.7.13", {\
-        "packageLocation": "./.yarn/cache/@grpc-proto-loader-npm-0.7.13-be5b6af1c1-7e2d842c20.zip/node_modules/@grpc/proto-loader/",\
+      ["npm:0.8.1", {\
+        "packageLocation": "./.yarn/cache/@grpc-proto-loader-npm-0.8.1-178ca54eb7-d9ef734a43.zip/node_modules/@grpc/proto-loader/",\
         "packageDependencies": [\
-          ["@grpc/proto-loader", "npm:0.7.13"],\
+          ["@grpc/proto-loader", "npm:0.8.1"],\
           ["lodash.camelcase", "npm:4.3.0"],\
           ["long", "npm:5.2.3"],\
-          ["protobufjs", "npm:7.6.5"],\
+          ["protobufjs", "npm:7.6.6"],\
           ["yargs", "npm:17.7.2"]\
         ],\
         "linkType": "HARD"\
@@ -4566,10 +4565,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@microsoft/applicationinsights-web-snippet", [\
-      ["npm:1.2.1", {\
-        "packageLocation": "./.yarn/cache/@microsoft-applicationinsights-web-snippet-npm-1.2.1-6ae32e76b3-9380a6cd20.zip/node_modules/@microsoft/applicationinsights-web-snippet/",\
+      ["npm:1.2.3", {\
+        "packageLocation": "./.yarn/cache/@microsoft-applicationinsights-web-snippet-npm-1.2.3-59c0e93b25-2dde4da4c2.zip/node_modules/@microsoft/applicationinsights-web-snippet/",\
         "packageDependencies": [\
-          ["@microsoft/applicationinsights-web-snippet", "npm:1.2.1"]\
+          ["@microsoft/applicationinsights-web-snippet", "npm:1.2.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4658,17 +4657,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/api", [\
-      ["npm:1.8.0", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-api-npm-1.8.0-a7bdcf595f-62f0c42711.zip/node_modules/@opentelemetry/api/",\
-        "packageDependencies": [\
-          ["@opentelemetry/api", "npm:1.8.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:1.9.0", {\
         "packageLocation": "./.yarn/cache/@opentelemetry-api-npm-1.9.0-7d0560d0dd-a607f0eef9.zip/node_modules/@opentelemetry/api/",\
         "packageDependencies": [\
           ["@opentelemetry/api", "npm:1.9.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.9.1", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-api-npm-1.9.1-a6d8abf4cb-b26032739d.zip/node_modules/@opentelemetry/api/",\
+        "packageDependencies": [\
+          ["@opentelemetry/api", "npm:1.9.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4682,28 +4681,72 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-api-logs-npm-0.57.2-97ef249ccb-8e3bac962e.zip/node_modules/@opentelemetry/api-logs/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-api-logs-npm-0.221.0-a21b10a02c-8f2f98c8ce.zip/node_modules/@opentelemetry/api-logs/",\
         "packageDependencies": [\
-          ["@opentelemetry/api-logs", "npm:0.57.2"],\
+          ["@opentelemetry/api-logs", "npm:0.221.0"],\
           ["@opentelemetry/api", "npm:1.9.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
-    ["@opentelemetry/context-async-hooks", [\
-      ["npm:1.30.1", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-context-async-hooks-npm-1.30.1-6c85d1d7e3-95c3ec3683.zip/node_modules/@opentelemetry/context-async-hooks/",\
+    ["@opentelemetry/configuration", [\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-configuration-npm-0.221.0-c86634a177-f0b6f891f5.zip/node_modules/@opentelemetry/configuration/",\
         "packageDependencies": [\
-          ["@opentelemetry/context-async-hooks", "npm:1.30.1"]\
+          ["@opentelemetry/configuration", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:e13f9fcc62a64b1da8f61243751daed578acd46e9d8980b8a543d78fb7aacff8a41bb731d435aa551868e4e1e51f4aad84da96a8b9cb5cf378d3ea4a56c3cbfb#npm:1.30.1", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-context-async-hooks-virtual-3325689769/0/cache/@opentelemetry-context-async-hooks-npm-1.30.1-6c85d1d7e3-95c3ec3683.zip/node_modules/@opentelemetry/context-async-hooks/",\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-configuration-virtual-8902c50acc/0/cache/@opentelemetry-configuration-npm-0.221.0-c86634a177-f0b6f891f5.zip/node_modules/@opentelemetry/configuration/",\
         "packageDependencies": [\
-          ["@opentelemetry/context-async-hooks", "virtual:e13f9fcc62a64b1da8f61243751daed578acd46e9d8980b8a543d78fb7aacff8a41bb731d435aa551868e4e1e51f4aad84da96a8b9cb5cf378d3ea4a56c3cbfb#npm:1.30.1"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
+          ["@opentelemetry/configuration", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@types/opentelemetry__api", null],\
+          ["yaml", "npm:2.9.1"]\
+        ],\
+        "packagePeers": [\
+          "@opentelemetry/api",\
+          "@types/opentelemetry__api"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@opentelemetry/context-async-hooks", [\
+      ["npm:2.10.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-context-async-hooks-npm-2.10.0-bfdfaeb31a-cdb4a3b8e9.zip/node_modules/@opentelemetry/context-async-hooks/",\
+        "packageDependencies": [\
+          ["@opentelemetry/context-async-hooks", "npm:2.10.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["npm:2.12.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-context-async-hooks-npm-2.12.0-96f4bf3a62-0addf769a9.zip/node_modules/@opentelemetry/context-async-hooks/",\
+        "packageDependencies": [\
+          ["@opentelemetry/context-async-hooks", "npm:2.12.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:48495c287b456f5ea42f8393f490ae4f07fe6036f76155fecfb34efc335484a8fce94db06df6272a1663a071d4b9ad6fd9c3f7222c90a5cd888f40e8417719a3#npm:2.12.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-context-async-hooks-virtual-5787b7b608/0/cache/@opentelemetry-context-async-hooks-npm-2.12.0-96f4bf3a62-0addf769a9.zip/node_modules/@opentelemetry/context-async-hooks/",\
+        "packageDependencies": [\
+          ["@opentelemetry/context-async-hooks", "virtual:48495c287b456f5ea42f8393f490ae4f07fe6036f76155fecfb34efc335484a8fce94db06df6272a1663a071d4b9ad6fd9c3f7222c90a5cd888f40e8417719a3#npm:2.12.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@types/opentelemetry__api", null]\
+        ],\
+        "packagePeers": [\
+          "@opentelemetry/api",\
+          "@types/opentelemetry__api"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-context-async-hooks-virtual-24b289278e/0/cache/@opentelemetry-context-async-hooks-npm-2.10.0-bfdfaeb31a-cdb4a3b8e9.zip/node_modules/@opentelemetry/context-async-hooks/",\
+        "packageDependencies": [\
+          ["@opentelemetry/context-async-hooks", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -4714,40 +4757,26 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/core", [\
-      ["npm:1.22.0", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-core-npm-1.22.0-bb47c5eb17-f19d9dabd5.zip/node_modules/@opentelemetry/core/",\
+      ["npm:2.10.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-core-npm-2.10.0-308d480e3e-b95d912461.zip/node_modules/@opentelemetry/core/",\
         "packageDependencies": [\
-          ["@opentelemetry/core", "npm:1.22.0"]\
+          ["@opentelemetry/core", "npm:2.10.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["npm:1.25.1", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-core-npm-1.25.1-78eb48f321-3f66979876.zip/node_modules/@opentelemetry/core/",\
+      ["npm:2.12.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-core-npm-2.12.0-e3872ecc1b-2bbc02ad2e.zip/node_modules/@opentelemetry/core/",\
         "packageDependencies": [\
-          ["@opentelemetry/core", "npm:1.25.1"]\
+          ["@opentelemetry/core", "npm:2.12.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["npm:1.26.0", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-core-npm-1.26.0-1d783a1642-474b6bcf42.zip/node_modules/@opentelemetry/core/",\
+      ["virtual:3eab3d26005015522e0e1ad5e484ac6b55244492912882707ad9b0db49da36ed847e3e473b0a37a5db4ef08931a183665d8f21e64f3dc18a80b7e1f998a3e5f8#npm:2.12.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-core-virtual-aa3d708c71/0/cache/@opentelemetry-core-npm-2.12.0-e3872ecc1b-2bbc02ad2e.zip/node_modules/@opentelemetry/core/",\
         "packageDependencies": [\
-          ["@opentelemetry/core", "npm:1.26.0"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["npm:1.30.1", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-core-npm-1.30.1-6bab40a361-fa3df9619f.zip/node_modules/@opentelemetry/core/",\
-        "packageDependencies": [\
-          ["@opentelemetry/core", "npm:1.30.1"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:1dd4d8bebf496333420f554162cb425b1049ae4ffca452c6e271586e19d5735fa9d18d8cc868fbc93d522aac322641bf9b128ea8b19b63c447aa9c92921151d3#npm:1.22.0", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-core-virtual-97ece29034/0/cache/@opentelemetry-core-npm-1.22.0-bb47c5eb17-f19d9dabd5.zip/node_modules/@opentelemetry/core/",\
-        "packageDependencies": [\
-          ["@opentelemetry/core", "virtual:1dd4d8bebf496333420f554162cb425b1049ae4ffca452c6e271586e19d5735fa9d18d8cc868fbc93d522aac322641bf9b128ea8b19b63c447aa9c92921151d3#npm:1.22.0"],\
-          ["@opentelemetry/api", "npm:1.8.0"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.22.0"],\
+          ["@opentelemetry/core", "virtual:3eab3d26005015522e0e1ad5e484ac6b55244492912882707ad9b0db49da36ed847e3e473b0a37a5db4ef08931a183665d8f21e64f3dc18a80b7e1f998a3e5f8#npm:2.12.0"],\
+          ["@opentelemetry/api", "npm:1.9.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -4756,12 +4785,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:6b0ac37e14e54f767edcefe527952a864acd216069accb06e4ffb7ab3cd5f3b729f3e1a5c0dd55d3217be2d5c97804ecfc52a039a11d5ab9b4c9c8f7dc48925e#npm:1.25.1", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-core-virtual-9bfce3e12d/0/cache/@opentelemetry-core-npm-1.25.1-78eb48f321-3f66979876.zip/node_modules/@opentelemetry/core/",\
+      ["virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-core-virtual-56346956bd/0/cache/@opentelemetry-core-npm-2.10.0-308d480e3e-b95d912461.zip/node_modules/@opentelemetry/core/",\
         "packageDependencies": [\
-          ["@opentelemetry/core", "virtual:6b0ac37e14e54f767edcefe527952a864acd216069accb06e4ffb7ab3cd5f3b729f3e1a5c0dd55d3217be2d5c97804ecfc52a039a11d5ab9b4c9c8f7dc48925e#npm:1.25.1"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.25.1"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -4770,26 +4799,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:9c9bce7ca1fec14ba41485b074a0b02fda8e864d41fa0171289a39ae1403923a887ed91210c29e8cd032ad2b4dfe0fa68c98cf45926f63e4b742721cb8349568#npm:1.26.0", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-core-virtual-5f33469c9f/0/cache/@opentelemetry-core-npm-1.26.0-1d783a1642-474b6bcf42.zip/node_modules/@opentelemetry/core/",\
+      ["virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-core-virtual-d3bb1640b5/0/cache/@opentelemetry-core-npm-2.12.0-e3872ecc1b-2bbc02ad2e.zip/node_modules/@opentelemetry/core/",\
         "packageDependencies": [\
-          ["@opentelemetry/core", "virtual:9c9bce7ca1fec14ba41485b074a0b02fda8e864d41fa0171289a39ae1403923a887ed91210c29e8cd032ad2b4dfe0fa68c98cf45926f63e4b742721cb8349568#npm:1.26.0"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.27.0"],\
-          ["@types/opentelemetry__api", null]\
-        ],\
-        "packagePeers": [\
-          "@opentelemetry/api",\
-          "@types/opentelemetry__api"\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-core-virtual-a58877d130/0/cache/@opentelemetry-core-npm-1.30.1-6bab40a361-fa3df9619f.zip/node_modules/@opentelemetry/core/",\
-        "packageDependencies": [\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.28.0"],\
+          ["@opentelemetry/core", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -4800,24 +4815,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/exporter-logs-otlp-grpc", [\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-logs-otlp-grpc-npm-0.57.2-619cd77b9d-6213b3164f.zip/node_modules/@opentelemetry/exporter-logs-otlp-grpc/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-logs-otlp-grpc-npm-0.221.0-6c16510e81-25330f7d7a.zip/node_modules/@opentelemetry/exporter-logs-otlp-grpc/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-logs-otlp-grpc", "npm:0.57.2"]\
+          ["@opentelemetry/exporter-logs-otlp-grpc", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-logs-otlp-grpc-virtual-dc4f332831/0/cache/@opentelemetry-exporter-logs-otlp-grpc-npm-0.57.2-619cd77b9d-6213b3164f.zip/node_modules/@opentelemetry/exporter-logs-otlp-grpc/",\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-logs-otlp-grpc-virtual-b2c3728bee/0/cache/@opentelemetry-exporter-logs-otlp-grpc-npm-0.221.0-6c16510e81-25330f7d7a.zip/node_modules/@opentelemetry/exporter-logs-otlp-grpc/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-logs-otlp-grpc", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@grpc/grpc-js", "npm:1.11.1"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/otlp-exporter-base", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/otlp-grpc-exporter-base", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/otlp-transformer", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/sdk-logs", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:0.57.2"],\
+          ["@opentelemetry/exporter-logs-otlp-grpc", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/otlp-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/otlp-grpc-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/otlp-transformer", "virtual:b2c3728beece45b20e3ec5c4d9841f69352674c85acc2bba791240e1eb22abc6e4b096e0a25e23c716971a10da05a15b125a4003e4eb23a6ca7fc193a114663d#npm:0.221.0"],\
+          ["@opentelemetry/sdk-logs", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:0.221.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -4828,23 +4841,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/exporter-logs-otlp-http", [\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-logs-otlp-http-npm-0.57.2-6094fba3fa-3fcaa1783c.zip/node_modules/@opentelemetry/exporter-logs-otlp-http/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-logs-otlp-http-npm-0.221.0-36ce3b1cf6-0f3c5e481b.zip/node_modules/@opentelemetry/exporter-logs-otlp-http/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-logs-otlp-http", "npm:0.57.2"]\
+          ["@opentelemetry/exporter-logs-otlp-http", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-logs-otlp-http-virtual-3f68c740d3/0/cache/@opentelemetry-exporter-logs-otlp-http-npm-0.57.2-6094fba3fa-3fcaa1783c.zip/node_modules/@opentelemetry/exporter-logs-otlp-http/",\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-logs-otlp-http-virtual-18d2037fab/0/cache/@opentelemetry-exporter-logs-otlp-http-npm-0.221.0-36ce3b1cf6-0f3c5e481b.zip/node_modules/@opentelemetry/exporter-logs-otlp-http/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-logs-otlp-http", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/api-logs", "npm:0.57.2"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/otlp-exporter-base", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/otlp-transformer", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/sdk-logs", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:0.57.2"],\
+          ["@opentelemetry/exporter-logs-otlp-http", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/otlp-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/otlp-transformer", "virtual:b2c3728beece45b20e3ec5c4d9841f69352674c85acc2bba791240e1eb22abc6e4b096e0a25e23c716971a10da05a15b125a4003e4eb23a6ca7fc193a114663d#npm:0.221.0"],\
+          ["@opentelemetry/sdk-logs", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:0.221.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -4855,25 +4866,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/exporter-logs-otlp-proto", [\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-logs-otlp-proto-npm-0.57.2-e59c93f1a5-4258c4c7a4.zip/node_modules/@opentelemetry/exporter-logs-otlp-proto/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-logs-otlp-proto-npm-0.221.0-57e15bb9ba-328fd99559.zip/node_modules/@opentelemetry/exporter-logs-otlp-proto/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-logs-otlp-proto", "npm:0.57.2"]\
+          ["@opentelemetry/exporter-logs-otlp-proto", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-logs-otlp-proto-virtual-65bb55388a/0/cache/@opentelemetry-exporter-logs-otlp-proto-npm-0.57.2-e59c93f1a5-4258c4c7a4.zip/node_modules/@opentelemetry/exporter-logs-otlp-proto/",\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-logs-otlp-proto-virtual-92c8224b53/0/cache/@opentelemetry-exporter-logs-otlp-proto-npm-0.221.0-57e15bb9ba-328fd99559.zip/node_modules/@opentelemetry/exporter-logs-otlp-proto/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-logs-otlp-proto", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/api-logs", "npm:0.57.2"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/otlp-exporter-base", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/otlp-transformer", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-logs", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:0.57.2"],\
-          ["@opentelemetry/sdk-trace-base", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
+          ["@opentelemetry/exporter-logs-otlp-proto", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/otlp-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/otlp-transformer", "virtual:b2c3728beece45b20e3ec5c4d9841f69352674c85acc2bba791240e1eb22abc6e4b096e0a25e23c716971a10da05a15b125a4003e4eb23a6ca7fc193a114663d#npm:0.221.0"],\
+          ["@opentelemetry/sdk-logs", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:0.221.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -4884,26 +4891,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/exporter-metrics-otlp-grpc", [\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-metrics-otlp-grpc-npm-0.57.2-3c5de4d7af-6369dbc22b.zip/node_modules/@opentelemetry/exporter-metrics-otlp-grpc/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-metrics-otlp-grpc-npm-0.221.0-3debf9b59c-76da614f19.zip/node_modules/@opentelemetry/exporter-metrics-otlp-grpc/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-metrics-otlp-grpc", "npm:0.57.2"]\
+          ["@opentelemetry/exporter-metrics-otlp-grpc", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-metrics-otlp-grpc-virtual-d2cc59e784/0/cache/@opentelemetry-exporter-metrics-otlp-grpc-npm-0.57.2-3c5de4d7af-6369dbc22b.zip/node_modules/@opentelemetry/exporter-metrics-otlp-grpc/",\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-metrics-otlp-grpc-virtual-fc05f74ac2/0/cache/@opentelemetry-exporter-metrics-otlp-grpc-npm-0.221.0-3debf9b59c-76da614f19.zip/node_modules/@opentelemetry/exporter-metrics-otlp-grpc/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-metrics-otlp-grpc", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@grpc/grpc-js", "npm:1.11.1"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/exporter-metrics-otlp-http", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/otlp-exporter-base", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/otlp-grpc-exporter-base", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/otlp-transformer", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-metrics", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
+          ["@opentelemetry/exporter-metrics-otlp-grpc", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/exporter-metrics-otlp-http", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/otlp-grpc-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/otlp-transformer", "virtual:b2c3728beece45b20e3ec5c4d9841f69352674c85acc2bba791240e1eb22abc6e4b096e0a25e23c716971a10da05a15b125a4003e4eb23a6ca7fc193a114663d#npm:0.221.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -4914,23 +4916,23 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/exporter-metrics-otlp-http", [\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-metrics-otlp-http-npm-0.57.2-af3ab66c09-60e676467f.zip/node_modules/@opentelemetry/exporter-metrics-otlp-http/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-metrics-otlp-http-npm-0.221.0-1171815e41-b7f111dedc.zip/node_modules/@opentelemetry/exporter-metrics-otlp-http/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-metrics-otlp-http", "npm:0.57.2"]\
+          ["@opentelemetry/exporter-metrics-otlp-http", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-metrics-otlp-http-virtual-00c633c3b3/0/cache/@opentelemetry-exporter-metrics-otlp-http-npm-0.57.2-af3ab66c09-60e676467f.zip/node_modules/@opentelemetry/exporter-metrics-otlp-http/",\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-metrics-otlp-http-virtual-f95991f0a5/0/cache/@opentelemetry-exporter-metrics-otlp-http-npm-0.221.0-1171815e41-b7f111dedc.zip/node_modules/@opentelemetry/exporter-metrics-otlp-http/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-metrics-otlp-http", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/otlp-exporter-base", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/otlp-transformer", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-metrics", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
+          ["@opentelemetry/exporter-metrics-otlp-http", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/otlp-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/otlp-transformer", "virtual:b2c3728beece45b20e3ec5c4d9841f69352674c85acc2bba791240e1eb22abc6e4b096e0a25e23c716971a10da05a15b125a4003e4eb23a6ca7fc193a114663d#npm:0.221.0"],\
+          ["@opentelemetry/resources", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/sdk-metrics", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -4941,24 +4943,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/exporter-metrics-otlp-proto", [\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-metrics-otlp-proto-npm-0.57.2-feac7a7bc4-50753c5918.zip/node_modules/@opentelemetry/exporter-metrics-otlp-proto/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-metrics-otlp-proto-npm-0.221.0-fca0254968-ee4e82b880.zip/node_modules/@opentelemetry/exporter-metrics-otlp-proto/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-metrics-otlp-proto", "npm:0.57.2"]\
+          ["@opentelemetry/exporter-metrics-otlp-proto", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-metrics-otlp-proto-virtual-19de419cc3/0/cache/@opentelemetry-exporter-metrics-otlp-proto-npm-0.57.2-feac7a7bc4-50753c5918.zip/node_modules/@opentelemetry/exporter-metrics-otlp-proto/",\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-metrics-otlp-proto-virtual-721d37706e/0/cache/@opentelemetry-exporter-metrics-otlp-proto-npm-0.221.0-fca0254968-ee4e82b880.zip/node_modules/@opentelemetry/exporter-metrics-otlp-proto/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-metrics-otlp-proto", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/exporter-metrics-otlp-http", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/otlp-exporter-base", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/otlp-transformer", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-metrics", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
+          ["@opentelemetry/exporter-metrics-otlp-proto", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/exporter-metrics-otlp-http", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/otlp-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/otlp-transformer", "virtual:b2c3728beece45b20e3ec5c4d9841f69352674c85acc2bba791240e1eb22abc6e4b096e0a25e23c716971a10da05a15b125a4003e4eb23a6ca7fc193a114663d#npm:0.221.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -4969,21 +4968,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/exporter-prometheus", [\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-prometheus-npm-0.57.2-5c14591b74-bffa0c5a44.zip/node_modules/@opentelemetry/exporter-prometheus/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-prometheus-npm-0.221.0-0869f001bd-9bcd3a8426.zip/node_modules/@opentelemetry/exporter-prometheus/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-prometheus", "npm:0.57.2"]\
+          ["@opentelemetry/exporter-prometheus", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-prometheus-virtual-2441b52e6c/0/cache/@opentelemetry-exporter-prometheus-npm-0.57.2-5c14591b74-bffa0c5a44.zip/node_modules/@opentelemetry/exporter-prometheus/",\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-prometheus-virtual-f1271820ae/0/cache/@opentelemetry-exporter-prometheus-npm-0.221.0-0869f001bd-9bcd3a8426.zip/node_modules/@opentelemetry/exporter-prometheus/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-prometheus", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-metrics", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
+          ["@opentelemetry/exporter-prometheus", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/resources", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/sdk-metrics", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -4994,25 +4994,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/exporter-trace-otlp-grpc", [\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-trace-otlp-grpc-npm-0.57.2-db5f8456a2-48c1b993d9.zip/node_modules/@opentelemetry/exporter-trace-otlp-grpc/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-trace-otlp-grpc-npm-0.221.0-a5423504d3-b5becee536.zip/node_modules/@opentelemetry/exporter-trace-otlp-grpc/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-trace-otlp-grpc", "npm:0.57.2"]\
+          ["@opentelemetry/exporter-trace-otlp-grpc", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-trace-otlp-grpc-virtual-62c60a6dfd/0/cache/@opentelemetry-exporter-trace-otlp-grpc-npm-0.57.2-db5f8456a2-48c1b993d9.zip/node_modules/@opentelemetry/exporter-trace-otlp-grpc/",\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-trace-otlp-grpc-virtual-78a3c09905/0/cache/@opentelemetry-exporter-trace-otlp-grpc-npm-0.221.0-a5423504d3-b5becee536.zip/node_modules/@opentelemetry/exporter-trace-otlp-grpc/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-trace-otlp-grpc", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@grpc/grpc-js", "npm:1.11.1"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/otlp-exporter-base", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/otlp-grpc-exporter-base", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/otlp-transformer", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-trace-base", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
+          ["@opentelemetry/exporter-trace-otlp-grpc", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/otlp-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/otlp-grpc-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/otlp-transformer", "virtual:b2c3728beece45b20e3ec5c4d9841f69352674c85acc2bba791240e1eb22abc6e4b096e0a25e23c716971a10da05a15b125a4003e4eb23a6ca7fc193a114663d#npm:0.221.0"],\
+          ["@opentelemetry/sdk-trace", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5023,23 +5020,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/exporter-trace-otlp-http", [\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-trace-otlp-http-npm-0.57.2-3647f3e1b5-cf449fd6f0.zip/node_modules/@opentelemetry/exporter-trace-otlp-http/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-trace-otlp-http-npm-0.221.0-eea55f06e7-cb4215c164.zip/node_modules/@opentelemetry/exporter-trace-otlp-http/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-trace-otlp-http", "npm:0.57.2"]\
+          ["@opentelemetry/exporter-trace-otlp-http", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-trace-otlp-http-virtual-d0be3ed4bb/0/cache/@opentelemetry-exporter-trace-otlp-http-npm-0.57.2-3647f3e1b5-cf449fd6f0.zip/node_modules/@opentelemetry/exporter-trace-otlp-http/",\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-trace-otlp-http-virtual-9626b64527/0/cache/@opentelemetry-exporter-trace-otlp-http-npm-0.221.0-eea55f06e7-cb4215c164.zip/node_modules/@opentelemetry/exporter-trace-otlp-http/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-trace-otlp-http", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/otlp-exporter-base", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/otlp-transformer", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-trace-base", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
+          ["@opentelemetry/exporter-trace-otlp-http", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/otlp-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/otlp-transformer", "virtual:b2c3728beece45b20e3ec5c4d9841f69352674c85acc2bba791240e1eb22abc6e4b096e0a25e23c716971a10da05a15b125a4003e4eb23a6ca7fc193a114663d#npm:0.221.0"],\
+          ["@opentelemetry/sdk-trace", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5050,23 +5045,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/exporter-trace-otlp-proto", [\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-trace-otlp-proto-npm-0.57.2-593b040eac-3df71d1289.zip/node_modules/@opentelemetry/exporter-trace-otlp-proto/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-trace-otlp-proto-npm-0.221.0-d5794f4754-9696b4eeb9.zip/node_modules/@opentelemetry/exporter-trace-otlp-proto/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-trace-otlp-proto", "npm:0.57.2"]\
+          ["@opentelemetry/exporter-trace-otlp-proto", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-trace-otlp-proto-virtual-23b081569b/0/cache/@opentelemetry-exporter-trace-otlp-proto-npm-0.57.2-593b040eac-3df71d1289.zip/node_modules/@opentelemetry/exporter-trace-otlp-proto/",\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-trace-otlp-proto-virtual-66878b44d1/0/cache/@opentelemetry-exporter-trace-otlp-proto-npm-0.221.0-d5794f4754-9696b4eeb9.zip/node_modules/@opentelemetry/exporter-trace-otlp-proto/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-trace-otlp-proto", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/otlp-exporter-base", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/otlp-transformer", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-trace-base", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
+          ["@opentelemetry/exporter-trace-otlp-proto", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/otlp-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/otlp-transformer", "virtual:b2c3728beece45b20e3ec5c4d9841f69352674c85acc2bba791240e1eb22abc6e4b096e0a25e23c716971a10da05a15b125a4003e4eb23a6ca7fc193a114663d#npm:0.221.0"],\
+          ["@opentelemetry/sdk-trace", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5077,22 +5070,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/exporter-zipkin", [\
-      ["npm:1.30.1", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-zipkin-npm-1.30.1-2b7dd3bbbe-66c1074660.zip/node_modules/@opentelemetry/exporter-zipkin/",\
+      ["npm:2.10.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-exporter-zipkin-npm-2.10.0-9d56320d98-8494dc54c1.zip/node_modules/@opentelemetry/exporter-zipkin/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-zipkin", "npm:1.30.1"]\
+          ["@opentelemetry/exporter-zipkin", "npm:2.10.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:1.30.1", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-zipkin-virtual-cd3045fd45/0/cache/@opentelemetry-exporter-zipkin-npm-1.30.1-2b7dd3bbbe-66c1074660.zip/node_modules/@opentelemetry/exporter-zipkin/",\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-exporter-zipkin-virtual-e5148d333c/0/cache/@opentelemetry-exporter-zipkin-npm-2.10.0-9d56320d98-8494dc54c1.zip/node_modules/@opentelemetry/exporter-zipkin/",\
         "packageDependencies": [\
-          ["@opentelemetry/exporter-zipkin", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:1.30.1"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-trace-base", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.28.0"],\
+          ["@opentelemetry/exporter-zipkin", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/resources", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/sdk-trace", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5110,11 +5103,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:1dd4d8bebf496333420f554162cb425b1049ae4ffca452c6e271586e19d5735fa9d18d8cc868fbc93d522aac322641bf9b128ea8b19b63c447aa9c92921151d3#npm:0.220.0", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-virtual-d92a90df1a/0/cache/@opentelemetry-instrumentation-npm-0.220.0-b921dbcc8b-c84e33937e.zip/node_modules/@opentelemetry/instrumentation/",\
+      ["virtual:3eab3d26005015522e0e1ad5e484ac6b55244492912882707ad9b0db49da36ed847e3e473b0a37a5db4ef08931a183665d8f21e64f3dc18a80b7e1f998a3e5f8#npm:0.220.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-virtual-7031cd9fb8/0/cache/@opentelemetry-instrumentation-npm-0.220.0-b921dbcc8b-c84e33937e.zip/node_modules/@opentelemetry/instrumentation/",\
         "packageDependencies": [\
-          ["@opentelemetry/instrumentation", "virtual:1dd4d8bebf496333420f554162cb425b1049ae4ffca452c6e271586e19d5735fa9d18d8cc868fbc93d522aac322641bf9b128ea8b19b63c447aa9c92921151d3#npm:0.220.0"],\
-          ["@opentelemetry/api", "npm:1.8.0"],\
+          ["@opentelemetry/instrumentation", "virtual:3eab3d26005015522e0e1ad5e484ac6b55244492912882707ad9b0db49da36ed847e3e473b0a37a5db4ef08931a183665d8f21e64f3dc18a80b7e1f998a3e5f8#npm:0.220.0"],\
+          ["@opentelemetry/api", "npm:1.9.0"],\
           ["@opentelemetry/api-logs", "npm:0.220.0"],\
           ["@types/opentelemetry__api", null],\
           ["import-in-the-middle", "npm:3.3.1"],\
@@ -5126,11 +5119,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:e1efd4fc8ee740eb359cde42b95ad60b449ae13f0a8a70112e3d8a442da33bb6dfa126f24c187d69b6823156f5fef68f432c1d90b57f52b1962e3503525b956e#npm:0.220.0", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-virtual-83b2c9c9d0/0/cache/@opentelemetry-instrumentation-npm-0.220.0-b921dbcc8b-c84e33937e.zip/node_modules/@opentelemetry/instrumentation/",\
+      ["virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.220.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-virtual-1bfc8c2d07/0/cache/@opentelemetry-instrumentation-npm-0.220.0-b921dbcc8b-c84e33937e.zip/node_modules/@opentelemetry/instrumentation/",\
         "packageDependencies": [\
-          ["@opentelemetry/instrumentation", "virtual:e1efd4fc8ee740eb359cde42b95ad60b449ae13f0a8a70112e3d8a442da33bb6dfa126f24c187d69b6823156f5fef68f432c1d90b57f52b1962e3503525b956e#npm:0.220.0"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
+          ["@opentelemetry/instrumentation", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.220.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
           ["@opentelemetry/api-logs", "npm:0.220.0"],\
           ["@types/opentelemetry__api", null],\
           ["import-in-the-middle", "npm:3.3.1"],\
@@ -5144,21 +5137,46 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/instrumentation-bunyan", [\
-      ["npm:0.45.0", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-instrumentation-bunyan-npm-0.45.0-4a7801b04d-bffe87c059.zip/node_modules/@opentelemetry/instrumentation-bunyan/",\
+      ["npm:0.66.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-instrumentation-bunyan-npm-0.66.0-91f1da9698-38c3f179ec.zip/node_modules/@opentelemetry/instrumentation-bunyan/",\
         "packageDependencies": [\
-          ["@opentelemetry/instrumentation-bunyan", "npm:0.45.0"]\
+          ["@opentelemetry/instrumentation-bunyan", "npm:0.66.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.45.0", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-bunyan-virtual-654b2b7522/0/cache/@opentelemetry-instrumentation-bunyan-npm-0.45.0-4a7801b04d-bffe87c059.zip/node_modules/@opentelemetry/instrumentation-bunyan/",\
+      ["virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.66.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-bunyan-virtual-12b4094cfb/0/cache/@opentelemetry-instrumentation-bunyan-npm-0.66.0-91f1da9698-38c3f179ec.zip/node_modules/@opentelemetry/instrumentation-bunyan/",\
         "packageDependencies": [\
-          ["@opentelemetry/instrumentation-bunyan", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.45.0"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/api-logs", "npm:0.57.2"],\
-          ["@opentelemetry/instrumentation", "virtual:e1efd4fc8ee740eb359cde42b95ad60b449ae13f0a8a70112e3d8a442da33bb6dfa126f24c187d69b6823156f5fef68f432c1d90b57f52b1962e3503525b956e#npm:0.220.0"],\
-          ["@types/bunyan", "npm:1.8.9"],\
+          ["@opentelemetry/instrumentation-bunyan", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.66.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/api-logs", "npm:0.221.0"],\
+          ["@opentelemetry/instrumentation", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.220.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
+          ["@types/bunyan", "npm:1.8.11"],\
+          ["@types/opentelemetry__api", null]\
+        ],\
+        "packagePeers": [\
+          "@opentelemetry/api",\
+          "@types/opentelemetry__api"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@opentelemetry/instrumentation-console", [\
+      ["npm:0.3.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-instrumentation-console-npm-0.3.0-3f7ced7cea-4dca144823.zip/node_modules/@opentelemetry/instrumentation-console/",\
+        "packageDependencies": [\
+          ["@opentelemetry/instrumentation-console", "npm:0.3.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.3.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-console-virtual-56f9265cd9/0/cache/@opentelemetry-instrumentation-console-npm-0.3.0-3f7ced7cea-4dca144823.zip/node_modules/@opentelemetry/instrumentation-console/",\
+        "packageDependencies": [\
+          ["@opentelemetry/instrumentation-console", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.3.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/api-logs", "npm:0.221.0"],\
+          ["@opentelemetry/instrumentation", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.220.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5169,24 +5187,23 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/instrumentation-http", [\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-instrumentation-http-npm-0.57.2-14dfa84450-ca1d25c9aa.zip/node_modules/@opentelemetry/instrumentation-http/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-instrumentation-http-npm-0.221.0-10e04f7137-756848fedb.zip/node_modules/@opentelemetry/instrumentation-http/",\
         "packageDependencies": [\
-          ["@opentelemetry/instrumentation-http", "npm:0.57.2"]\
+          ["@opentelemetry/instrumentation-http", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.57.2", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-http-virtual-9d159c4711/0/cache/@opentelemetry-instrumentation-http-npm-0.57.2-14dfa84450-ca1d25c9aa.zip/node_modules/@opentelemetry/instrumentation-http/",\
+      ["virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-http-virtual-20dff112b5/0/cache/@opentelemetry-instrumentation-http-npm-0.221.0-10e04f7137-756848fedb.zip/node_modules/@opentelemetry/instrumentation-http/",\
         "packageDependencies": [\
-          ["@opentelemetry/instrumentation-http", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.57.2"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/instrumentation", "virtual:e1efd4fc8ee740eb359cde42b95ad60b449ae13f0a8a70112e3d8a442da33bb6dfa126f24c187d69b6823156f5fef68f432c1d90b57f52b1962e3503525b956e#npm:0.220.0"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.28.0"],\
+          ["@opentelemetry/instrumentation-http", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.221.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/instrumentation", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.220.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
           ["@types/opentelemetry__api", null],\
-          ["forwarded-parse", "npm:2.1.2"],\
-          ["semver", "npm:7.6.3"]\
+          ["forwarded-parse", "npm:2.1.2"]\
         ],\
         "packagePeers": [\
           "@opentelemetry/api",\
@@ -5196,20 +5213,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/instrumentation-mongodb", [\
-      ["npm:0.51.0", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-instrumentation-mongodb-npm-0.51.0-c01df9fba1-c0330a1872.zip/node_modules/@opentelemetry/instrumentation-mongodb/",\
+      ["npm:0.74.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-instrumentation-mongodb-npm-0.74.0-dfeaf3a20a-aab60b5b4f.zip/node_modules/@opentelemetry/instrumentation-mongodb/",\
         "packageDependencies": [\
-          ["@opentelemetry/instrumentation-mongodb", "npm:0.51.0"]\
+          ["@opentelemetry/instrumentation-mongodb", "npm:0.74.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.51.0", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-mongodb-virtual-5d95d704f4/0/cache/@opentelemetry-instrumentation-mongodb-npm-0.51.0-c01df9fba1-c0330a1872.zip/node_modules/@opentelemetry/instrumentation-mongodb/",\
+      ["virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.74.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-mongodb-virtual-4c196e75ec/0/cache/@opentelemetry-instrumentation-mongodb-npm-0.74.0-dfeaf3a20a-aab60b5b4f.zip/node_modules/@opentelemetry/instrumentation-mongodb/",\
         "packageDependencies": [\
-          ["@opentelemetry/instrumentation-mongodb", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.51.0"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/instrumentation", "virtual:e1efd4fc8ee740eb359cde42b95ad60b449ae13f0a8a70112e3d8a442da33bb6dfa126f24c187d69b6823156f5fef68f432c1d90b57f52b1962e3503525b956e#npm:0.220.0"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.30.0"],\
+          ["@opentelemetry/instrumentation-mongodb", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.74.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/instrumentation", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.220.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5220,21 +5237,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/instrumentation-mysql", [\
-      ["npm:0.45.0", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-instrumentation-mysql-npm-0.45.0-57a4ca1623-b5cf28df77.zip/node_modules/@opentelemetry/instrumentation-mysql/",\
+      ["npm:0.67.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-instrumentation-mysql-npm-0.67.0-14850946c1-7d7aab1c04.zip/node_modules/@opentelemetry/instrumentation-mysql/",\
         "packageDependencies": [\
-          ["@opentelemetry/instrumentation-mysql", "npm:0.45.0"]\
+          ["@opentelemetry/instrumentation-mysql", "npm:0.67.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.45.0", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-mysql-virtual-795e223d04/0/cache/@opentelemetry-instrumentation-mysql-npm-0.45.0-57a4ca1623-b5cf28df77.zip/node_modules/@opentelemetry/instrumentation-mysql/",\
+      ["virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.67.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-mysql-virtual-af3d03e597/0/cache/@opentelemetry-instrumentation-mysql-npm-0.67.0-14850946c1-7d7aab1c04.zip/node_modules/@opentelemetry/instrumentation-mysql/",\
         "packageDependencies": [\
-          ["@opentelemetry/instrumentation-mysql", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.45.0"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/instrumentation", "virtual:e1efd4fc8ee740eb359cde42b95ad60b449ae13f0a8a70112e3d8a442da33bb6dfa126f24c187d69b6823156f5fef68f432c1d90b57f52b1962e3503525b956e#npm:0.220.0"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.30.0"],\
-          ["@types/mysql", "npm:2.15.26"],\
+          ["@opentelemetry/instrumentation-mysql", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.67.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/instrumentation", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.220.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
+          ["@types/mysql", "npm:2.15.27"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5245,25 +5262,25 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/instrumentation-pg", [\
-      ["npm:0.50.0", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-instrumentation-pg-npm-0.50.0-f54d3bbdfb-65826f74f2.zip/node_modules/@opentelemetry/instrumentation-pg/",\
+      ["npm:0.73.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-instrumentation-pg-npm-0.73.0-403bfe7577-d855cfd55a.zip/node_modules/@opentelemetry/instrumentation-pg/",\
         "packageDependencies": [\
-          ["@opentelemetry/instrumentation-pg", "npm:0.50.0"]\
+          ["@opentelemetry/instrumentation-pg", "npm:0.73.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.50.0", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-pg-virtual-fda9ed5379/0/cache/@opentelemetry-instrumentation-pg-npm-0.50.0-f54d3bbdfb-65826f74f2.zip/node_modules/@opentelemetry/instrumentation-pg/",\
+      ["virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.73.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-pg-virtual-8f6b4f9c80/0/cache/@opentelemetry-instrumentation-pg-npm-0.73.0-403bfe7577-d855cfd55a.zip/node_modules/@opentelemetry/instrumentation-pg/",\
         "packageDependencies": [\
-          ["@opentelemetry/instrumentation-pg", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.50.0"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/instrumentation", "virtual:e1efd4fc8ee740eb359cde42b95ad60b449ae13f0a8a70112e3d8a442da33bb6dfa126f24c187d69b6823156f5fef68f432c1d90b57f52b1962e3503525b956e#npm:0.220.0"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.27.0"],\
-          ["@opentelemetry/sql-common", "virtual:fda9ed537954d49d37c25a396f33d5b0405b51fa0451eed3f8f57bc8d9eeb7c45bb78d52765f03ed4dead0eb6b3de90814665e7ddc5366e1e286d85e973fa54f#npm:0.40.1"],\
+          ["@opentelemetry/instrumentation-pg", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.73.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/instrumentation", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.220.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
+          ["@opentelemetry/sql-common", "virtual:8f6b4f9c806ce808dd39679af7c6c0e9ac9172bfe82f16fb126563efc387da1979ef980ab2df7e94f7f7264fcc520b495f0edd1bd44cc7417ce1b7d7e61fde6f#npm:0.42.0"],\
           ["@types/opentelemetry__api", null],\
-          ["@types/pg", "npm:8.6.1"],\
-          ["@types/pg-pool", "npm:2.0.6"]\
+          ["@types/pg", "npm:8.15.6"],\
+          ["@types/pg-pool", "npm:2.0.7"]\
         ],\
         "packagePeers": [\
           "@opentelemetry/api",\
@@ -5273,45 +5290,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/instrumentation-redis", [\
-      ["npm:0.46.0", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-instrumentation-redis-npm-0.46.0-3e28deb304-21e6bb263b.zip/node_modules/@opentelemetry/instrumentation-redis/",\
+      ["npm:0.69.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-instrumentation-redis-npm-0.69.0-0d1e38408c-a4f7c02cd2.zip/node_modules/@opentelemetry/instrumentation-redis/",\
         "packageDependencies": [\
-          ["@opentelemetry/instrumentation-redis", "npm:0.46.0"]\
+          ["@opentelemetry/instrumentation-redis", "npm:0.69.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.46.0", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-redis-virtual-1c8af2ef5a/0/cache/@opentelemetry-instrumentation-redis-npm-0.46.0-3e28deb304-21e6bb263b.zip/node_modules/@opentelemetry/instrumentation-redis/",\
+      ["virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.69.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-redis-virtual-acc3f39737/0/cache/@opentelemetry-instrumentation-redis-npm-0.69.0-0d1e38408c-a4f7c02cd2.zip/node_modules/@opentelemetry/instrumentation-redis/",\
         "packageDependencies": [\
-          ["@opentelemetry/instrumentation-redis", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.46.0"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/instrumentation", "virtual:e1efd4fc8ee740eb359cde42b95ad60b449ae13f0a8a70112e3d8a442da33bb6dfa126f24c187d69b6823156f5fef68f432c1d90b57f52b1962e3503525b956e#npm:0.220.0"],\
-          ["@opentelemetry/redis-common", "npm:0.36.2"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.30.0"],\
-          ["@types/opentelemetry__api", null]\
-        ],\
-        "packagePeers": [\
-          "@opentelemetry/api",\
-          "@types/opentelemetry__api"\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@opentelemetry/instrumentation-redis-4", [\
-      ["npm:0.46.0", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-instrumentation-redis-4-npm-0.46.0-1a8fd4135e-e5853a906e.zip/node_modules/@opentelemetry/instrumentation-redis-4/",\
-        "packageDependencies": [\
-          ["@opentelemetry/instrumentation-redis-4", "npm:0.46.0"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.46.0", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-redis-4-virtual-bbeab3f12f/0/cache/@opentelemetry-instrumentation-redis-4-npm-0.46.0-1a8fd4135e-e5853a906e.zip/node_modules/@opentelemetry/instrumentation-redis-4/",\
-        "packageDependencies": [\
-          ["@opentelemetry/instrumentation-redis-4", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.46.0"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/instrumentation", "virtual:e1efd4fc8ee740eb359cde42b95ad60b449ae13f0a8a70112e3d8a442da33bb6dfa126f24c187d69b6823156f5fef68f432c1d90b57f52b1962e3503525b956e#npm:0.220.0"],\
-          ["@opentelemetry/redis-common", "npm:0.36.2"],\
+          ["@opentelemetry/instrumentation-redis", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.69.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/instrumentation", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.220.0"],\
+          ["@opentelemetry/redis-common", "npm:0.38.3"],\
           ["@opentelemetry/semantic-conventions", "npm:1.30.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
@@ -5323,20 +5315,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/instrumentation-winston", [\
-      ["npm:0.44.0", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-instrumentation-winston-npm-0.44.0-49960a2c46-f06487ce9b.zip/node_modules/@opentelemetry/instrumentation-winston/",\
+      ["npm:0.65.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-instrumentation-winston-npm-0.65.0-ce7dc19f54-bc72a2991e.zip/node_modules/@opentelemetry/instrumentation-winston/",\
         "packageDependencies": [\
-          ["@opentelemetry/instrumentation-winston", "npm:0.44.0"]\
+          ["@opentelemetry/instrumentation-winston", "npm:0.65.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.44.0", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-winston-virtual-68a61075e4/0/cache/@opentelemetry-instrumentation-winston-npm-0.44.0-49960a2c46-f06487ce9b.zip/node_modules/@opentelemetry/instrumentation-winston/",\
+      ["virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.65.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-instrumentation-winston-virtual-5563b6649f/0/cache/@opentelemetry-instrumentation-winston-npm-0.65.0-ce7dc19f54-bc72a2991e.zip/node_modules/@opentelemetry/instrumentation-winston/",\
         "packageDependencies": [\
-          ["@opentelemetry/instrumentation-winston", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.44.0"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/api-logs", "npm:0.57.2"],\
-          ["@opentelemetry/instrumentation", "virtual:e1efd4fc8ee740eb359cde42b95ad60b449ae13f0a8a70112e3d8a442da33bb6dfa126f24c187d69b6823156f5fef68f432c1d90b57f52b1962e3503525b956e#npm:0.220.0"],\
+          ["@opentelemetry/instrumentation-winston", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.65.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/api-logs", "npm:0.221.0"],\
+          ["@opentelemetry/instrumentation", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.220.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5347,20 +5339,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/otlp-exporter-base", [\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-otlp-exporter-base-npm-0.57.2-9e7a510489-e1dd6731a5.zip/node_modules/@opentelemetry/otlp-exporter-base/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-otlp-exporter-base-npm-0.221.0-463d29ccee-06d2f58bfe.zip/node_modules/@opentelemetry/otlp-exporter-base/",\
         "packageDependencies": [\
-          ["@opentelemetry/otlp-exporter-base", "npm:0.57.2"]\
+          ["@opentelemetry/otlp-exporter-base", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-otlp-exporter-base-virtual-00bf8d088c/0/cache/@opentelemetry-otlp-exporter-base-npm-0.57.2-9e7a510489-e1dd6731a5.zip/node_modules/@opentelemetry/otlp-exporter-base/",\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-otlp-exporter-base-virtual-ee70722266/0/cache/@opentelemetry-otlp-exporter-base-npm-0.221.0-463d29ccee-06d2f58bfe.zip/node_modules/@opentelemetry/otlp-exporter-base/",\
         "packageDependencies": [\
-          ["@opentelemetry/otlp-exporter-base", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/otlp-transformer", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
+          ["@opentelemetry/otlp-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/otlp-transformer", "virtual:b2c3728beece45b20e3ec5c4d9841f69352674c85acc2bba791240e1eb22abc6e4b096e0a25e23c716971a10da05a15b125a4003e4eb23a6ca7fc193a114663d#npm:0.221.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5371,22 +5363,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/otlp-grpc-exporter-base", [\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-otlp-grpc-exporter-base-npm-0.57.2-f1366e7045-5dd39d9801.zip/node_modules/@opentelemetry/otlp-grpc-exporter-base/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-otlp-grpc-exporter-base-npm-0.221.0-3fd4af3267-c496d8bc87.zip/node_modules/@opentelemetry/otlp-grpc-exporter-base/",\
         "packageDependencies": [\
-          ["@opentelemetry/otlp-grpc-exporter-base", "npm:0.57.2"]\
+          ["@opentelemetry/otlp-grpc-exporter-base", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-otlp-grpc-exporter-base-virtual-20f680b246/0/cache/@opentelemetry-otlp-grpc-exporter-base-npm-0.57.2-f1366e7045-5dd39d9801.zip/node_modules/@opentelemetry/otlp-grpc-exporter-base/",\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-otlp-grpc-exporter-base-virtual-6bd49c5dbc/0/cache/@opentelemetry-otlp-grpc-exporter-base-npm-0.221.0-3fd4af3267-c496d8bc87.zip/node_modules/@opentelemetry/otlp-grpc-exporter-base/",\
         "packageDependencies": [\
-          ["@opentelemetry/otlp-grpc-exporter-base", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@grpc/grpc-js", "npm:1.11.1"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/otlp-exporter-base", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/otlp-transformer", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
+          ["@opentelemetry/otlp-grpc-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@grpc/grpc-js", "npm:1.14.5"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/otlp-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/otlp-transformer", "virtual:b2c3728beece45b20e3ec5c4d9841f69352674c85acc2bba791240e1eb22abc6e4b096e0a25e23c716971a10da05a15b125a4003e4eb23a6ca7fc193a114663d#npm:0.221.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5397,26 +5389,25 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/otlp-transformer", [\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-otlp-transformer-npm-0.57.2-c2ce9fef04-fc50d9358d.zip/node_modules/@opentelemetry/otlp-transformer/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-otlp-transformer-npm-0.221.0-5821046164-42dfa2c7cc.zip/node_modules/@opentelemetry/otlp-transformer/",\
         "packageDependencies": [\
-          ["@opentelemetry/otlp-transformer", "npm:0.57.2"]\
+          ["@opentelemetry/otlp-transformer", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-otlp-transformer-virtual-f84791e478/0/cache/@opentelemetry-otlp-transformer-npm-0.57.2-c2ce9fef04-fc50d9358d.zip/node_modules/@opentelemetry/otlp-transformer/",\
+      ["virtual:b2c3728beece45b20e3ec5c4d9841f69352674c85acc2bba791240e1eb22abc6e4b096e0a25e23c716971a10da05a15b125a4003e4eb23a6ca7fc193a114663d#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-otlp-transformer-virtual-a556bbc708/0/cache/@opentelemetry-otlp-transformer-npm-0.221.0-5821046164-42dfa2c7cc.zip/node_modules/@opentelemetry/otlp-transformer/",\
         "packageDependencies": [\
-          ["@opentelemetry/otlp-transformer", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/api-logs", "npm:0.57.2"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-logs", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:0.57.2"],\
-          ["@opentelemetry/sdk-metrics", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-trace-base", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@types/opentelemetry__api", null],\
-          ["protobufjs", "npm:7.6.5"]\
+          ["@opentelemetry/otlp-transformer", "virtual:b2c3728beece45b20e3ec5c4d9841f69352674c85acc2bba791240e1eb22abc6e4b096e0a25e23c716971a10da05a15b125a4003e4eb23a6ca7fc193a114663d#npm:0.221.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/api-logs", "npm:0.221.0"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/resources", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/sdk-logs", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:0.221.0"],\
+          ["@opentelemetry/sdk-metrics", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/sdk-trace", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
           "@opentelemetry/api",\
@@ -5426,19 +5417,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/propagator-b3", [\
-      ["npm:1.30.1", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-propagator-b3-npm-1.30.1-590a976998-df246fff27.zip/node_modules/@opentelemetry/propagator-b3/",\
+      ["npm:2.10.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-propagator-b3-npm-2.10.0-7003636c1c-0ad5b50012.zip/node_modules/@opentelemetry/propagator-b3/",\
         "packageDependencies": [\
-          ["@opentelemetry/propagator-b3", "npm:1.30.1"]\
+          ["@opentelemetry/propagator-b3", "npm:2.10.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:e13f9fcc62a64b1da8f61243751daed578acd46e9d8980b8a543d78fb7aacff8a41bb731d435aa551868e4e1e51f4aad84da96a8b9cb5cf378d3ea4a56c3cbfb#npm:1.30.1", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-propagator-b3-virtual-d2cace8449/0/cache/@opentelemetry-propagator-b3-npm-1.30.1-590a976998-df246fff27.zip/node_modules/@opentelemetry/propagator-b3/",\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-propagator-b3-virtual-487e978aa1/0/cache/@opentelemetry-propagator-b3-npm-2.10.0-7003636c1c-0ad5b50012.zip/node_modules/@opentelemetry/propagator-b3/",\
         "packageDependencies": [\
-          ["@opentelemetry/propagator-b3", "virtual:e13f9fcc62a64b1da8f61243751daed578acd46e9d8980b8a543d78fb7aacff8a41bb731d435aa551868e4e1e51f4aad84da96a8b9cb5cf378d3ea4a56c3cbfb#npm:1.30.1"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
+          ["@opentelemetry/propagator-b3", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5449,19 +5440,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/propagator-jaeger", [\
-      ["npm:1.30.1", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-propagator-jaeger-npm-1.30.1-7b2134bf11-a360385212.zip/node_modules/@opentelemetry/propagator-jaeger/",\
+      ["npm:2.10.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-propagator-jaeger-npm-2.10.0-209a54270f-858dea9f1c.zip/node_modules/@opentelemetry/propagator-jaeger/",\
         "packageDependencies": [\
-          ["@opentelemetry/propagator-jaeger", "npm:1.30.1"]\
+          ["@opentelemetry/propagator-jaeger", "npm:2.10.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:e13f9fcc62a64b1da8f61243751daed578acd46e9d8980b8a543d78fb7aacff8a41bb731d435aa551868e4e1e51f4aad84da96a8b9cb5cf378d3ea4a56c3cbfb#npm:1.30.1", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-propagator-jaeger-virtual-9ff0f89960/0/cache/@opentelemetry-propagator-jaeger-npm-1.30.1-7b2134bf11-a360385212.zip/node_modules/@opentelemetry/propagator-jaeger/",\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-propagator-jaeger-virtual-d0089c4331/0/cache/@opentelemetry-propagator-jaeger-npm-2.10.0-209a54270f-858dea9f1c.zip/node_modules/@opentelemetry/propagator-jaeger/",\
         "packageDependencies": [\
-          ["@opentelemetry/propagator-jaeger", "virtual:e13f9fcc62a64b1da8f61243751daed578acd46e9d8980b8a543d78fb7aacff8a41bb731d435aa551868e4e1e51f4aad84da96a8b9cb5cf378d3ea4a56c3cbfb#npm:1.30.1"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
+          ["@opentelemetry/propagator-jaeger", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5472,30 +5463,30 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/redis-common", [\
-      ["npm:0.36.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-redis-common-npm-0.36.2-15106e7250-e7f610f79c.zip/node_modules/@opentelemetry/redis-common/",\
+      ["npm:0.38.3", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-redis-common-npm-0.38.3-98b4b810e7-287c955eb2.zip/node_modules/@opentelemetry/redis-common/",\
         "packageDependencies": [\
-          ["@opentelemetry/redis-common", "npm:0.36.2"]\
+          ["@opentelemetry/redis-common", "npm:0.38.3"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@opentelemetry/resource-detector-azure", [\
-      ["npm:0.6.0", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-resource-detector-azure-npm-0.6.0-dfe71d006b-5637a93e06.zip/node_modules/@opentelemetry/resource-detector-azure/",\
+      ["npm:0.29.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-resource-detector-azure-npm-0.29.0-7c67b2469b-775cea7e4c.zip/node_modules/@opentelemetry/resource-detector-azure/",\
         "packageDependencies": [\
-          ["@opentelemetry/resource-detector-azure", "npm:0.6.0"]\
+          ["@opentelemetry/resource-detector-azure", "npm:0.29.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.6.0", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-resource-detector-azure-virtual-9c9bce7ca1/0/cache/@opentelemetry-resource-detector-azure-npm-0.6.0-dfe71d006b-5637a93e06.zip/node_modules/@opentelemetry/resource-detector-azure/",\
+      ["virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.29.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-resource-detector-azure-virtual-8eba37a674/0/cache/@opentelemetry-resource-detector-azure-npm-0.29.0-7c67b2469b-775cea7e4c.zip/node_modules/@opentelemetry/resource-detector-azure/",\
         "packageDependencies": [\
-          ["@opentelemetry/resource-detector-azure", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.6.0"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:9c9bce7ca1fec14ba41485b074a0b02fda8e864d41fa0171289a39ae1403923a887ed91210c29e8cd032ad2b4dfe0fa68c98cf45926f63e4b742721cb8349568#npm:1.26.0"],\
-          ["@opentelemetry/resources", "virtual:9c9bce7ca1fec14ba41485b074a0b02fda8e864d41fa0171289a39ae1403923a887ed91210c29e8cd032ad2b4dfe0fa68c98cf45926f63e4b742721cb8349568#npm:1.25.1"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.30.0"],\
+          ["@opentelemetry/resource-detector-azure", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.29.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/resources", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5506,27 +5497,27 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/resources", [\
-      ["npm:1.25.1", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-resources-npm-1.25.1-d294145a2e-971f9616de.zip/node_modules/@opentelemetry/resources/",\
+      ["npm:2.10.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-resources-npm-2.10.0-4828fdf503-514248ae27.zip/node_modules/@opentelemetry/resources/",\
         "packageDependencies": [\
-          ["@opentelemetry/resources", "npm:1.25.1"]\
+          ["@opentelemetry/resources", "npm:2.10.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["npm:1.30.1", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-resources-npm-1.30.1-1afce2cc97-9b7544b639.zip/node_modules/@opentelemetry/resources/",\
+      ["npm:2.12.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-resources-npm-2.12.0-243320b97f-ffc5c19db1.zip/node_modules/@opentelemetry/resources/",\
         "packageDependencies": [\
-          ["@opentelemetry/resources", "npm:1.30.1"]\
+          ["@opentelemetry/resources", "npm:2.12.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:9c9bce7ca1fec14ba41485b074a0b02fda8e864d41fa0171289a39ae1403923a887ed91210c29e8cd032ad2b4dfe0fa68c98cf45926f63e4b742721cb8349568#npm:1.25.1", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-resources-virtual-fa2cd742ee/0/cache/@opentelemetry-resources-npm-1.25.1-d294145a2e-971f9616de.zip/node_modules/@opentelemetry/resources/",\
+      ["virtual:15b39fa1b5ac1d04a06472a96a3353b66cb15d84d4200695f19cb080374cb35cc7b4392ab0a73521e581f7d7835038cafbf0e4ece4a89a113265101f366d204e#npm:2.12.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-resources-virtual-2609b51f1c/0/cache/@opentelemetry-resources-npm-2.12.0-243320b97f-ffc5c19db1.zip/node_modules/@opentelemetry/resources/",\
         "packageDependencies": [\
-          ["@opentelemetry/resources", "virtual:9c9bce7ca1fec14ba41485b074a0b02fda8e864d41fa0171289a39ae1403923a887ed91210c29e8cd032ad2b4dfe0fa68c98cf45926f63e4b742721cb8349568#npm:1.25.1"],\
+          ["@opentelemetry/resources", "virtual:15b39fa1b5ac1d04a06472a96a3353b66cb15d84d4200695f19cb080374cb35cc7b4392ab0a73521e581f7d7835038cafbf0e4ece4a89a113265101f366d204e#npm:2.12.0"],\
           ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:6b0ac37e14e54f767edcefe527952a864acd216069accb06e4ffb7ab3cd5f3b729f3e1a5c0dd55d3217be2d5c97804ecfc52a039a11d5ab9b4c9c8f7dc48925e#npm:1.25.1"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.25.1"],\
+          ["@opentelemetry/core", "virtual:3eab3d26005015522e0e1ad5e484ac6b55244492912882707ad9b0db49da36ed847e3e473b0a37a5db4ef08931a183665d8f21e64f3dc18a80b7e1f998a3e5f8#npm:2.12.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5535,13 +5526,28 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-resources-virtual-246c065e70/0/cache/@opentelemetry-resources-npm-1.30.1-1afce2cc97-9b7544b639.zip/node_modules/@opentelemetry/resources/",\
+      ["virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-resources-virtual-e2ccec4533/0/cache/@opentelemetry-resources-npm-2.10.0-4828fdf503-514248ae27.zip/node_modules/@opentelemetry/resources/",\
         "packageDependencies": [\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.28.0"],\
+          ["@opentelemetry/resources", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
+          ["@types/opentelemetry__api", null]\
+        ],\
+        "packagePeers": [\
+          "@opentelemetry/api",\
+          "@types/opentelemetry__api"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-resources-virtual-cc8a9cbfab/0/cache/@opentelemetry-resources-npm-2.12.0-243320b97f-ffc5c19db1.zip/node_modules/@opentelemetry/resources/",\
+        "packageDependencies": [\
+          ["@opentelemetry/resources", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5552,21 +5558,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/sdk-logs", [\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-sdk-logs-npm-0.57.2-11059307d9-4c60faf32c.zip/node_modules/@opentelemetry/sdk-logs/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-sdk-logs-npm-0.221.0-86faf0ce16-68ecc97d3a.zip/node_modules/@opentelemetry/sdk-logs/",\
         "packageDependencies": [\
-          ["@opentelemetry/sdk-logs", "npm:0.57.2"]\
+          ["@opentelemetry/sdk-logs", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:0.57.2", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-logs-virtual-0b59a69ffd/0/cache/@opentelemetry-sdk-logs-npm-0.57.2-11059307d9-4c60faf32c.zip/node_modules/@opentelemetry/sdk-logs/",\
+      ["virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-logs-virtual-5f7c79bb3a/0/cache/@opentelemetry-sdk-logs-npm-0.221.0-86faf0ce16-68ecc97d3a.zip/node_modules/@opentelemetry/sdk-logs/",\
         "packageDependencies": [\
-          ["@opentelemetry/sdk-logs", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:0.57.2"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/api-logs", "npm:0.57.2"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
+          ["@opentelemetry/sdk-logs", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:0.221.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/api-logs", "npm:0.221.0"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/resources", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5577,20 +5584,42 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/sdk-metrics", [\
-      ["npm:1.30.1", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-sdk-metrics-npm-1.30.1-1232d12cd6-cfdbef083e.zip/node_modules/@opentelemetry/sdk-metrics/",\
+      ["npm:2.10.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-sdk-metrics-npm-2.10.0-48e757d4fa-aebff94cc8.zip/node_modules/@opentelemetry/sdk-metrics/",\
         "packageDependencies": [\
-          ["@opentelemetry/sdk-metrics", "npm:1.30.1"]\
+          ["@opentelemetry/sdk-metrics", "npm:2.10.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-metrics-virtual-d6cf9b9950/0/cache/@opentelemetry-sdk-metrics-npm-1.30.1-1232d12cd6-cfdbef083e.zip/node_modules/@opentelemetry/sdk-metrics/",\
+      ["npm:2.12.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-sdk-metrics-npm-2.12.0-207e925e81-56017e6dfb.zip/node_modules/@opentelemetry/sdk-metrics/",\
         "packageDependencies": [\
-          ["@opentelemetry/sdk-metrics", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
+          ["@opentelemetry/sdk-metrics", "npm:2.12.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-metrics-virtual-c1be3d0ddd/0/cache/@opentelemetry-sdk-metrics-npm-2.10.0-48e757d4fa-aebff94cc8.zip/node_modules/@opentelemetry/sdk-metrics/",\
+        "packageDependencies": [\
+          ["@opentelemetry/sdk-metrics", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/resources", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@types/opentelemetry__api", null]\
+        ],\
+        "packagePeers": [\
+          "@opentelemetry/api",\
+          "@types/opentelemetry__api"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-metrics-virtual-665861f542/0/cache/@opentelemetry-sdk-metrics-npm-2.12.0-207e925e81-56017e6dfb.zip/node_modules/@opentelemetry/sdk-metrics/",\
+        "packageDependencies": [\
+          ["@opentelemetry/sdk-metrics", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/resources", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5601,38 +5630,109 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/sdk-node", [\
-      ["npm:0.57.2", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-sdk-node-npm-0.57.2-c0d3e9229f-f3a9b87c52.zip/node_modules/@opentelemetry/sdk-node/",\
+      ["npm:0.221.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-sdk-node-npm-0.221.0-1ce8a8da78-a46476ebd3.zip/node_modules/@opentelemetry/sdk-node/",\
         "packageDependencies": [\
-          ["@opentelemetry/sdk-node", "npm:0.57.2"]\
+          ["@opentelemetry/sdk-node", "npm:0.221.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.57.2", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-node-virtual-414e3ef9f0/0/cache/@opentelemetry-sdk-node-npm-0.57.2-c0d3e9229f-f3a9b87c52.zip/node_modules/@opentelemetry/sdk-node/",\
+      ["virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.221.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-node-virtual-a71872b882/0/cache/@opentelemetry-sdk-node-npm-0.221.0-1ce8a8da78-a46476ebd3.zip/node_modules/@opentelemetry/sdk-node/",\
         "packageDependencies": [\
-          ["@opentelemetry/sdk-node", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:0.57.2"],\
+          ["@opentelemetry/sdk-node", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.221.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/api-logs", "npm:0.221.0"],\
+          ["@opentelemetry/configuration", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/context-async-hooks", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/exporter-logs-otlp-grpc", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/exporter-logs-otlp-http", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/exporter-logs-otlp-proto", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/exporter-metrics-otlp-grpc", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/exporter-metrics-otlp-http", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/exporter-metrics-otlp-proto", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/exporter-prometheus", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/exporter-trace-otlp-grpc", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/exporter-trace-otlp-http", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/exporter-trace-otlp-proto", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/exporter-zipkin", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/instrumentation", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:0.220.0"],\
+          ["@opentelemetry/otlp-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/otlp-grpc-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/propagator-b3", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/propagator-jaeger", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/resources", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/sdk-logs", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:0.221.0"],\
+          ["@opentelemetry/sdk-metrics", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/sdk-trace", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/sdk-trace-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/sdk-trace-node", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
+          ["@types/opentelemetry__api", null]\
+        ],\
+        "packagePeers": [\
+          "@opentelemetry/api",\
+          "@types/opentelemetry__api"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@opentelemetry/sdk-trace", [\
+      ["npm:2.10.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-sdk-trace-npm-2.10.0-499d6f4eb3-1d818c2391.zip/node_modules/@opentelemetry/sdk-trace/",\
+        "packageDependencies": [\
+          ["@opentelemetry/sdk-trace", "npm:2.10.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["npm:2.12.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-sdk-trace-npm-2.12.0-f48d799a2a-e6f1a61890.zip/node_modules/@opentelemetry/sdk-trace/",\
+        "packageDependencies": [\
+          ["@opentelemetry/sdk-trace", "npm:2.12.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:15b39fa1b5ac1d04a06472a96a3353b66cb15d84d4200695f19cb080374cb35cc7b4392ab0a73521e581f7d7835038cafbf0e4ece4a89a113265101f366d204e#npm:2.12.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-trace-virtual-d3ba2583e0/0/cache/@opentelemetry-sdk-trace-npm-2.12.0-f48d799a2a-e6f1a61890.zip/node_modules/@opentelemetry/sdk-trace/",\
+        "packageDependencies": [\
+          ["@opentelemetry/sdk-trace", "virtual:15b39fa1b5ac1d04a06472a96a3353b66cb15d84d4200695f19cb080374cb35cc7b4392ab0a73521e581f7d7835038cafbf0e4ece4a89a113265101f366d204e#npm:2.12.0"],\
           ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/api-logs", "npm:0.57.2"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/exporter-logs-otlp-grpc", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/exporter-logs-otlp-http", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/exporter-logs-otlp-proto", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/exporter-metrics-otlp-grpc", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/exporter-metrics-otlp-http", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/exporter-metrics-otlp-proto", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/exporter-prometheus", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/exporter-trace-otlp-grpc", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/exporter-trace-otlp-http", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/exporter-trace-otlp-proto", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/exporter-zipkin", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:1.30.1"],\
-          ["@opentelemetry/instrumentation", "virtual:e1efd4fc8ee740eb359cde42b95ad60b449ae13f0a8a70112e3d8a442da33bb6dfa126f24c187d69b6823156f5fef68f432c1d90b57f52b1962e3503525b956e#npm:0.220.0"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-logs", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:0.57.2"],\
-          ["@opentelemetry/sdk-metrics", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-trace-base", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-trace-node", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:1.30.1"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.28.0"],\
+          ["@opentelemetry/core", "virtual:3eab3d26005015522e0e1ad5e484ac6b55244492912882707ad9b0db49da36ed847e3e473b0a37a5db4ef08931a183665d8f21e64f3dc18a80b7e1f998a3e5f8#npm:2.12.0"],\
+          ["@opentelemetry/resources", "virtual:15b39fa1b5ac1d04a06472a96a3353b66cb15d84d4200695f19cb080374cb35cc7b4392ab0a73521e581f7d7835038cafbf0e4ece4a89a113265101f366d204e#npm:2.12.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
+          ["@types/opentelemetry__api", null]\
+        ],\
+        "packagePeers": [\
+          "@opentelemetry/api",\
+          "@types/opentelemetry__api"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-trace-virtual-a46db99fa1/0/cache/@opentelemetry-sdk-trace-npm-2.10.0-499d6f4eb3-1d818c2391.zip/node_modules/@opentelemetry/sdk-trace/",\
+        "packageDependencies": [\
+          ["@opentelemetry/sdk-trace", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/resources", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
+          ["@types/opentelemetry__api", null]\
+        ],\
+        "packagePeers": [\
+          "@opentelemetry/api",\
+          "@types/opentelemetry__api"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:e4fed8d530f602f76cf0d9680a24cbc9f7e67e2d7448c78a7f0df2794459ef410d3a3995f43789d954478676fa9bd95a4f44b0bd8b0aee61fa0f26baf4f2184f#npm:2.12.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-trace-virtual-e1748c5749/0/cache/@opentelemetry-sdk-trace-npm-2.12.0-f48d799a2a-e6f1a61890.zip/node_modules/@opentelemetry/sdk-trace/",\
+        "packageDependencies": [\
+          ["@opentelemetry/sdk-trace", "virtual:e4fed8d530f602f76cf0d9680a24cbc9f7e67e2d7448c78a7f0df2794459ef410d3a3995f43789d954478676fa9bd95a4f44b0bd8b0aee61fa0f26baf4f2184f#npm:2.12.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/resources", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5643,21 +5743,63 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/sdk-trace-base", [\
-      ["npm:1.30.1", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-sdk-trace-base-npm-1.30.1-6263d5195f-3ba794622c.zip/node_modules/@opentelemetry/sdk-trace-base/",\
+      ["npm:2.10.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-sdk-trace-base-npm-2.10.0-1cbb1d1429-c1b6076fa5.zip/node_modules/@opentelemetry/sdk-trace-base/",\
         "packageDependencies": [\
-          ["@opentelemetry/sdk-trace-base", "npm:1.30.1"]\
+          ["@opentelemetry/sdk-trace-base", "npm:2.10.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-trace-base-virtual-d99fc60353/0/cache/@opentelemetry-sdk-trace-base-npm-1.30.1-6263d5195f-3ba794622c.zip/node_modules/@opentelemetry/sdk-trace-base/",\
+      ["npm:2.12.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-sdk-trace-base-npm-2.12.0-7566eb807a-214fd9cedb.zip/node_modules/@opentelemetry/sdk-trace-base/",\
         "packageDependencies": [\
-          ["@opentelemetry/sdk-trace-base", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
+          ["@opentelemetry/sdk-trace-base", "npm:2.12.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-trace-base-virtual-c5a8b14ac1/0/cache/@opentelemetry-sdk-trace-base-npm-2.10.0-1cbb1d1429-c1b6076fa5.zip/node_modules/@opentelemetry/sdk-trace-base/",\
+        "packageDependencies": [\
+          ["@opentelemetry/sdk-trace-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/resources", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/sdk-trace", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
+          ["@types/opentelemetry__api", null]\
+        ],\
+        "packagePeers": [\
+          "@opentelemetry/api",\
+          "@types/opentelemetry__api"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-trace-base-virtual-e4fed8d530/0/cache/@opentelemetry-sdk-trace-base-npm-2.12.0-7566eb807a-214fd9cedb.zip/node_modules/@opentelemetry/sdk-trace-base/",\
+        "packageDependencies": [\
+          ["@opentelemetry/sdk-trace-base", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/resources", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/sdk-trace", "virtual:e4fed8d530f602f76cf0d9680a24cbc9f7e67e2d7448c78a7f0df2794459ef410d3a3995f43789d954478676fa9bd95a4f44b0bd8b0aee61fa0f26baf4f2184f#npm:2.12.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
+          ["@types/opentelemetry__api", null]\
+        ],\
+        "packagePeers": [\
+          "@opentelemetry/api",\
+          "@types/opentelemetry__api"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:d7f49f06ff7666e48e7321a39457c6e6aa8aa7061eda0697e441acbfd6204ad0b1c4fe85df1763e1be29fae27c9aa81bbf7c3aef7ab56cd98ea0477d99d30ba1#npm:2.12.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-trace-base-virtual-15b39fa1b5/0/cache/@opentelemetry-sdk-trace-base-npm-2.12.0-7566eb807a-214fd9cedb.zip/node_modules/@opentelemetry/sdk-trace-base/",\
+        "packageDependencies": [\
+          ["@opentelemetry/sdk-trace-base", "virtual:d7f49f06ff7666e48e7321a39457c6e6aa8aa7061eda0697e441acbfd6204ad0b1c4fe85df1763e1be29fae27c9aa81bbf7c3aef7ab56cd98ea0477d99d30ba1#npm:2.12.0"],\
           ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.28.0"],\
+          ["@opentelemetry/core", "virtual:3eab3d26005015522e0e1ad5e484ac6b55244492912882707ad9b0db49da36ed847e3e473b0a37a5db4ef08931a183665d8f21e64f3dc18a80b7e1f998a3e5f8#npm:2.12.0"],\
+          ["@opentelemetry/resources", "virtual:15b39fa1b5ac1d04a06472a96a3353b66cb15d84d4200695f19cb080374cb35cc7b4392ab0a73521e581f7d7835038cafbf0e4ece4a89a113265101f366d204e#npm:2.12.0"],\
+          ["@opentelemetry/sdk-trace", "virtual:15b39fa1b5ac1d04a06472a96a3353b66cb15d84d4200695f19cb080374cb35cc7b4392ab0a73521e581f7d7835038cafbf0e4ece4a89a113265101f366d204e#npm:2.12.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5668,25 +5810,69 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/sdk-trace-node", [\
-      ["npm:1.30.1", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-sdk-trace-node-npm-1.30.1-6bc52726d5-75d793718e.zip/node_modules/@opentelemetry/sdk-trace-node/",\
+      ["npm:2.10.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-sdk-trace-node-npm-2.10.0-4ab4f916f2-2ed1242999.zip/node_modules/@opentelemetry/sdk-trace-node/",\
         "packageDependencies": [\
-          ["@opentelemetry/sdk-trace-node", "npm:1.30.1"]\
+          ["@opentelemetry/sdk-trace-node", "npm:2.10.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:1.30.1", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-trace-node-virtual-e13f9fcc62/0/cache/@opentelemetry-sdk-trace-node-npm-1.30.1-6bc52726d5-75d793718e.zip/node_modules/@opentelemetry/sdk-trace-node/",\
+      ["npm:2.12.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-sdk-trace-node-npm-2.12.0-e80865a397-1552f44836.zip/node_modules/@opentelemetry/sdk-trace-node/",\
         "packageDependencies": [\
-          ["@opentelemetry/sdk-trace-node", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:1.30.1"],\
+          ["@opentelemetry/sdk-trace-node", "npm:2.12.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:2.12.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-trace-node-virtual-48495c287b/0/cache/@opentelemetry-sdk-trace-node-npm-2.12.0-e80865a397-1552f44836.zip/node_modules/@opentelemetry/sdk-trace-node/",\
+        "packageDependencies": [\
+          ["@opentelemetry/sdk-trace-node", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:2.12.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/context-async-hooks", "virtual:48495c287b456f5ea42f8393f490ae4f07fe6036f76155fecfb34efc335484a8fce94db06df6272a1663a071d4b9ad6fd9c3f7222c90a5cd888f40e8417719a3#npm:2.12.0"],\
+          ["@opentelemetry/core", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/sdk-trace-base", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@types/opentelemetry__api", null]\
+        ],\
+        "packagePeers": [\
+          "@opentelemetry/api",\
+          "@types/opentelemetry__api"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-trace-node-virtual-e4c0b0ae12/0/cache/@opentelemetry-sdk-trace-node-npm-2.10.0-4ab4f916f2-2ed1242999.zip/node_modules/@opentelemetry/sdk-trace-node/",\
+        "packageDependencies": [\
+          ["@opentelemetry/sdk-trace-node", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/context-async-hooks", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@opentelemetry/core", "virtual:5f7c79bb3a48c119fca8f29c31e81822527f8d6f1924c8a279124772a4e4218f40067b3e8fe66569e57c7a61c76894b24e5852a84523bbb44849d35c104eb863#npm:2.10.0"],\
+          ["@opentelemetry/sdk-trace-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:2.10.0"],\
+          ["@types/opentelemetry__api", null]\
+        ],\
+        "packagePeers": [\
+          "@opentelemetry/api",\
+          "@types/opentelemetry__api"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@opentelemetry/sdk-trace-web", [\
+      ["npm:2.12.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-sdk-trace-web-npm-2.12.0-6351841405-a7d6d751d8.zip/node_modules/@opentelemetry/sdk-trace-web/",\
+        "packageDependencies": [\
+          ["@opentelemetry/sdk-trace-web", "npm:2.12.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:3eab3d26005015522e0e1ad5e484ac6b55244492912882707ad9b0db49da36ed847e3e473b0a37a5db4ef08931a183665d8f21e64f3dc18a80b7e1f998a3e5f8#npm:2.12.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sdk-trace-web-virtual-d7f49f06ff/0/cache/@opentelemetry-sdk-trace-web-npm-2.12.0-6351841405-a7d6d751d8.zip/node_modules/@opentelemetry/sdk-trace-web/",\
+        "packageDependencies": [\
+          ["@opentelemetry/sdk-trace-web", "virtual:3eab3d26005015522e0e1ad5e484ac6b55244492912882707ad9b0db49da36ed847e3e473b0a37a5db4ef08931a183665d8f21e64f3dc18a80b7e1f998a3e5f8#npm:2.12.0"],\
           ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/context-async-hooks", "virtual:e13f9fcc62a64b1da8f61243751daed578acd46e9d8980b8a543d78fb7aacff8a41bb731d435aa551868e4e1e51f4aad84da96a8b9cb5cf378d3ea4a56c3cbfb#npm:1.30.1"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/propagator-b3", "virtual:e13f9fcc62a64b1da8f61243751daed578acd46e9d8980b8a543d78fb7aacff8a41bb731d435aa551868e4e1e51f4aad84da96a8b9cb5cf378d3ea4a56c3cbfb#npm:1.30.1"],\
-          ["@opentelemetry/propagator-jaeger", "virtual:e13f9fcc62a64b1da8f61243751daed578acd46e9d8980b8a543d78fb7aacff8a41bb731d435aa551868e4e1e51f4aad84da96a8b9cb5cf378d3ea4a56c3cbfb#npm:1.30.1"],\
-          ["@opentelemetry/sdk-trace-base", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@types/opentelemetry__api", null],\
-          ["semver", "npm:7.6.3"]\
+          ["@opentelemetry/core", "virtual:3eab3d26005015522e0e1ad5e484ac6b55244492912882707ad9b0db49da36ed847e3e473b0a37a5db4ef08931a183665d8f21e64f3dc18a80b7e1f998a3e5f8#npm:2.12.0"],\
+          ["@opentelemetry/sdk-trace-base", "virtual:d7f49f06ff7666e48e7321a39457c6e6aa8aa7061eda0697e441acbfd6204ad0b1c4fe85df1763e1be29fae27c9aa81bbf7c3aef7ab56cd98ea0477d99d30ba1#npm:2.12.0"],\
+          ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
           "@opentelemetry/api",\
@@ -5696,56 +5882,35 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/semantic-conventions", [\
-      ["npm:1.22.0", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-semantic-conventions-npm-1.22.0-a06cb34ebf-6dd21678be.zip/node_modules/@opentelemetry/semantic-conventions/",\
-        "packageDependencies": [\
-          ["@opentelemetry/semantic-conventions", "npm:1.22.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:1.25.1", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-semantic-conventions-npm-1.25.1-e2e79093b3-d84745a9e2.zip/node_modules/@opentelemetry/semantic-conventions/",\
-        "packageDependencies": [\
-          ["@opentelemetry/semantic-conventions", "npm:1.25.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:1.27.0", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-semantic-conventions-npm-1.27.0-392d95c70d-98166522f2.zip/node_modules/@opentelemetry/semantic-conventions/",\
-        "packageDependencies": [\
-          ["@opentelemetry/semantic-conventions", "npm:1.27.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:1.28.0", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-semantic-conventions-npm-1.28.0-942b4f4e95-c182a32067.zip/node_modules/@opentelemetry/semantic-conventions/",\
-        "packageDependencies": [\
-          ["@opentelemetry/semantic-conventions", "npm:1.28.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:1.30.0", {\
         "packageLocation": "./.yarn/cache/@opentelemetry-semantic-conventions-npm-1.30.0-ed4337027d-78df5976f5.zip/node_modules/@opentelemetry/semantic-conventions/",\
         "packageDependencies": [\
           ["@opentelemetry/semantic-conventions", "npm:1.30.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:1.43.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-semantic-conventions-npm-1.43.0-e8106790b6-44c0e667cb.zip/node_modules/@opentelemetry/semantic-conventions/",\
+        "packageDependencies": [\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@opentelemetry/sql-common", [\
-      ["npm:0.40.1", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-sql-common-npm-0.40.1-8e555e0757-f887b4135b.zip/node_modules/@opentelemetry/sql-common/",\
+      ["npm:0.42.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-sql-common-npm-0.42.0-ad3e061ec3-f007713b31.zip/node_modules/@opentelemetry/sql-common/",\
         "packageDependencies": [\
-          ["@opentelemetry/sql-common", "npm:0.40.1"]\
+          ["@opentelemetry/sql-common", "npm:0.42.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:fda9ed537954d49d37c25a396f33d5b0405b51fa0451eed3f8f57bc8d9eeb7c45bb78d52765f03ed4dead0eb6b3de90814665e7ddc5366e1e286d85e973fa54f#npm:0.40.1", {\
-        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sql-common-virtual-6b0ac37e14/0/cache/@opentelemetry-sql-common-npm-0.40.1-8e555e0757-f887b4135b.zip/node_modules/@opentelemetry/sql-common/",\
+      ["virtual:8f6b4f9c806ce808dd39679af7c6c0e9ac9172bfe82f16fb126563efc387da1979ef980ab2df7e94f7f7264fcc520b495f0edd1bd44cc7417ce1b7d7e61fde6f#npm:0.42.0", {\
+        "packageLocation": "./.yarn/__virtual__/@opentelemetry-sql-common-virtual-b49cc9f955/0/cache/@opentelemetry-sql-common-npm-0.42.0-ad3e061ec3-f007713b31.zip/node_modules/@opentelemetry/sql-common/",\
         "packageDependencies": [\
-          ["@opentelemetry/sql-common", "virtual:fda9ed537954d49d37c25a396f33d5b0405b51fa0451eed3f8f57bc8d9eeb7c45bb78d52765f03ed4dead0eb6b3de90814665e7ddc5366e1e286d85e973fa54f#npm:0.40.1"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/core", "virtual:6b0ac37e14e54f767edcefe527952a864acd216069accb06e4ffb7ab3cd5f3b729f3e1a5c0dd55d3217be2d5c97804ecfc52a039a11d5ab9b4c9c8f7dc48925e#npm:1.25.1"],\
+          ["@opentelemetry/sql-common", "virtual:8f6b4f9c806ce808dd39679af7c6c0e9ac9172bfe82f16fb126563efc387da1979ef980ab2df7e94f7f7264fcc520b495f0edd1bd44cc7417ce1b7d7e61fde6f#npm:0.42.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/core", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
           ["@types/opentelemetry__api", null]\
         ],\
         "packagePeers": [\
@@ -5756,11 +5921,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@opentelemetry/winston-transport", [\
-      ["npm:0.10.0", {\
-        "packageLocation": "./.yarn/cache/@opentelemetry-winston-transport-npm-0.10.0-0ea8893e62-afac427e2a.zip/node_modules/@opentelemetry/winston-transport/",\
+      ["npm:0.31.0", {\
+        "packageLocation": "./.yarn/cache/@opentelemetry-winston-transport-npm-0.31.0-7b3c27bb8a-b98ea8c017.zip/node_modules/@opentelemetry/winston-transport/",\
         "packageDependencies": [\
-          ["@opentelemetry/winston-transport", "npm:0.10.0"],\
-          ["@opentelemetry/api-logs", "npm:0.57.2"],\
+          ["@opentelemetry/winston-transport", "npm:0.31.0"],\
+          ["@opentelemetry/api-logs", "npm:0.221.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"],\
           ["winston-transport", "npm:4.7.1"]\
         ],\
         "linkType": "HARD"\
@@ -6232,10 +6398,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/bunyan", [\
-      ["npm:1.8.9", {\
-        "packageLocation": "./.yarn/cache/@types-bunyan-npm-1.8.9-fbc2d9a9cd-5d6e818cc3.zip/node_modules/@types/bunyan/",\
+      ["npm:1.8.11", {\
+        "packageLocation": "./.yarn/cache/@types-bunyan-npm-1.8.11-950d8551a4-8906ec6c05.zip/node_modules/@types/bunyan/",\
         "packageDependencies": [\
-          ["@types/bunyan", "npm:1.8.9"],\
+          ["@types/bunyan", "npm:1.8.11"],\
           ["@types/node", "npm:26.1.1"]\
         ],\
         "linkType": "HARD"\
@@ -6533,10 +6699,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/mysql", [\
-      ["npm:2.15.26", {\
-        "packageLocation": "./.yarn/cache/@types-mysql-npm-2.15.26-e8ee291ec4-8f205eeaca.zip/node_modules/@types/mysql/",\
+      ["npm:2.15.27", {\
+        "packageLocation": "./.yarn/cache/@types-mysql-npm-2.15.27-76b107f5b9-a8c7435010.zip/node_modules/@types/mysql/",\
         "packageDependencies": [\
-          ["@types/mysql", "npm:2.15.26"],\
+          ["@types/mysql", "npm:2.15.27"],\
           ["@types/node", "npm:26.1.1"]\
         ],\
         "linkType": "HARD"\
@@ -6580,10 +6746,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:8.6.1", {\
-        "packageLocation": "./.yarn/cache/@types-pg-npm-8.6.1-6de7239b4b-bf1134ea19.zip/node_modules/@types/pg/",\
+      ["npm:8.15.6", {\
+        "packageLocation": "./.yarn/cache/@types-pg-npm-8.15.6-44108e12b9-4bc1bb274e.zip/node_modules/@types/pg/",\
         "packageDependencies": [\
-          ["@types/pg", "npm:8.6.1"],\
+          ["@types/pg", "npm:8.15.6"],\
           ["@types/node", "npm:26.1.1"],\
           ["pg-protocol", "npm:1.6.1"],\
           ["pg-types", "npm:2.2.0"]\
@@ -6592,10 +6758,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/pg-pool", [\
-      ["npm:2.0.6", {\
-        "packageLocation": "./.yarn/cache/@types-pg-pool-npm-2.0.6-ebe4ae949f-cc54ce9711.zip/node_modules/@types/pg-pool/",\
+      ["npm:2.0.7", {\
+        "packageLocation": "./.yarn/cache/@types-pg-pool-npm-2.0.7-908dda8b54-b2ac51f1e9.zip/node_modules/@types/pg-pool/",\
         "packageDependencies": [\
-          ["@types/pg-pool", "npm:2.0.6"],\
+          ["@types/pg-pool", "npm:2.0.7"],\
           ["@types/pg", "npm:8.11.6"]\
         ],\
         "linkType": "HARD"\
@@ -7068,6 +7234,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@typespec-ts-http-runtime-npm-0.3.6-68595c7790-5062887e48.zip/node_modules/@typespec/ts-http-runtime/",\
         "packageDependencies": [\
           ["@typespec/ts-http-runtime", "npm:0.3.6"],\
+          ["http-proxy-agent", "npm:7.0.2"],\
+          ["https-proxy-agent", "npm:7.0.5"],\
+          ["tslib", "npm:2.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:0.3.9", {\
+        "packageLocation": "./.yarn/cache/@typespec-ts-http-runtime-npm-0.3.9-2100b4641d-761491f4c7.zip/node_modules/@typespec/ts-http-runtime/",\
+        "packageDependencies": [\
+          ["@typespec/ts-http-runtime", "npm:0.3.9"],\
           ["http-proxy-agent", "npm:7.0.2"],\
           ["https-proxy-agent", "npm:7.0.5"],\
           ["tslib", "npm:2.6.3"]\
@@ -7733,37 +7909,30 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["applicationinsights", [\
-      ["npm:3.5.0", {\
-        "packageLocation": "./.yarn/cache/applicationinsights-npm-3.5.0-8148e336a9-bd1c3382ff.zip/node_modules/applicationinsights/",\
+      ["npm:3.17.0", {\
+        "packageLocation": "./.yarn/cache/applicationinsights-npm-3.17.0-920766dd03-58dc0a508c.zip/node_modules/applicationinsights/",\
         "packageDependencies": [\
-          ["applicationinsights", "npm:3.5.0"],\
-          ["@azure/core-auth", "npm:1.6.0"],\
-          ["@azure/core-client", "npm:1.9.2"],\
-          ["@azure/core-rest-pipeline", "npm:1.16.3"],\
-          ["@azure/functions", "npm:4.6.1"],\
-          ["@azure/functions-old", [\
-            "@azure/functions",\
-            "npm:3.5.1"\
-          ]],\
-          ["@azure/identity", "npm:4.4.0"],\
-          ["@azure/monitor-opentelemetry", "npm:1.8.1"],\
-          ["@azure/monitor-opentelemetry-exporter", "npm:1.0.0-beta.28"],\
-          ["@azure/opentelemetry-instrumentation-azure-sdk", "npm:1.0.0-beta.5"],\
-          ["@opentelemetry/api", "npm:1.9.0"],\
-          ["@opentelemetry/api-logs", "npm:0.57.2"],\
-          ["@opentelemetry/core", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/exporter-logs-otlp-http", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/exporter-metrics-otlp-http", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/exporter-trace-otlp-http", "virtual:414e3ef9f066c7ecc00bc3855b56b0a2d6e9591e6e6e8ef8a2fc686a688311e2a5657ecef660c8deb29cc73a8f6f8adb98dac841a0862569c50489f1afbf6ced#npm:0.57.2"],\
-          ["@opentelemetry/otlp-exporter-base", "virtual:dc4f33283132acd76fe3b0b495949c3deecf704910c95fe9d6987151a63dd3e5449e2a3a1c0ca439e1094c5f5c83d7bd1984972ca976fc85356cea3d777d742e#npm:0.57.2"],\
-          ["@opentelemetry/resources", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-logs", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:0.57.2"],\
-          ["@opentelemetry/sdk-metrics", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-trace-base", "virtual:e197861363b8d2e3fff7c64787cc34f2bd7d7db8b9995e36d5d42aaaf895fa6ba3b5cbbad1753e9d699b7a522b3768f67ba4431ea6d2ebc4df68d310b550a5c5#npm:1.30.1"],\
-          ["@opentelemetry/sdk-trace-node", "virtual:6bb62aed1afba9c6b82ac94c5f1ec9273b9b1eac1dbcf9b8df8f6c315858dd34263c4c5ae6ad65b497f77a99035247cc7e8f16057d0ae081da9b8a81bcda2575#npm:1.30.1"],\
-          ["@opentelemetry/semantic-conventions", "npm:1.30.0"],\
-          ["diagnostic-channel", "npm:1.1.1"],\
-          ["diagnostic-channel-publishers", "virtual:8148e336a9cfd7c268d2f5f7e198775cccf9f62008dc7defc9e0af6da71df966a42b35dbe9b18a4958f00ed155f795ac2833e49323769d9a4e1b7c0761a210a4#npm:1.0.8"]\
+          ["applicationinsights", "npm:3.17.0"],\
+          ["@azure/core-auth", "npm:1.10.1"],\
+          ["@azure/functions", "npm:4.16.5"],\
+          ["@azure/identity", "npm:4.13.3"],\
+          ["@azure/monitor-opentelemetry", "npm:1.20.1"],\
+          ["@azure/monitor-opentelemetry-exporter", "npm:1.0.0-beta.46"],\
+          ["@azure/opentelemetry-instrumentation-azure-sdk", "npm:1.0.0"],\
+          ["@opentelemetry/api", "npm:1.9.1"],\
+          ["@opentelemetry/api-logs", "npm:0.221.0"],\
+          ["@opentelemetry/core", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/exporter-logs-otlp-http", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/exporter-metrics-otlp-http", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/exporter-metrics-otlp-proto", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/exporter-trace-otlp-http", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/otlp-exporter-base", "virtual:a71872b882b1f10f1ba7f93cccc0b9501e942de13b17262cad2be2549bf2b655205a8611701a87a06b99786499a6559f2bc605fc75da122dc0fe7e148fe2ccd3#npm:0.221.0"],\
+          ["@opentelemetry/resources", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/sdk-logs", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:0.221.0"],\
+          ["@opentelemetry/sdk-metrics", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/sdk-trace-base", "virtual:c2802d502f12a66fe7e1c4ec7fd1c35ff6f7a3d513e0372f776eadef1e5a68229098f0a370c4f094fc10fb19983fcb7c98ed1300ca951aecd0ed9ec196ecf716#npm:2.12.0"],\
+          ["@opentelemetry/sdk-trace-node", "virtual:43d67484ecd37052d3047a80a1f8735f182458ba8bd2af464497a56ca96d1127bedebf15d5544fe043d91541a93ab4c1874d1012d513784c2064ad15d15a44fe#npm:2.12.0"],\
+          ["@opentelemetry/semantic-conventions", "npm:1.43.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9899,13 +10068,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["define-lazy-prop", [\
-      ["npm:2.0.0", {\
-        "packageLocation": "./.yarn/cache/define-lazy-prop-npm-2.0.0-bba0cd91a7-0115fdb065.zip/node_modules/define-lazy-prop/",\
-        "packageDependencies": [\
-          ["define-lazy-prop", "npm:2.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:3.0.0", {\
         "packageLocation": "./.yarn/cache/define-lazy-prop-npm-3.0.0-6bb0fc1510-f28421cf9e.zip/node_modules/define-lazy-prop/",\
         "packageDependencies": [\
@@ -9999,38 +10161,6 @@ const RAW_RUNTIME_STATE =
           ["dezalgo", "npm:1.0.4"],\
           ["asap", "npm:2.0.6"],\
           ["wrappy", "npm:1.0.2"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["diagnostic-channel", [\
-      ["npm:1.1.1", {\
-        "packageLocation": "./.yarn/cache/diagnostic-channel-npm-1.1.1-fcb6c82af0-bbfc422b8a.zip/node_modules/diagnostic-channel/",\
-        "packageDependencies": [\
-          ["diagnostic-channel", "npm:1.1.1"],\
-          ["semver", "npm:7.6.3"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["diagnostic-channel-publishers", [\
-      ["npm:1.0.8", {\
-        "packageLocation": "./.yarn/cache/diagnostic-channel-publishers-npm-1.0.8-3f6e5fd12b-d6422dc4c9.zip/node_modules/diagnostic-channel-publishers/",\
-        "packageDependencies": [\
-          ["diagnostic-channel-publishers", "npm:1.0.8"]\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:8148e336a9cfd7c268d2f5f7e198775cccf9f62008dc7defc9e0af6da71df966a42b35dbe9b18a4958f00ed155f795ac2833e49323769d9a4e1b7c0761a210a4#npm:1.0.8", {\
-        "packageLocation": "./.yarn/__virtual__/diagnostic-channel-publishers-virtual-9892b2e409/0/cache/diagnostic-channel-publishers-npm-1.0.8-3f6e5fd12b-d6422dc4c9.zip/node_modules/diagnostic-channel-publishers/",\
-        "packageDependencies": [\
-          ["diagnostic-channel-publishers", "virtual:8148e336a9cfd7c268d2f5f7e198775cccf9f62008dc7defc9e0af6da71df966a42b35dbe9b18a4958f00ed155f795ac2833e49323769d9a4e1b7c0761a210a4#npm:1.0.8"],\
-          ["@types/diagnostic-channel", null],\
-          ["diagnostic-channel", "npm:1.1.1"]\
-        ],\
-        "packagePeers": [\
-          "@types/diagnostic-channel",\
-          "diagnostic-channel"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -12829,13 +12959,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["is-docker", [\
-      ["npm:2.2.1", {\
-        "packageLocation": "./.yarn/cache/is-docker-npm-2.2.1-3f18a53aff-3fef7ddbf0.zip/node_modules/is-docker/",\
-        "packageDependencies": [\
-          ["is-docker", "npm:2.2.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:3.0.0", {\
         "packageLocation": "./.yarn/cache/is-docker-npm-3.0.0-1570e32177-b698118f04.zip/node_modules/is-docker/",\
         "packageDependencies": [\
@@ -13072,14 +13195,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["is-wsl", [\
-      ["npm:2.2.0", {\
-        "packageLocation": "./.yarn/cache/is-wsl-npm-2.2.0-2ba10d6393-20849846ae.zip/node_modules/is-wsl/",\
-        "packageDependencies": [\
-          ["is-wsl", "npm:2.2.0"],\
-          ["is-docker", "npm:2.2.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:3.1.1", {\
         "packageLocation": "./.yarn/cache/is-wsl-npm-3.1.1-6334502662-513d95b89a.zip/node_modules/is-wsl/",\
         "packageDependencies": [\
@@ -14065,16 +14180,6 @@ const RAW_RUNTIME_STATE =
           ["safe-buffer", "npm:5.2.1"]\
         ],\
         "linkType": "HARD"\
-      }],\
-      ["npm:2.0.0", {\
-        "packageLocation": "./.yarn/cache/jwa-npm-2.0.0-52a7c3f1ca-ab983f6685.zip/node_modules/jwa/",\
-        "packageDependencies": [\
-          ["jwa", "npm:2.0.0"],\
-          ["buffer-equal-constant-time", "npm:1.0.1"],\
-          ["ecdsa-sig-formatter", "npm:1.0.11"],\
-          ["safe-buffer", "npm:5.2.1"]\
-        ],\
-        "linkType": "HARD"\
       }]\
     ]],\
     ["jws", [\
@@ -14083,15 +14188,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["jws", "npm:3.2.2"],\
           ["jwa", "npm:1.4.1"],\
-          ["safe-buffer", "npm:5.2.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:4.0.0", {\
-        "packageLocation": "./.yarn/cache/jws-npm-4.0.0-2a24fd53b9-1d15f4cdea.zip/node_modules/jws/",\
-        "packageDependencies": [\
-          ["jws", "npm:4.0.0"],\
-          ["jwa", "npm:2.0.0"],\
           ["safe-buffer", "npm:5.2.1"]\
         ],\
         "linkType": "HARD"\
@@ -14452,13 +14548,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["long", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "./.yarn/cache/long-npm-4.0.0-ecd96a31ed-8296e2ba7b.zip/node_modules/long/",\
-        "packageDependencies": [\
-          ["long", "npm:4.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:5.2.3", {\
         "packageLocation": "./.yarn/cache/long-npm-5.2.3-61dddb7586-9167ec6947.zip/node_modules/long/",\
         "packageDependencies": [\
@@ -15570,16 +15659,6 @@ const RAW_RUNTIME_STATE =
           ["wsl-utils", "npm:0.1.0"]\
         ],\
         "linkType": "HARD"\
-      }],\
-      ["npm:8.4.2", {\
-        "packageLocation": "./.yarn/unplugged/open-npm-8.4.2-1f763e8b75/node_modules/open/",\
-        "packageDependencies": [\
-          ["open", "npm:8.4.2"],\
-          ["define-lazy-prop", "npm:2.0.0"],\
-          ["is-docker", "npm:2.2.1"],\
-          ["is-wsl", "npm:2.2.0"]\
-        ],\
-        "linkType": "HARD"\
       }]\
     ]],\
     ["optionator", [\
@@ -16483,10 +16562,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["protobufjs", [\
-      ["npm:7.6.5", {\
-        "packageLocation": "./.yarn/unplugged/protobufjs-npm-7.6.5-ff4a872120/node_modules/protobufjs/",\
+      ["npm:7.6.6", {\
+        "packageLocation": "./.yarn/unplugged/protobufjs-npm-7.6.6-a7cfb0c5d5/node_modules/protobufjs/",\
         "packageDependencies": [\
-          ["protobufjs", "npm:7.6.5"],\
+          ["protobufjs", "npm:7.6.6"],\
           ["@protobufjs/aspromise", "npm:1.1.2"],\
           ["@protobufjs/base64", "npm:1.1.2"],\
           ["@protobufjs/codegen", "npm:2.0.5"],\
@@ -17259,7 +17338,7 @@ const RAW_RUNTIME_STATE =
           ["@types/supertest", "npm:6.0.3"],\
           ["@typescript-eslint/eslint-plugin", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:8.49.0"],\
           ["@typescript-eslint/parser", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:8.49.0"],\
-          ["applicationinsights", "npm:3.5.0"],\
+          ["applicationinsights", "npm:3.17.0"],\
           ["axios", "npm:1.20.0"],\
           ["axios-debug-log", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:1.0.0"],\
           ["babel-loader", "virtual:9201c3fcb1d2fc337a547d3e1e1ecdada20d4bdb2e59c3be026997a45afd9453374b37c3a876bd411e30a3314956039c4ef01c63ae83dddfcd7fe8ddf8896a6d#npm:9.2.1"],\
@@ -17813,15 +17892,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/statuses-npm-2.0.2-2d84c63b8c-6927feb50c.zip/node_modules/statuses/",\
         "packageDependencies": [\
           ["statuses", "npm:2.0.2"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["stoppable", [\
-      ["npm:1.1.0", {\
-        "packageLocation": "./.yarn/cache/stoppable-npm-1.1.0-23cdcad1a6-63104fcbde.zip/node_modules/stoppable/",\
-        "packageDependencies": [\
-          ["stoppable", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -19119,16 +19189,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["undici", [\
-      ["npm:5.28.5", {\
-        "packageLocation": "./.yarn/cache/undici-npm-5.28.5-52b9d359fd-459cd84ab7.zip/node_modules/undici/",\
-        "packageDependencies": [\
-          ["undici", "npm:5.28.5"],\
-          ["@fastify/busboy", "npm:2.1.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["undici-types", [\
       ["npm:6.21.0", {\
         "packageLocation": "./.yarn/cache/undici-types-npm-6.21.0-eb2b0ed56a-ec8f41aa43.zip/node_modules/undici-types/",\
@@ -19325,13 +19385,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/uuid-npm-3.4.0-4fd8ef88ad-4f2b86432b.zip/node_modules/uuid/",\
         "packageDependencies": [\
           ["uuid", "npm:3.4.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:8.3.2", {\
-        "packageLocation": "./.yarn/cache/uuid-npm-8.3.2-eca0baba53-9a5f7aa1d6.zip/node_modules/uuid/",\
-        "packageDependencies": [\
-          ["uuid", "npm:8.3.2"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -19844,6 +19897,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/yaml-npm-2.7.0-bb348b356b-c8c314c62f.zip/node_modules/yaml/",\
         "packageDependencies": [\
           ["yaml", "npm:2.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.9.1", {\
+        "packageLocation": "./.yarn/cache/yaml-npm-2.9.1-d61da744fe-123c5e56a2.zip/node_modules/yaml/",\
+        "packageDependencies": [\
+          ["yaml", "npm:2.9.1"]\
         ],\
         "linkType": "HARD"\
       }]\
