@@ -1,3 +1,6 @@
+import { Server } from 'http';
+import { AddressInfo } from 'net';
+
 import * as supertest from 'supertest';
 
 import { app } from '../../main/app';
@@ -5,6 +8,19 @@ import { app } from '../../main/app';
 const pa11y = require('pa11y');
 
 const agent = supertest.agent(app);
+let server: Server;
+let baseUrl: string;
+
+beforeAll(done => {
+  server = app.listen(0, '127.0.0.1', () => {
+    baseUrl = `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
+    done();
+  });
+});
+
+afterAll(done => {
+  server.close(() => done());
+});
 
 class Pa11yResult {
   documentTitle: string;
@@ -50,6 +66,7 @@ async function ensurePageCallWillSucceed(url: string): Promise<void> {
 function runPally(url: string): Promise<Pa11yResult> {
   return pa11y(url, {
     hideElements: '.govuk-footer__licence-logo, .govuk-header__logotype-crown',
+    chromeLaunchConfig: { args: ['--no-sandbox', '--disable-setuid-sandbox'] },
   });
 }
 
@@ -74,7 +91,7 @@ function testAccessibility(url: string): void {
   describe(`Page ${url}`, () => {
     test('should have no accessibility errors', async () => {
       await ensurePageCallWillSucceed(url);
-      const result = await runPally(agent.get(url).url);
+      const result = await runPally(`${baseUrl}${url}`);
       expect(result.issues).toEqual(expect.any(Array));
       expectNoErrors(result.issues);
     });
