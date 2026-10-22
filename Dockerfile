@@ -1,5 +1,4 @@
-ARG PLATFORM=""
-ARG BASE_IMAGE=hmctsprod.azurecr.io/base/node${PLATFORM}:20-alpine
+ARG BASE_IMAGE=hmctsprod.azurecr.io/base/node:20-alpine
 FROM ${BASE_IMAGE} AS base
 
 USER root
