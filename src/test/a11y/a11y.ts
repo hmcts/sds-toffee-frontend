@@ -1,8 +1,10 @@
-import * as supertest from 'supertest';
-import { app } from '../../main/app';
 import { once } from 'events';
 import { createServer } from 'http';
 import { AddressInfo } from 'net';
+
+import * as supertest from 'supertest';
+
+import { app } from '../../main/app';
 
 const pa11y = require('pa11y');
 
