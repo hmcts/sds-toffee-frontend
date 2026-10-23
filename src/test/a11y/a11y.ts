@@ -1,10 +1,36 @@
-import { app } from '../../main/app';
+import { once } from 'events';
+import { createServer } from 'http';
+import { AddressInfo } from 'net';
 
 import * as supertest from 'supertest';
 
+import { app } from '../../main/app';
+
 const pa11y = require('pa11y');
 
-const agent = supertest.agent(app);
+const server = createServer(app);
+const agent = supertest.agent(server);
+let baseUrl: string;
+
+beforeAll(async () => {
+  server.listen(0, '127.0.0.1');
+  await once(server, 'listening');
+
+  const address = server.address() as AddressInfo;
+  baseUrl = `http://127.0.0.1:${address.port}`;
+});
+
+afterAll(async () => {
+  await new Promise<void>((resolve, reject) => {
+    server.close(error => {
+      if (error) {
+        reject(error);
+      } else {
+        resolve();
+      }
+    });
+  });
+});
 
 class Pa11yResult {
   documentTitle: string;
@@ -50,6 +76,7 @@ async function ensurePageCallWillSucceed(url: string): Promise<void> {
 function runPally(url: string): Promise<Pa11yResult> {
   return pa11y(url, {
     hideElements: '.govuk-footer__licence-logo, .govuk-header__logotype-crown',
+    chromeLaunchConfig: { args: ['--no-sandbox', '--disable-setuid-sandbox'] },
   });
 }
 
@@ -62,6 +89,17 @@ function expectNoErrors(messages: PallyIssue[]): void {
   }
 }
 
+function testAccessibility(url: string): void {
+  describe(`Page ${url}`, () => {
+    test('should have no accessibility errors', async () => {
+      await ensurePageCallWillSucceed(url);
+      const result = await runPally(new URL(url, baseUrl).href);
+      expect(result.issues).toEqual(expect.any(Array));
+      expectNoErrors(result.issues);
+    });
+  });
+}
+
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 global.fetch = jest.fn(() =>
@@ -69,17 +107,6 @@ global.fetch = jest.fn(() =>
     json: () => Promise.resolve({ recipes: [] }),
   })
 );
-
-function testAccessibility(url: string): void {
-  describe(`Page ${url}`, () => {
-    test('should have no accessibility errors', async () => {
-      await ensurePageCallWillSucceed(url);
-      const result = await runPally(agent.get(url).url);
-      expect(result.issues).toEqual(expect.any(Array));
-      expectNoErrors(result.issues);
-    });
-  });
-}
 
 jest.setTimeout(30000);
 
