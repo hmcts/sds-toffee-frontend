@@ -13,7 +13,7 @@ steps:
     when: ['setup-qemu']
 
   - id: pull-base-amd64
-    cmd: docker pull {{.Run.Registry}}/tofffee/frontend/base:amd64 || true
+    cmd: docker pull {{.Run.Registry}}/toffee/frontend/base:amd64 || true
     retries: 10
     retryDelay: 5
     when:
@@ -21,8 +21,8 @@ steps:
 
   - id: base-amd64
     build: >
-      -t {{.Run.Registry}}/tofffee/frontend/base:amd64
-      --cache-from {{.Run.Registry}}/tofffee/frontend/base:amd64
+      -t {{.Run.Registry}}/toffee/frontend/base:amd64
+      --cache-from {{.Run.Registry}}/toffee/frontend/base:amd64
       --build-arg BASE_IMAGE=base-node-amd64:local
       --platform linux/amd64
       --target base
@@ -35,7 +35,7 @@ steps:
   - id: runtime-amd64
     build: >
       -t {{.Run.Registry}}/{{CI_IMAGE_TAG}}-amd64
-      --cache-from {{.Run.Registry}}/tofffee/frontend/base:amd64
+      --cache-from {{.Run.Registry}}/toffee/frontend/base:amd64
       --build-arg BASE_IMAGE=base-node-amd64:local
       --platform linux/amd64
       --target runtime
@@ -60,7 +60,7 @@ steps:
       - pull-base-image-amd64
 
   - id: pull-base-arm64
-    cmd: docker pull {{.Run.Registry}}/tofffee/frontend/base:arm64 || true
+    cmd: docker pull {{.Run.Registry}}/toffee/frontend/base:arm64 || true
     retries: 10
     retryDelay: 5
     when:
@@ -68,8 +68,8 @@ steps:
 
   - id: base-arm64
     build: >
-      -t {{.Run.Registry}}/tofffee/frontend/base:arm64
-      --cache-from {{.Run.Registry}}/tofffee/frontend/base:arm64
+      -t {{.Run.Registry}}/toffee/frontend/base:arm64
+      --cache-from {{.Run.Registry}}/toffee/frontend/base:arm64
       --build-arg BASE_IMAGE=base-node-arm64:local
       --platform linux/arm64
       --target base
@@ -83,7 +83,7 @@ steps:
   - id: runtime-arm64
     build: >
       -t {{.Run.Registry}}/{{CI_IMAGE_TAG}}-arm64
-      --cache-from {{.Run.Registry}}/tofffee/frontend/base:arm64
+      --cache-from {{.Run.Registry}}/toffee/frontend/base:arm64
       --build-arg BASE_IMAGE=base-node-arm64:local
       --platform linux/arm64
       --target runtime
@@ -96,9 +96,9 @@ steps:
 
   - id: push-images
     push:
-      - '{{.Run.Registry}}/tofffee/frontend/base:amd64'
+      - '{{.Run.Registry}}/toffee/frontend/base:amd64'
       - '{{.Run.Registry}}/{{CI_IMAGE_TAG}}-amd64'
-      - '{{.Run.Registry}}/tofffee/frontend/base:arm64'
+      - '{{.Run.Registry}}/toffee/frontend/base:arm64'
       - '{{.Run.Registry}}/{{CI_IMAGE_TAG}}-arm64'
     retries: 10
     retryDelay: 5
