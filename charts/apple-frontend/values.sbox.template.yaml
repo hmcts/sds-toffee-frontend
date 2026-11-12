@@ -3,4 +3,4 @@ nodejs:
   ingressHost: ${SERVICE_FQDN}
   environment:
     # DNS zone is staging but global.environment is sbox
-    RECIPE_BACKEND_URL: http://toffee-recipe-backen.sandbox.platform.hmcts.net
+    RECIPE_BACKEND_URL: http://toffee-recipe-backend.sandbox.platform.hmcts.net
