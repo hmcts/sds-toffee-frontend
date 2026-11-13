@@ -30,6 +30,14 @@ def expiresAfter = "3000-01-01"
 withPipeline(type, product, app) {
   // never skip stages when testing the pipeline
   env.NO_SKIP_IMG_BUILD = 'true'
+
+  before('build') {
+    sh '''
+      echo "Running as: $(whoami) (uid=$(id -u))"
+      ls -la /opt/jenkinsssh_id_rsa || echo "/opt/jenkinsssh_id_rsa not present"
+    '''
+  }
+
   disableLegacyDeployment()
   expires(expiresAfter)
 }
