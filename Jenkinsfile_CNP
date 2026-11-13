@@ -23,12 +23,19 @@ static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
   ]
 }
 
-  withPipeline(type, product, component) {
-    loadVaultSecrets(secrets)
-    disableLegacyDeployment()
+withPipeline(type, product, component) {
+  loadVaultSecrets(secrets)
+  disableLegacyDeployment()
 
-    afterAlways('build') {
-      yarnBuilder.yarn('rebuild puppeteer')
-      yarnBuilder.yarn('build')
-    }
+  before('build') {
+    sh '''
+      echo "Running as: $(whoami) (uid=$(id -u))"
+      ls -la /opt/jenkinsssh_id_rsa || echo "/opt/jenkinsssh_id_rsa not present"
+    '''
   }
+
+  afterAlways('build') {
+    yarnBuilder.yarn('rebuild puppeteer')
+    yarnBuilder.yarn('build')
+  }
+}
